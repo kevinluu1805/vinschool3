@@ -52,7 +52,7 @@ async function startQuiz() {
         typeLabel: type.label,
         question: q.question,
         correct: q.correct,
-        answers: shuffle([q.correct, ...pickN(q.wrong_pool, 3)]),
+        answers: shuffle([q.correct, ...pickN(q.wrong_pool, Math.min(3, q.wrong_pool.length))]),
         userAnswer: null,
       });
     }
@@ -60,7 +60,7 @@ async function startQuiz() {
     render();
   } catch (err) {
     alert(err.message);
-    btn.textContent = 'Start Quiz';
+    btn.textContent = 'Bắt Đầu';
     btn.disabled = false;
   }
 }
@@ -80,7 +80,6 @@ function tmplSelection() {
     <div class="space-y-6">
       <div class="text-center pt-4">
         <h1 class="text-3xl font-bold text-slate-800">VinSchool Quiz</h1>
-        <p class="text-slate-500 mt-2 text-sm">Select topics, then hit Start</p>
       </div>
 
       <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
@@ -93,17 +92,12 @@ function tmplSelection() {
         `).join('')}
       </div>
 
-      <div class="text-center space-y-2">
-        <p class="text-sm text-slate-400">
-          ${n === 0
-            ? 'Select at least one topic'
-            : `${n} topic${n > 1 ? 's' : ''} → ${n} question${n > 1 ? 's' : ''}`}
-        </p>
+      <div class="text-center">
         <button id="btn-start"
           class="px-10 py-3 rounded-xl font-semibold text-white transition-colors
             ${n > 0 ? 'bg-blue-600 hover:bg-blue-700 cursor-pointer' : 'bg-slate-300 cursor-not-allowed'}"
           ${n === 0 ? 'disabled' : ''}>
-          Start Quiz
+          Bắt Đầu
         </button>
       </div>
     </div>`;
@@ -143,7 +137,7 @@ function tmplQuiz() {
       <div class="text-center pb-6">
         <button id="btn-verify"
           class="px-10 py-3 rounded-xl font-semibold text-white bg-emerald-600 hover:bg-emerald-700 transition-colors cursor-pointer">
-          Verify Answers
+          Kiểm tra
         </button>
       </div>
     </div>`;
@@ -158,11 +152,11 @@ function tmplResults() {
   return `
     <div class="space-y-6 pb-10">
       <div class="text-center bg-white rounded-2xl shadow-sm border border-slate-200 py-8 px-6">
-        <p class="text-xs font-semibold text-slate-400 uppercase tracking-widest">Result</p>
+        <p class="text-xs font-semibold text-slate-400 uppercase tracking-widest">Kết quả</p>
         <p class="text-6xl font-bold ${scoreColor} mt-3">
           ${correct}<span class="text-3xl text-slate-300">/${total}</span>
         </p>
-        <p class="text-slate-400 mt-2 text-sm">${pct}% correct</p>
+        <p class="text-slate-400 mt-2 text-sm">${pct}% chính xác</p>
       </div>
 
       <div class="space-y-3">
@@ -183,12 +177,12 @@ function tmplResults() {
                   </div>
                   <div class="text-sm">
                     <p class="${ok ? 'text-emerald-600' : 'text-red-500'} font-medium">
-                      Your answer:
+                      Đáp án của bạn:
                       ${q.userAnswer
                         ? `${q.userAnswer} ${ok ? '✓' : '✗'}`
-                        : '<span class="text-slate-400 font-normal italic">No answer</span>'}
+                        : '<span class="text-slate-400 font-normal italic">Chưa chọn</span>'}
                     </p>
-                    ${!ok ? `<p class="text-emerald-600 font-medium mt-0.5">Correct: ${q.correct}</p>` : ''}
+                    ${!ok ? `<p class="text-emerald-600 font-medium mt-0.5">Đáp án đúng: ${q.correct}</p>` : ''}
                   </div>
                 </div>
               </div>
@@ -199,7 +193,7 @@ function tmplResults() {
       <div class="text-center">
         <button id="btn-retry"
           class="px-10 py-3 rounded-xl font-semibold text-white bg-blue-600 hover:bg-blue-700 transition-colors cursor-pointer">
-          Try Again
+          Làm bài mới
         </button>
       </div>
     </div>`;
