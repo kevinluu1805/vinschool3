@@ -99,9 +99,12 @@ function tmplSelection() {
             <span class="text-slate-700 font-medium flex-1">${t.label}</span>
             <div class="flex items-center gap-1">
               ${QUESTION_COUNTS.map(c => {
-                const active = (state.counts[t.id] || 1) === c;
-                return `<button class="count-btn text-xs font-semibold px-2 py-1 rounded transition-colors
-                  ${active ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}"
+                const isChecked = state.selected.has(t.id);
+                const active = isChecked && (state.counts[t.id] || 1) === c;
+                const cls = !isChecked ? 'bg-slate-100 text-slate-300'
+                  : active ? 'bg-blue-600 text-white'
+                  : 'bg-slate-100 text-slate-500 hover:bg-slate-200';
+                return `<button class="count-btn text-xs font-semibold px-2 py-1 rounded transition-colors ${cls}"
                   data-type="${t.id}" data-count="${c}">${c}</button>`;
               }).join('')}
             </div>
@@ -133,14 +136,11 @@ function tmplQuiz() {
       <div id="quiz-list" class="space-y-4">
         ${state.quiz.map((q, i) => `
           <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 space-y-4">
-            <div class="flex items-start gap-3">
+            <div class="flex items-center gap-3">
               <span class="flex-shrink-0 w-7 h-7 rounded-full bg-blue-100 text-blue-700 font-bold text-sm flex items-center justify-center">
                 ${i + 1}
               </span>
-              <div>
-                <p class="text-xs font-semibold text-blue-500 uppercase tracking-wider">${q.typeLabel}</p>
-                <p class="text-slate-800 font-medium mt-1">${q.question}</p>
-              </div>
+              <p class="text-blue-500 font-semibold">${q.question}</p>
             </div>
             <div class="grid grid-cols-2 gap-2" data-question="${i}">
               ${q.answers.map(ans => `
@@ -244,9 +244,13 @@ function render() {
         const saved = JSON.parse(localStorage.getItem('question_counts') || '{}');
         saved[typeId] = count;
         localStorage.setItem('question_counts', JSON.stringify(saved));
+        const isChecked = state.selected.has(typeId);
         document.querySelectorAll(`.count-btn[data-type="${typeId}"]`).forEach(b => {
-          const active = parseInt(b.dataset.count) === count;
-          b.className = `count-btn text-xs font-semibold px-2 py-1 rounded transition-colors ${active ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`;
+          const active = isChecked && parseInt(b.dataset.count) === count;
+          const cls = !isChecked ? 'bg-slate-100 text-slate-300'
+            : active ? 'bg-blue-600 text-white'
+            : 'bg-slate-100 text-slate-500 hover:bg-slate-200';
+          b.className = `count-btn text-xs font-semibold px-2 py-1 rounded transition-colors ${cls}`;
         });
       });
     });
