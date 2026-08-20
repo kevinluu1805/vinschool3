@@ -1,11 +1,13 @@
 'use strict';
 
 const DB = './database';
+const QUESTION_COUNTS = [1, 3, 5, 10];
 
 const state = {
   view: 'selection',   // 'selection' | 'quiz' | 'results'
   types: [],           // [{ id, label }]
   selected: new Set(), // selected type IDs
+  counts: {},          // { [typeId]: number } — questions per type, default 1
   quiz: [],            // [{ typeId, typeLabel, question, correct, answers, userAnswer }]
 };
 
@@ -46,15 +48,18 @@ async function startQuiz() {
     for (const typeId of state.selected) {
       const type = state.types.find(t => t.id === typeId);
       const pool = await fetchJSON(`${DB}/${typeId}.json`);
-      const q = randomItem(pool);
-      state.quiz.push({
-        typeId,
-        typeLabel: type.label,
-        question: q.question,
-        correct: q.correct,
-        answers: shuffle([q.correct, ...pickN(q.wrong_pool, Math.min(3, q.wrong_pool.length))]),
-        userAnswer: null,
-      });
+      const count = state.counts[typeId] || 1;
+      const questions = pickN(pool, Math.min(count, pool.length));
+      for (const q of questions) {
+        state.quiz.push({
+          typeId,
+          typeLabel: type.label,
+          question: q.question,
+          correct: q.correct,
+          answers: shuffle([q.correct, ...pickN(q.wrong_pool, Math.min(3, q.wrong_pool.length))]),
+          userAnswer: null,
+        });
+      }
     }
     state.view = 'quiz';
     render();
@@ -79,15 +84,27 @@ function tmplSelection() {
   return `
     <div class="space-y-6">
       <div class="text-center pt-4">
-        <h1 class="text-3xl font-bold text-slate-800">VinSchool Quiz</h1>
+        <h1 class="text-3xl font-bold text-slate-800">VinSchool Math Quiz</h1>
       </div>
 
       <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+        <div class="flex items-center px-5 py-2 border-b border-slate-100 bg-slate-50">
+          <span class="flex-1"></span>
+          <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Số lượng câu hỏi</span>
+        </div>
         ${state.types.map(t => `
-          <label class="flex items-center gap-4 px-5 py-4 cursor-pointer hover:bg-slate-50 transition-colors border-b border-slate-100 last:border-0">
-            <input type="checkbox" class="w-5 h-5 accent-blue-600 cursor-pointer"
+          <label class="flex items-center gap-3 px-5 py-4 cursor-pointer hover:bg-slate-50 transition-colors border-b border-slate-100 last:border-0">
+            <input type="checkbox" class="w-5 h-5 accent-blue-600 cursor-pointer flex-shrink-0"
               data-type="${t.id}" ${state.selected.has(t.id) ? 'checked' : ''}>
-            <span class="text-slate-700 font-medium">${t.label}</span>
+            <span class="text-slate-700 font-medium flex-1">${t.label}</span>
+            <div class="flex items-center gap-1">
+              ${QUESTION_COUNTS.map(c => {
+                const active = (state.counts[t.id] || 1) === c;
+                return `<button class="count-btn text-xs font-semibold px-2 py-1 rounded transition-colors
+                  ${active ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}"
+                  data-type="${t.id}" data-count="${c}">${c}</button>`;
+              }).join('')}
+            </div>
           </label>
         `).join('')}
       </div>
@@ -218,6 +235,21 @@ function render() {
         render();
       });
     });
+    document.querySelectorAll('.count-btn').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        const typeId = btn.dataset.type;
+        const count = parseInt(btn.dataset.count);
+        state.counts[typeId] = count;
+        const saved = JSON.parse(localStorage.getItem('question_counts') || '{}');
+        saved[typeId] = count;
+        localStorage.setItem('question_counts', JSON.stringify(saved));
+        document.querySelectorAll(`.count-btn[data-type="${typeId}"]`).forEach(b => {
+          const active = parseInt(b.dataset.count) === count;
+          b.className = `count-btn text-xs font-semibold px-2 py-1 rounded transition-colors ${active ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`;
+        });
+      });
+    });
     const btn = document.getElementById('btn-start');
     if (btn && !btn.disabled) btn.addEventListener('click', startQuiz);
   }
@@ -253,6 +285,7 @@ function render() {
     const saved = JSON.parse(localStorage.getItem('selected_types') || '[]');
     const validIds = new Set(state.types.map(t => t.id));
     state.selected = new Set(saved.filter(id => validIds.has(id)));
+    state.counts = JSON.parse(localStorage.getItem('question_counts') || '{}');
     render();
   } catch (err) {
     document.getElementById('app').innerHTML = `
