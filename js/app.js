@@ -225,7 +225,12 @@ function render() {
       });
     });
     const btn = document.getElementById('btn-start');
-    if (btn && !btn.disabled) btn.addEventListener('click', startQuiz);
+    if (btn && !btn.disabled) {
+      // touchend + preventDefault stops the ~300ms ghost click that would
+      // land on a quiz answer button after the view transitions.
+      btn.addEventListener('touchend', e => { e.preventDefault(); startQuiz(); });
+      btn.addEventListener('click', startQuiz);
+    }
   }
 
   if (state.view === 'quiz') {
