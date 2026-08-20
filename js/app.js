@@ -241,7 +241,9 @@ function render() {
 
   if (state.view === 'results') {
     document.getElementById('btn-retry').addEventListener('click', () => {
-      state.selected = new Set();
+      const saved = JSON.parse(localStorage.getItem('selected_types') || '[]');
+      const validIds = new Set(state.types.map(t => t.id));
+      state.selected = new Set(saved.filter(id => validIds.has(id)));
       state.quiz = [];
       state.view = 'selection';
       render();
