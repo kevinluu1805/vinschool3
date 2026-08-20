@@ -81,6 +81,7 @@ function selectAnswer(qi, answer) {
 
 function tmplSelection() {
   const n = state.selected.size;
+  const totalQ = [...state.selected].reduce((sum, id) => sum + (state.counts[id] || 1), 0);
   return `
     <div class="space-y-6">
       <div class="text-center pt-4">
@@ -117,7 +118,7 @@ function tmplSelection() {
           class="px-10 py-3 rounded-xl font-semibold text-white transition-colors
             ${n > 0 ? 'bg-blue-600 hover:bg-blue-700 cursor-pointer' : 'bg-slate-300 cursor-not-allowed'}"
           ${n === 0 ? 'disabled' : ''}>
-          Bắt Đầu
+          ${n === 0 ? 'Bắt đầu' : `Bắt đầu làm ${totalQ} câu hỏi`}
         </button>
       </div>
     </div>`;
@@ -252,6 +253,11 @@ function render() {
             : 'bg-slate-100 text-slate-500 hover:bg-slate-200';
           b.className = `count-btn text-xs font-semibold px-2 py-1 rounded transition-colors ${cls}`;
         });
+        const startBtn = document.getElementById('btn-start');
+        if (startBtn && state.selected.size > 0) {
+          const totalQ = [...state.selected].reduce((sum, id) => sum + (state.counts[id] || 1), 0);
+          startBtn.textContent = `Bắt đầu làm ${totalQ} câu hỏi`;
+        }
       });
     });
     const btn = document.getElementById('btn-start');
