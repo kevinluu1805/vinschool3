@@ -225,16 +225,16 @@ function render() {
       });
     });
     const btn = document.getElementById('btn-start');
-    if (btn && !btn.disabled) {
-      // touchend + preventDefault stops the ~300ms ghost click that would
-      // land on a quiz answer button after the view transitions.
-      btn.addEventListener('touchend', e => { e.preventDefault(); startQuiz(); });
-      btn.addEventListener('click', startQuiz);
-    }
+    if (btn && !btn.disabled) btn.addEventListener('click', startQuiz);
   }
 
   if (state.view === 'quiz') {
-    document.getElementById('quiz-list').addEventListener('click', e => {
+    const list = document.getElementById('quiz-list');
+    // Block all touch/click input briefly so a finger still on screen from
+    // tapping "Start Quiz" can't auto-select an answer on render.
+    list.style.pointerEvents = 'none';
+    setTimeout(() => { list.style.pointerEvents = ''; }, 500);
+    list.addEventListener('click', e => {
       const btn = e.target.closest('.answer-btn');
       if (btn) selectAnswer(parseInt(btn.dataset.q), btn.dataset.answer);
     });
