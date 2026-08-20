@@ -56,9 +56,14 @@ async function startQuiz() {
         userAnswer: null,
       });
     }
-    await new Promise(resolve => setTimeout(resolve, 800));
     state.view = 'quiz';
     render();
+    setTimeout(() => {
+      state.quiz.forEach((q, i) => {
+        q.userAnswer = null;
+        document.querySelectorAll(`[data-question="${i}"] .answer-btn`).forEach(b => b.classList.remove('selected'));
+      });
+    }, 500);
   } catch (err) {
     alert(err.message);
     btn.textContent = 'Start Quiz';
