@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Số chính phương",
+    "content": "Số chính phương là kết quả của một số nhân với chính nó. Ví dụ: 1×1=1, 2×2=4, 3×3=9, 4×4=16, 5×5=25, 6×6=36, 7×7=49, 8×8=64, 9×9=81, 10×10=100"
+  },
+  {
+    "id": 2,
+    "title": "Dãy số tuyến tính",
+    "content": "Dãy số tuyến tính là dãy số mà khoảng cách giữa hai số liên tiếp bất kỳ luôn bằng nhau"
+  },
+  {
+    "id": 3,
+    "title": "Dãy số phi tuyến tính",
+    "content": "Dãy số phi tuyến tính là dãy mà khoảng cách giữa hai số liên tiếp bất kỳ KHÔNG bằng nhau"
+  }
+]

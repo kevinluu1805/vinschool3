@@ -3,12 +3,18 @@
 const DB = './database';
 const QUESTION_COUNTS = [1, 3, 5, 10];
 
+let _settingsOutsideListener = null;
+
 const state = {
   view: 'selection',   // 'selection' | 'quiz' | 'results'
   types: [],           // [{ id, label }]
   selected: new Set(), // selected type IDs
   counts: {},          // { [typeId]: number } — questions per type, default 1
   quiz: [],            // [{ typeId, typeLabel, question, correct, answers, userAnswer }]
+  settings: {
+    help: true,
+  },
+  theories: [],
 };
 
 // ── Utilities ─────────────────────────────────────────────────────────────────
@@ -34,6 +40,29 @@ function pickN(arr, n) {
 
 function randomItem(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function normalize(str) {
+  return str.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+}
+
+function renderTheoryList(query) {
+  const body = document.getElementById('theory-body');
+  if (!body) return;
+  const q = normalize(query || '');
+  const results = q
+    ? state.theories.filter(t => normalize(t.title).includes(q) || normalize(t.content).includes(q))
+    : state.theories;
+  if (results.length === 0) {
+    body.innerHTML = '<p class="text-slate-400 text-sm text-center py-4">Không tìm thấy kết quả.</p>';
+    return;
+  }
+  body.innerHTML = results.map(t => `
+    <div class="border border-slate-100 rounded-xl p-4 space-y-1">
+      <p class="font-semibold text-slate-800 text-sm">${t.title}</p>
+      <p class="text-slate-600 text-sm leading-relaxed">${t.content}</p>
+    </div>
+  `).join('');
 }
 
 // ── Actions ───────────────────────────────────────────────────────────────────
@@ -86,6 +115,22 @@ function tmplSelection() {
     <div class="space-y-6">
       <div class="text-center pt-4">
         <h1 class="text-3xl font-bold text-slate-800">VinSchool Math Quiz</h1>
+      </div>
+
+      <div class="relative flex justify-end" id="settings-wrapper">
+        <button id="btn-settings"
+          class="flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-slate-900 bg-white border border-slate-200 rounded-lg px-3 py-1.5 transition-colors shadow-sm">
+          <i class="fa-solid fa-gear"></i>
+          Cài Đặt
+        </button>
+        <div id="settings-dropdown"
+          class="hidden absolute right-0 top-10 bg-white rounded-xl shadow-lg border border-slate-200 w-52 z-10 py-1">
+          <label class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-slate-50 transition-colors rounded-xl">
+            <input type="checkbox" id="setting-help" class="w-4 h-4 accent-blue-600 cursor-pointer"
+              ${state.settings.help ? 'checked' : ''}>
+            <span class="text-slate-700 text-sm">Cho xem lý thuyết</span>
+          </label>
+        </div>
       </div>
 
       <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
@@ -158,7 +203,35 @@ function tmplQuiz() {
           Kiểm tra
         </button>
       </div>
-    </div>`;
+    </div>
+
+    ${state.settings.help ? `
+    <button id="btn-help"
+      class="fixed bottom-6 right-6 w-14 h-14 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg flex items-center justify-center text-xl transition-colors z-40">
+      <i class="fa-solid fa-book-open"></i>
+    </button>
+
+    <div id="help-modal-overlay" class="hidden fixed inset-0 bg-black/40 z-50 flex items-start justify-center p-4 pt-6">
+      <div class="bg-white rounded-2xl shadow-xl w-full max-w-lg flex flex-col" style="max-height:80vh">
+        <div class="flex items-center justify-between px-5 py-4 border-b border-slate-100">
+          <h3 class="text-lg font-bold text-slate-800">Lý thuyết</h3>
+          <button id="btn-help-close" class="w-8 h-8 flex items-center justify-center rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-colors">
+            <i class="fa-solid fa-xmark text-lg"></i>
+          </button>
+        </div>
+        <div class="px-5 py-3 border-b border-slate-100">
+          <div class="relative">
+            <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+            <input id="help-search" type="text" placeholder="Tìm kiếm..."
+              class="w-full pl-9 pr-4 py-2 rounded-lg border border-slate-200 text-sm text-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-400">
+          </div>
+        </div>
+        <div id="theory-body" class="overflow-y-auto flex-1 px-5 py-4 space-y-3">
+          <p class="text-slate-400 text-sm text-center">Đang tải...</p>
+        </div>
+      </div>
+    </div>
+    ` : ''}`;
 }
 
 function tmplResults() {
@@ -229,7 +302,7 @@ function render() {
   }
 
   if (state.view === 'selection') {
-    document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+    document.querySelectorAll('input[data-type]').forEach(cb => {
       cb.addEventListener('change', () => {
         cb.checked ? state.selected.add(cb.dataset.type) : state.selected.delete(cb.dataset.type);
         localStorage.setItem('selected_types', JSON.stringify([...state.selected]));
@@ -262,6 +335,30 @@ function render() {
     });
     const btn = document.getElementById('btn-start');
     if (btn && !btn.disabled) btn.addEventListener('click', startQuiz);
+
+    const settingsBtn = document.getElementById('btn-settings');
+    const settingsDropdown = document.getElementById('settings-dropdown');
+    if (_settingsOutsideListener) {
+      document.removeEventListener('click', _settingsOutsideListener);
+    }
+    _settingsOutsideListener = () => {
+      settingsDropdown.classList.add('hidden');
+    };
+    document.addEventListener('click', _settingsOutsideListener);
+
+    settingsBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      settingsDropdown.classList.toggle('hidden');
+    });
+
+    settingsDropdown.addEventListener('click', e => {
+      e.stopPropagation();
+    });
+
+    document.getElementById('setting-help').addEventListener('change', e => {
+      state.settings.help = e.target.checked;
+      localStorage.setItem('settings', JSON.stringify(state.settings));
+    });
   }
 
   if (state.view === 'quiz') {
@@ -273,6 +370,31 @@ function render() {
       state.view = 'results';
       render();
     });
+
+    if (state.settings.help) {
+      const overlay = document.getElementById('help-modal-overlay');
+      const searchInput = document.getElementById('help-search');
+
+      async function openHelpModal() {
+        overlay.classList.remove('hidden');
+        searchInput.focus();
+        if (state.theories.length === 0) {
+          state.theories = await fetchJSON(`${DB}/theories.json`);
+        }
+        renderTheoryList(searchInput.value);
+      }
+
+      document.getElementById('btn-help').addEventListener('click', openHelpModal);
+      document.getElementById('btn-help-close').addEventListener('click', () => {
+        overlay.classList.add('hidden');
+      });
+      overlay.addEventListener('click', e => {
+        if (e.target === overlay) overlay.classList.add('hidden');
+      });
+      searchInput.addEventListener('input', e => {
+        renderTheoryList(e.target.value);
+      });
+    }
   }
 
   if (state.view === 'results') {
@@ -296,6 +418,7 @@ function render() {
     const validIds = new Set(state.types.map(t => t.id));
     state.selected = new Set(saved.filter(id => validIds.has(id)));
     state.counts = JSON.parse(localStorage.getItem('question_counts') || '{}');
+    Object.assign(state.settings, JSON.parse(localStorage.getItem('settings') || '{}'));
     render();
   } catch (err) {
     document.getElementById('app').innerHTML = `
