@@ -58,12 +58,6 @@ async function startQuiz() {
     }
     state.view = 'quiz';
     render();
-    setTimeout(() => {
-      state.quiz.forEach((q, i) => {
-        q.userAnswer = null;
-        document.querySelectorAll(`[data-question="${i}"] .answer-btn`).forEach(b => b.classList.remove('selected'));
-      });
-    }, 500);
   } catch (err) {
     alert(err.message);
     btn.textContent = 'Start Quiz';
@@ -235,8 +229,7 @@ function render() {
   }
 
   if (state.view === 'quiz') {
-    const list = document.getElementById('quiz-list');
-    list.addEventListener('click', e => {
+    document.getElementById('quiz-list').addEventListener('click', e => {
       const btn = e.target.closest('.answer-btn');
       if (btn) selectAnswer(parseInt(btn.dataset.q), btn.dataset.answer);
     });
