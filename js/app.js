@@ -223,7 +223,7 @@ function tmplQuiz() {
           <div class="relative">
             <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
             <input id="help-search" type="text" placeholder="Tìm kiếm..."
-              class="w-full pl-9 pr-4 py-2 rounded-lg border border-slate-200 text-sm text-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-400">
+              class="w-full pl-9 pr-4 py-2 rounded-lg border border-slate-200 text-base text-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-400">
           </div>
         </div>
         <div id="theory-body" class="overflow-y-auto flex-1 px-5 py-4 space-y-3">
