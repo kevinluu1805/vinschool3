@@ -56,6 +56,7 @@ async function startQuiz() {
         userAnswer: null,
       });
     }
+    await new Promise(resolve => setTimeout(resolve, 800));
     state.view = 'quiz';
     render();
   } catch (err) {
@@ -230,10 +231,6 @@ function render() {
 
   if (state.view === 'quiz') {
     const list = document.getElementById('quiz-list');
-    // Block all touch/click input briefly so a finger still on screen from
-    // tapping "Start Quiz" can't auto-select an answer on render.
-    list.style.pointerEvents = 'none';
-    setTimeout(() => { list.style.pointerEvents = ''; }, 500);
     list.addEventListener('click', e => {
       const btn = e.target.closest('.answer-btn');
       if (btn) selectAnswer(parseInt(btn.dataset.q), btn.dataset.answer);
