@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Tìm số tiếp theo trong dãy: 1, 3, 5, 7, ...",
+    "correct": "9",
+    "wrong_pool": ["8", "10", "11", "12", "13"]
+  },
+  {
+    "id": 2,
+    "question": "Tìm số tiếp theo trong dãy: 2, 4, 8, 16, ...",
+    "correct": "32",
+    "wrong_pool": ["24", "28", "30", "36", "64"]
+  },
+  {
+    "id": 3,
+    "question": "Tìm số tiếp theo trong dãy: 1, 4, 9, 16, ...",
+    "correct": "25",
+    "wrong_pool": ["20", "22", "24", "26", "36"]
+  },
+  {
+    "id": 4,
+    "question": "Tìm số tiếp theo trong dãy: 0, 1, 1, 2, 3, 5, 8, ...",
+    "correct": "13",
+    "wrong_pool": ["10", "11", "12", "14", "15"]
+  },
+  {
+    "id": 5,
+    "question": "Tìm số tiếp theo trong dãy: 3, 6, 9, 12, ...",
+    "correct": "15",
+    "wrong_pool": ["13", "14", "16", "17", "18"]
+  }
+]
