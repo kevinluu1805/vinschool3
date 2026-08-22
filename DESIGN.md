@@ -56,6 +56,7 @@ Array of questions. Each question has:
 | `question`   | string     | Question text shown to user                              |
 | `correct`    | string     | The one correct answer                                   |
 | `wrong_pool` | string[]   | Pool of wrong answers — **must have at least 3** entries |
+| `figure`     | string     | *(optional, future)* Path to an HTML fragment file for visual content — see [Figure Support](#figure-support-future) |
 
 The quiz picks 3 random entries from `wrong_pool` each time, so having 5+ makes repetition less likely.
 
@@ -97,6 +98,36 @@ Then open `http://localhost:3000` (or the port shown).
 - **Answer display**: 4 options shown in random order — 1 correct + 3 randomly chosen from `wrong_pool`. Order shuffled every run.
 - **Scoring**: correct = `userAnswer === correct` (string equality).
 - **Results**: score card + per-question breakdown showing user's answer and correct answer for wrong ones.
+
+## Figure Support (Future)
+
+Questions can optionally reference a separate HTML fragment file for visual content (shapes, diagrams, images) instead of embedding raw HTML in the JSON.
+
+**JSON field:** `"figure": "database/figures/<type_id>_q1.html"`
+
+**File structure:**
+```
+database/
+  figures/
+    linear_nonlinear_q1.html
+    linear_nonlinear_q2.html
+```
+
+**Figure file format:** plain HTML fragment, no `<html>`/`<body>` wrapper. Tailwind classes work since they're loaded globally.
+
+```html
+<div class="flex gap-4 items-center justify-center py-2">
+  <div class="w-8 h-8 rounded-full bg-blue-500"></div>
+  <div class="w-8 h-8 bg-blue-500"></div>
+  <span class="text-2xl text-slate-400">?</span>
+</div>
+```
+
+**How it works (when implemented):**
+- `startQuiz()` fetches the figure file content alongside the question JSON (in parallel)
+- Stores the raw HTML as `figureHtml` in the quiz state item
+- `tmplQuiz()` and `tmplResults()` render it below the question text if present
+- Questions without a `figure` field are unaffected
 
 ## State Machine
 

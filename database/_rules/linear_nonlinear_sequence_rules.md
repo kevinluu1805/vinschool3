@@ -22,15 +22,25 @@ Phạm vi số: **-100 đến 100** (áp dụng cho tất cả các số trong d
 
 ## Dạng 1: Tăng đều (Arithmetic Increase)
 - Dãy cộng thêm cùng một số dương mỗi bước.
-- **Bước tăng**: từ 1 đến 10 (≤ 10).
-- Ví dụ: `-50, -47, -44, -41` → bước +3 → đáp án `-38`
-- **wrong_pool**: chọn 5 số gần đáp án đúng (±1 đến ±5), không trùng đáp án, không tạo thành dãy hợp lệ.
+- **Bước tăng**: từ 1 đến 10 (≤ 10) đối với dãy <= 100, và bước tăng là bội số của 5 đối với dãy <= 1000
+- **Vị trí dấu `...`**: có thể ở cuối hoặc ở đầu dãy.
+  - Cuối: `a, b, c, d, ...` → đáp án = d + bước
+  - Đầu: `..., b, c, d, e` → đáp án = b − bước (số đứng trước b)
+- Ví dụ cuối: `-50, -47, -44, -41, ...` → bước +3 → đáp án `-38`
+- Ví dụ đầu: `..., -47, -44, -41, -38` → bước +3 → đáp án `-50`
+- **wrong_pool (dạng cuối)**: đảo dấu, số liền trước trong dãy, đi thêm 1 bước quá đà, sai chiều.
+- **wrong_pool (dạng đầu)**: số đầu tiên nhìn thấy (b), đi 1 bước quá đà về trước (đáp án − bước), số cuối (e), mở rộng sai chiều (e + bước), số thứ 2 nhìn thấy (c).
 
 ## Dạng 2: Giảm đều (Arithmetic Decrease)
 - Dãy trừ đi cùng một số dương mỗi bước.
-- **Bước giảm**: từ 1 đến 10 (≤ 10).
-- Ví dụ: `100, 92, 84, 76` → bước -8 → đáp án `68`
-- **wrong_pool**: tương tự dạng 1, chọn gần đáp án đúng.
+- **Bước giảm**: từ 1 đến 10 (≤ 10) đối với dãy <= 100, và bước giảm là bội số âm của 5 đối với dãy >= -1000
+- **Vị trí dấu `...`**: có thể ở cuối hoặc ở đầu dãy.
+  - Cuối: `a, b, c, d, ...` → đáp án = d − bước
+  - Đầu: `..., b, c, d, e` → đáp án = b + |bước| (số đứng trước b)
+- Ví dụ cuối: `100, 92, 84, 76, ...` → bước -8 → đáp án `68`
+- Ví dụ đầu: `..., 27, 24, 21, 18` → bước -3 → đáp án `30`
+- **wrong_pool (dạng cuối)**: tương tự dạng 1 — đảo dấu, số liền trước, quá đà.
+- **wrong_pool (dạng đầu)**: số đầu tiên nhìn thấy (b), đi 1 bước quá đà về trước (đáp án + |bước|), số cuối (e), mở rộng sai chiều (e − |bước|), số thứ 2 nhìn thấy (c).
 
 ## Dạng 3: Số chính phương (Perfect Squares)
 - Dãy là các số chính phương liên tiếp: n², (n+1)², (n+2)², (n+3)² → đáp án: (n+4)²
