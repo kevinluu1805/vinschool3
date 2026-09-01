@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "question": "Sophia nghĩ tới một số có 5 chữ số. Số đó có chữ số 3 ở hàng chục nghìn và hàng chục, có chữ số 6 ở hàng nghìn và hàng đơn vị, có chữ số 0 ở hàng trăm. Vậy Sophia đang nghĩ tới số nào?",
+    "correct": "36036",
+    "wrong_pool": ["36306", "63036", "36063", "30636", "60363"]
+  },
+  {
+    "id": 2,
+    "question": "Nam nghĩ tới một số có 5 chữ số. Số đó có chữ số 4 ở hàng chục nghìn và hàng đơn vị, có chữ số 7 ở hàng nghìn và hàng chục, có chữ số 1 ở hàng trăm. Vậy Nam đang nghĩ tới số nào?",
+    "correct": "47174",
+    "wrong_pool": ["47714", "74174", "47147", "41774", "74417"]
+  },
+  {
+    "id": 3,
+    "question": "Lan nghĩ tới một số có 5 chữ số. Số đó có chữ số 5 ở hàng chục nghìn và hàng đơn vị, có chữ số 8 ở hàng nghìn và hàng chục, có chữ số 2 ở hàng trăm. Vậy Lan đang nghĩ tới số nào?",
+    "correct": "58285",
+    "wrong_pool": ["58825", "85285", "58258", "52885", "82585"]
+  },
+  {
+    "id": 4,
+    "question": "Minh nghĩ tới một số có 5 chữ số. Số đó có chữ số 6 ở hàng chục nghìn và hàng đơn vị, có chữ số 1 ở hàng nghìn và hàng chục, có chữ số 9 ở hàng trăm. Vậy Minh đang nghĩ tới số nào?",
+    "correct": "61916",
+    "wrong_pool": ["61196", "16916", "61961", "69116", "19616"]
+  },
+  {
+    "id": 5,
+    "question": "Hùng nghĩ tới một số có 5 chữ số. Số đó có chữ số 7 ở hàng chục nghìn và hàng đơn vị, có chữ số 2 ở hàng nghìn và hàng chục, có chữ số 3 ở hàng trăm. Vậy Hùng đang nghĩ tới số nào?",
+    "correct": "72327",
+    "wrong_pool": ["72237", "27327", "72372", "73227", "27372"]
+  },
+  {
+    "id": 6,
+    "question": "Linh nghĩ tới một số có 6 chữ số. Số đó có chữ số 3 ở hàng trăm nghìn và hàng đơn vị, có chữ số 6 ở hàng chục nghìn và hàng chục, có chữ số 2 ở hàng nghìn và hàng trăm. Vậy Linh đang nghĩ tới số nào?",
+    "correct": "362263",
+    "wrong_pool": ["632263", "362632", "326263", "362236", "263362"]
+  },
+  {
+    "id": 7,
+    "question": "An nghĩ tới một số có 6 chữ số. Số đó có chữ số 4 ở hàng trăm nghìn và hàng đơn vị, có chữ số 7 ở hàng chục nghìn và hàng chục, có chữ số 5 ở hàng nghìn và hàng trăm. Vậy An đang nghĩ tới số nào?",
+    "correct": "475574",
+    "wrong_pool": ["475754", "745574", "475547", "457574", "574475"]
+  },
+  {
+    "id": 8,
+    "question": "Tuấn nghĩ tới một số có 6 chữ số. Số đó có chữ số 8 ở hàng trăm nghìn và hàng đơn vị, có chữ số 1 ở hàng chục nghìn và hàng chục, có chữ số 9 ở hàng nghìn và hàng trăm. Vậy Tuấn đang nghĩ tới số nào?",
+    "correct": "819918",
+    "wrong_pool": ["819198", "189918", "819981", "891918", "981918"]
+  },
+  {
+    "id": 9,
+    "question": "Mai nghĩ tới một số có 6 chữ số. Số đó có chữ số 2 ở hàng trăm nghìn và hàng đơn vị, có chữ số 5 ở hàng chục nghìn và hàng chục, có chữ số 3 ở hàng nghìn và hàng trăm. Vậy Mai đang nghĩ tới số nào?",
+    "correct": "253352",
+    "wrong_pool": ["253532", "523352", "253325", "235352", "532253"]
+  },
+  {
+    "id": 10,
+    "question": "Khoa nghĩ tới một số có 6 chữ số. Số đó có chữ số 6 ở hàng trăm nghìn và hàng đơn vị, có chữ số 4 ở hàng chục nghìn và hàng chục, có chữ số 1 ở hàng nghìn và hàng trăm. Vậy Khoa đang nghĩ tới số nào?",
+    "correct": "641146",
+    "wrong_pool": ["641416", "461146", "641164", "614146", "416641"]
+  },
+  {
+    "id": 11,
+    "question": "Bốn bạn cùng thực hiện tách số 75903, có một đáp án sai, đó là đáp án nào?",
+    "correct": "75903 = 79000 + 500 + 3",
+    "wrong_pool": [
+      "75903 = 70000 + 5000 + 900 + 3",
+      "75903 = 75000 + 900 + 3",
+      "75903 = 903 + 75000",
+      "75903 = 70000 + 5903",
+      "75903 = 75900 + 3"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Bốn bạn cùng thực hiện tách số 46218, có một đáp án sai, đó là đáp án nào?",
+    "correct": "46218 = 46000 + 10 + 8",
+    "wrong_pool": [
+      "46218 = 40000 + 6000 + 200 + 10 + 8",
+      "46218 = 46000 + 200 + 18",
+      "46218 = 46000 + 218",
+      "46218 = 40000 + 6218",
+      "46218 = 46200 + 18"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Bốn bạn cùng thực hiện tách số 83754, có một đáp án sai, đó là đáp án nào?",
+    "correct": "83754 = 80000 + 3000 + 7000 + 700 + 50 + 4",
+    "wrong_pool": [
+      "83754 = 80000 + 3000 + 700 + 50 + 4",
+      "83754 = 83000 + 700 + 54",
+      "83754 = 83000 + 754",
+      "83754 = 80000 + 3754",
+      "83754 = 83700 + 54"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Bốn bạn cùng thực hiện tách số 61294, có một đáp án sai, đó là đáp án nào?",
+    "correct": "61294 = 60000 + 1000 + 900 + 20 + 4",
+    "wrong_pool": [
+      "61294 = 60000 + 1000 + 200 + 90 + 4",
+      "61294 = 61000 + 200 + 90 + 4",
+      "61294 = 61000 + 294",
+      "61294 = 60000 + 1294",
+      "61294 = 61200 + 94"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Bốn bạn cùng thực hiện tách số 57438, có một đáp án sai, đó là đáp án nào?",
+    "correct": "57438 = 57000 + 400 + 8",
+    "wrong_pool": [
+      "57438 = 50000 + 7000 + 400 + 30 + 8",
+      "57438 = 57000 + 400 + 38",
+      "57438 = 57000 + 438",
+      "57438 = 50000 + 7438",
+      "57438 = 57400 + 38"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Bốn bạn cùng thực hiện tách số 94125, có một đáp án sai, đó là đáp án nào?",
+    "correct": "94125 = 90000 + 4000 + 1000 + 100 + 20 + 5",
+    "wrong_pool": [
+      "94125 = 90000 + 4000 + 100 + 20 + 5",
+      "94125 = 94000 + 100 + 25",
+      "94125 = 94000 + 125",
+      "94125 = 90000 + 4125",
+      "94125 = 94100 + 25"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Bốn bạn cùng thực hiện tách số 36871, có một đáp án sai, đó là đáp án nào?",
+    "correct": "36871 = 60000 + 3000 + 800 + 70 + 1",
+    "wrong_pool": [
+      "36871 = 30000 + 6000 + 800 + 70 + 1",
+      "36871 = 36000 + 800 + 71",
+      "36871 = 36000 + 871",
+      "36871 = 30000 + 6871",
+      "36871 = 36800 + 71"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Bốn bạn cùng thực hiện tách số 52807, có một đáp án sai, đó là đáp án nào?",
+    "correct": "52807 = 50000 + 8000 + 200 + 7",
+    "wrong_pool": [
+      "52807 = 50000 + 2000 + 800 + 7",
+      "52807 = 52000 + 800 + 7",
+      "52807 = 52000 + 807",
+      "52807 = 50000 + 2807",
+      "52807 = 52800 + 7"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Bốn bạn cùng thực hiện tách số 71439, có một đáp án sai, đó là đáp án nào?",
+    "correct": "71439 = 70000 + 400 + 30 + 9",
+    "wrong_pool": [
+      "71439 = 70000 + 1000 + 400 + 30 + 9",
+      "71439 = 71000 + 400 + 39",
+      "71439 = 71000 + 439",
+      "71439 = 70000 + 1439",
+      "71439 = 71400 + 39"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Bốn bạn cùng thực hiện tách số 28546, có một đáp án sai, đó là đáp án nào?",
+    "correct": "28546 = 20000 + 8000 + 5000 + 500 + 40 + 6",
+    "wrong_pool": [
+      "28546 = 20000 + 8000 + 500 + 40 + 6",
+      "28546 = 28000 + 500 + 46",
+      "28546 = 28000 + 546",
+      "28546 = 20000 + 8546",
+      "28546 = 28500 + 46"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Sophia nghĩ tới một số có 5 chữ số. Chữ số 5 có giá trị 50000 và 50, chữ số 6 có giá trị 600, chữ số 4 có giá trị 4. Vậy Sophia đang nghĩ tới số nào?",
+    "correct": "50654",
+    "wrong_pool": ["56054", "55064", "50564", "50645", "60554"]
+  },
+  {
+    "id": 22,
+    "question": "Nam nghĩ tới một số có 5 chữ số. Chữ số 7 có giá trị 70000 và 7, chữ số 3 có giá trị 3000 và 30. Vậy Nam đang nghĩ tới số nào?",
+    "correct": "73037",
+    "wrong_pool": ["73307", "70337", "77033", "33077", "37037"]
+  },
+  {
+    "id": 23,
+    "question": "Lan nghĩ tới một số có 5 chữ số. Chữ số 4 có giá trị 40000 và 4, chữ số 1 có giá trị 1000 và 10, chữ số 8 có giá trị 800. Vậy Lan đang nghĩ tới số nào?",
+    "correct": "41814",
+    "wrong_pool": ["44118", "41184", "48114", "14814", "41841"]
+  },
+  {
+    "id": 24,
+    "question": "Minh nghĩ tới một số có 5 chữ số. Chữ số 3 có giá trị 30000 và 30, chữ số 2 có giá trị 2000 và 2, chữ số 1 có giá trị 100. Vậy Minh đang nghĩ tới số nào?",
+    "correct": "32132",
+    "wrong_pool": ["33221", "32213", "23132", "31232", "21332"]
+  },
+  {
+    "id": 25,
+    "question": "Hùng nghĩ tới một số có 5 chữ số. Chữ số 2 có giá trị 20000 và 20, chữ số 8 có giá trị 8000, chữ số 9 có giá trị 900. Vậy Hùng đang nghĩ tới số nào?",
+    "correct": "28920",
+    "wrong_pool": ["22890", "28902", "29820", "82920", "28290"]
+  },
+  {
+    "id": 26,
+    "question": "Linh nghĩ tới một số có 5 chữ số. Chữ số 6 có giá trị 60000 và 60, chữ số 4 có giá trị 4000, chữ số 3 có giá trị 300, chữ số 8 có giá trị 8. Vậy Linh đang nghĩ tới số nào?",
+    "correct": "64368",
+    "wrong_pool": ["64638", "66348", "46368", "64386", "63468"]
+  },
+  {
+    "id": 27,
+    "question": "An nghĩ tới một số có 5 chữ số. Chữ số 8 có giá trị 80000 và 8, chữ số 5 có giá trị 5000 và 50, chữ số 2 có giá trị 200. Vậy An đang nghĩ tới số nào?",
+    "correct": "85258",
+    "wrong_pool": ["85528", "88255", "58258", "85285", "82558"]
+  },
+  {
+    "id": 28,
+    "question": "Tuấn nghĩ tới một số có 5 chữ số. Chữ số 9 có giá trị 90000 và 9, chữ số 1 có giá trị 1000 và 10, chữ số 7 có giá trị 700. Vậy Tuấn đang nghĩ tới số nào?",
+    "correct": "91719",
+    "wrong_pool": ["91791", "99117", "19719", "91179", "97119"]
+  },
+  {
+    "id": 29,
+    "question": "Mai nghĩ tới một số có 5 chữ số. Chữ số 4 có giá trị 40000 và 4, chữ số 6 có giá trị 6000 và 60. Vậy Mai đang nghĩ tới số nào?",
+    "correct": "46064",
+    "wrong_pool": ["46640", "44660", "64064", "40664", "66044"]
+  },
+  {
+    "id": 30,
+    "question": "Khoa nghĩ tới một số có 5 chữ số. Chữ số 1 có giá trị 10000 và 1, chữ số 7 có giá trị 7000 và 70, chữ số 5 có giá trị 500. Vậy Khoa đang nghĩ tới số nào?",
+    "correct": "17571",
+    "wrong_pool": ["17751", "77151", "71571", "11775", "17517"]
+  },
+  {
+    "id": 31,
+    "question": "Hoàn thành phép tính sau: .... ÷ 10 = 74",
+    "correct": "740",
+    "wrong_pool": ["74", "7400", "700", "84", "64"]
+  },
+  {
+    "id": 32,
+    "question": "Hoàn thành phép tính sau: 360 ÷ .... = 12",
+    "correct": "30",
+    "wrong_pool": ["12", "3", "348", "36", "20"]
+  },
+  {
+    "id": 33,
+    "question": "Hoàn thành phép tính sau: 4500 ÷ 50 = ....",
+    "correct": "90",
+    "wrong_pool": ["50", "9", "900", "80", "4550"]
+  },
+  {
+    "id": 34,
+    "question": "Hoàn thành phép tính sau: .... × 8 = 640",
+    "correct": "80",
+    "wrong_pool": ["640", "8", "648", "70", "90"]
+  },
+  {
+    "id": 35,
+    "question": "Hoàn thành phép tính sau: 9 × .... = 630",
+    "correct": "70",
+    "wrong_pool": ["630", "9", "639", "60", "80"]
+  },
+  {
+    "id": 36,
+    "question": "Hoàn thành phép tính sau: 12 × 15 = ....",
+    "correct": "180",
+    "wrong_pool": ["27", "3", "170", "1215", "160"]
+  },
+  {
+    "id": 37,
+    "question": "Hoàn thành phép tính sau: .... ÷ 20 = 35",
+    "correct": "700",
+    "wrong_pool": ["35", "55", "15", "7000", "600"]
+  },
+  {
+    "id": 38,
+    "question": "Hoàn thành phép tính sau: 840 ÷ .... = 42",
+    "correct": "20",
+    "wrong_pool": ["42", "840", "882", "2", "30"]
+  },
+  {
+    "id": 39,
+    "question": "Hoàn thành phép tính sau: .... × 50 = 2500",
+    "correct": "50",
+    "wrong_pool": ["2500", "2450", "500", "5", "2550"]
+  },
+  {
+    "id": 40,
+    "question": "Hoàn thành phép tính sau: 7 × .... = 490",
+    "correct": "70",
+    "wrong_pool": ["490", "7", "497", "60", "80"]
+  }
+]
