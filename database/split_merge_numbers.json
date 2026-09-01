@@ -247,56 +247,56 @@
   },
   {
     "id": 32,
-    "question": "Hoàn thành phép tính sau: 360 ÷ .... = 12",
-    "correct": "30",
-    "wrong_pool": ["12", "3", "348", "36", "20"]
+    "question": "Hoàn thành phép tính sau: 560 ÷ 10 = ....",
+    "correct": "56",
+    "wrong_pool": ["560", "10", "5600", "46", "66"]
   },
   {
     "id": 33,
-    "question": "Hoàn thành phép tính sau: 4500 ÷ 50 = ....",
-    "correct": "90",
-    "wrong_pool": ["50", "9", "900", "80", "4550"]
+    "question": "Hoàn thành phép tính sau: .... ÷ 100 = 23",
+    "correct": "2300",
+    "wrong_pool": ["23", "230", "23000", "2400", "2200"]
   },
   {
     "id": 34,
-    "question": "Hoàn thành phép tính sau: .... × 8 = 640",
-    "correct": "80",
-    "wrong_pool": ["640", "8", "648", "70", "90"]
+    "question": "Hoàn thành phép tính sau: 4500 ÷ 100 = ....",
+    "correct": "45",
+    "wrong_pool": ["4500", "100", "450", "35", "55"]
   },
   {
     "id": 35,
-    "question": "Hoàn thành phép tính sau: 9 × .... = 630",
-    "correct": "70",
-    "wrong_pool": ["630", "9", "639", "60", "80"]
+    "question": "Hoàn thành phép tính sau: .... × 10 = 730",
+    "correct": "73",
+    "wrong_pool": ["10", "730", "7300", "63", "83"]
   },
   {
     "id": 36,
-    "question": "Hoàn thành phép tính sau: 12 × 15 = ....",
-    "correct": "180",
-    "wrong_pool": ["27", "3", "170", "1215", "160"]
+    "question": "Hoàn thành phép tính sau: 45 × 10 = ....",
+    "correct": "450",
+    "wrong_pool": ["45", "10", "4500", "460", "440"]
   },
   {
     "id": 37,
-    "question": "Hoàn thành phép tính sau: .... ÷ 20 = 35",
-    "correct": "700",
-    "wrong_pool": ["35", "55", "15", "7000", "600"]
+    "question": "Hoàn thành phép tính sau: 100 × .... = 6500",
+    "correct": "65",
+    "wrong_pool": ["100", "6500", "650", "55", "75"]
   },
   {
     "id": 38,
-    "question": "Hoàn thành phép tính sau: 840 ÷ .... = 42",
-    "correct": "20",
-    "wrong_pool": ["42", "840", "882", "2", "30"]
+    "question": "Hoàn thành phép tính sau: 32 × 100 = ....",
+    "correct": "3200",
+    "wrong_pool": ["32", "100", "320", "3100", "3300"]
   },
   {
     "id": 39,
-    "question": "Hoàn thành phép tính sau: .... × 50 = 2500",
-    "correct": "50",
-    "wrong_pool": ["2500", "2450", "500", "5", "2550"]
+    "question": "Hoàn thành phép tính sau: 480 ÷ .... = 48",
+    "correct": "10",
+    "wrong_pool": ["48", "480", "100", "20", "50"]
   },
   {
     "id": 40,
-    "question": "Hoàn thành phép tính sau: 7 × .... = 490",
-    "correct": "70",
-    "wrong_pool": ["490", "7", "497", "60", "80"]
+    "question": "Hoàn thành phép tính sau: 2700 ÷ .... = 27",
+    "correct": "100",
+    "wrong_pool": ["27", "2700", "10", "200", "270"]
   }
 ]

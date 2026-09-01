@@ -196,8 +196,9 @@ Một phép tính nhân hoặc chia có **một ô trống** (`....`). Học sin
 ### Ràng buộc
 - Tất cả 3 số trong phép tính phải là **số nguyên dương** và **< 999,999**.
 - Với phép chia: đảm bảo A **chia hết** cho B (thương là số nguyên).
-- **Số chia** (B trong `A ÷ B = C`) phải là **bội số của 10**.
-- **Phần `....`** (đáp án mà học sinh phải điền) phải là **bội số của 10**.
+- **Số chia** (B trong `A ÷ B = C`) phải là **đúng 10 hoặc 100** — không chấp nhận 20, 30, 50 hay bội số khác.
+- **Phép nhân**: 1 trong 2 thừa số phải là **đúng 10 hoặc 100**; thừa số còn lại không có ràng buộc.
+- Phần `....` (đáp án học sinh điền) **không bắt buộc** phải là bội số 10 — có thể là bất kỳ số nguyên dương hợp lệ nào.
 - Đáp án không được trùng với bất kỳ số nào trong wrong_pool.
 
 ### Chiến lược wrong_pool (5 phần tử)
@@ -210,18 +211,18 @@ Một phép tính nhân hoặc chia có **một ô trống** (`....`). Học sin
 | Phép tính ngược | Chia thay vì nhân hoặc ngược lại | "7" (74÷10, làm tròn) |
 
 ### Phân bố (10 câu, ID 31–40)
-| ID | Phép tính | Vị trí ô trống | Đáp án |
-|---|---|---|---|
-| 31 | .... ÷ 10 = 74 | Số bị chia | 740 |
-| 32 | 360 ÷ .... = 12 | Số chia | 30 |
-| 33 | 4500 ÷ 50 = .... | Thương | 90 |
-| 34 | .... × 8 = 640 | Thừa số 1 | 80 |
-| 35 | 9 × .... = 630 | Thừa số 2 | 70 |
-| 36 | 12 × 15 = .... | Tích | 180 |
-| 37 | .... ÷ 20 = 35 | Số bị chia | 700 |
-| 38 | 840 ÷ .... = 42 | Số chia | 20 |
-| 39 | .... × 50 = 2500 | Thừa số 1 | 50 |
-| 40 | 7 × .... = 490 | Thừa số 2 | 70 |
+| ID | Phép tính | Vị trí ô trống | Toán tử | Đáp án |
+|---|---|---|---|---|
+| 31 | .... ÷ 10 = 74 | Số bị chia | ÷10 | 740 |
+| 32 | 560 ÷ 10 = .... | Thương | ÷10 | 56 |
+| 33 | .... ÷ 100 = 23 | Số bị chia | ÷100 | 2300 |
+| 34 | 4500 ÷ 100 = .... | Thương | ÷100 | 45 |
+| 35 | .... × 10 = 730 | Thừa số 1 | ×10 | 73 |
+| 36 | 45 × 10 = .... | Tích | ×10 | 450 |
+| 37 | 100 × .... = 6500 | Thừa số 2 | ×100 | 65 |
+| 38 | 32 × 100 = .... | Tích | ×100 | 3200 |
+| 39 | 480 ÷ .... = 48 | Số chia | ÷10 | 10 |
+| 40 | 2700 ÷ .... = 27 | Số chia | ÷100 | 100 |
 
 ---
 
