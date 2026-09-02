@@ -90,6 +90,7 @@ async function startQuiz() {
         });
       }
     }
+    state.quiz = shuffle(state.quiz);
     state.view = 'quiz';
     render();
   } catch (err) {
