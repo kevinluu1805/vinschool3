@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "question": "She ___ TV every night.",
+    "correct": "watches",
+    "wrong_pool": ["watch", "watching", "watched", "is watching"],
+    "hint": "Chủ ngữ She → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 2,
+    "question": "I ___ my teeth every morning.",
+    "correct": "brush",
+    "wrong_pool": ["brushes", "brushing", "brushed", "am brushing"],
+    "hint": "Chủ ngữ I → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 3,
+    "question": "He ___ to school every day.",
+    "correct": "goes",
+    "wrong_pool": ["go", "going", "went", "is going"],
+    "hint": "Chủ ngữ He → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 4,
+    "question": "They ___ lunch every day.",
+    "correct": "eat",
+    "wrong_pool": ["eats", "eating", "ate", "are eating"],
+    "hint": "Chủ ngữ They → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 5,
+    "question": "My dog ___ in the park every morning.",
+    "correct": "runs",
+    "wrong_pool": ["run", "running", "ran", "is running"],
+    "hint": "Chủ ngữ My dog (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 6,
+    "question": "We ___ football every week.",
+    "correct": "play",
+    "wrong_pool": ["plays", "playing", "played", "are playing"],
+    "hint": "Chủ ngữ We → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 7,
+    "question": "She always ___ milk in the morning.",
+    "correct": "drinks",
+    "wrong_pool": ["drink", "drinking", "drank", "is drinking"],
+    "hint": "Trạng từ tần suất 'always' → thì Hiện Tại Đơn. Chủ ngữ She → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 8,
+    "question": "He usually ___ his homework every afternoon.",
+    "correct": "does",
+    "wrong_pool": ["do", "doing", "did", "is doing"],
+    "hint": "Trạng từ tần suất 'usually' → thì Hiện Tại Đơn. Chủ ngữ He → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 9,
+    "question": "My mother ___ dinner every evening.",
+    "correct": "cooks",
+    "wrong_pool": ["cook", "cooking", "cooked", "is cooking"],
+    "hint": "Chủ ngữ My mother (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 10,
+    "question": "You ___ to bed early every night.",
+    "correct": "go",
+    "wrong_pool": ["goes", "going", "went", "are going"],
+    "hint": "Chủ ngữ You → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 11,
+    "question": "She ___ her grandparents once a month.",
+    "correct": "visits",
+    "wrong_pool": ["visit", "visiting", "visited", "is visiting"],
+    "hint": "Once a month dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ She → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 12,
+    "question": "I ___ to the gym twice a week.",
+    "correct": "go",
+    "wrong_pool": ["goes", "going", "went", "am going"],
+    "hint": "Twice a week dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ I → động từ giữ nguyên dạng gốc."
+  },
+  {
+    "id": 13,
+    "question": "He ___ to the dentist twice a year.",
+    "correct": "goes",
+    "wrong_pool": ["go", "going", "went", "is going"],
+    "hint": "Twice a year dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ He → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 14,
+    "question": "They ___ pizza once a week.",
+    "correct": "eat",
+    "wrong_pool": ["eats", "eating", "ate", "are eating"],
+    "hint": "Once a week dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ They → động từ giữ nguyên dạng gốc."
+  },
+  {
+    "id": 15,
+    "question": "My father ___ his car once a week.",
+    "correct": "washes",
+    "wrong_pool": ["wash", "washing", "washed", "is washing"],
+    "hint": "Once a week dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ My father → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 16,
+    "question": "We ___ out for dinner twice a month.",
+    "correct": "go",
+    "wrong_pool": ["goes", "going", "went", "are going"],
+    "hint": "Twice a month dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ We → động từ giữ nguyên dạng gốc."
+  },
+  {
+    "id": 17,
+    "question": "She ___ her hair twice a week.",
+    "correct": "washes",
+    "wrong_pool": ["wash", "washing", "washed", "is washing"],
+    "hint": "Twice a week dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ She → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 18,
+    "question": "He ___ his room once a week.",
+    "correct": "cleans",
+    "wrong_pool": ["clean", "cleaning", "cleaned", "is cleaning"],
+    "hint": "Once a week dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ He → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 19,
+    "question": "She often ___ to music after school.",
+    "correct": "listens",
+    "wrong_pool": ["listen", "listening", "listened", "is listening"],
+    "hint": "Trạng từ tần suất 'often' → thì Hiện Tại Đơn. Chủ ngữ She → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 20,
+    "question": "I sometimes ___ cartoons on weekends.",
+    "correct": "watch",
+    "wrong_pool": ["watches", "watching", "watched", "am watching"],
+    "hint": "Trạng từ tần suất 'sometimes' → thì Hiện Tại Đơn. Chủ ngữ I → động từ giữ nguyên dạng gốc."
+  },
+  {
+    "id": 21,
+    "question": "He never ___ vegetables.",
+    "correct": "eats",
+    "wrong_pool": ["eat", "eating", "ate", "is eating"],
+    "hint": "Trạng từ tần suất 'never' → thì Hiện Tại Đơn. Chủ ngữ He → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 22,
+    "question": "They rarely ___ to the cinema.",
+    "correct": "go",
+    "wrong_pool": ["goes", "going", "went", "are going"],
+    "hint": "Trạng từ tần suất 'rarely' → thì Hiện Tại Đơn. Chủ ngữ They → động từ giữ nguyên dạng gốc."
+  },
+  {
+    "id": 23,
+    "question": "My sister sometimes ___ me with my homework.",
+    "correct": "helps",
+    "wrong_pool": ["help", "helping", "helped", "is helping"],
+    "hint": "Trạng từ tần suất 'sometimes' → thì Hiện Tại Đơn. Chủ ngữ My sister → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 24,
+    "question": "We often ___ board games on Saturdays.",
+    "correct": "play",
+    "wrong_pool": ["plays", "playing", "played", "are playing"],
+    "hint": "Trạng từ tần suất 'often' → thì Hiện Tại Đơn. Chủ ngữ We → động từ giữ nguyên dạng gốc."
+  },
+  {
+    "id": 25,
+    "question": "She never ___ up early on Sundays.",
+    "correct": "gets",
+    "wrong_pool": ["get", "getting", "got", "is getting"],
+    "hint": "Trạng từ tần suất 'never' → thì Hiện Tại Đơn. Chủ ngữ She → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 26,
+    "question": "He sometimes ___ his friends at the park.",
+    "correct": "meets",
+    "wrong_pool": ["meet", "meeting", "met", "is meeting"],
+    "hint": "Trạng từ tần suất 'sometimes' → thì Hiện Tại Đơn. Chủ ngữ He → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 27,
+    "question": "Does your brother ___ to school every day?",
+    "correct": "go",
+    "wrong_pool": ["goes", "going", "went", "is going"],
+    "hint": "Sau Does/Do trong câu hỏi, động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 28,
+    "question": "___ she always wake up early?",
+    "correct": "Does",
+    "wrong_pool": ["Do", "Is", "Are", "Did"],
+    "hint": "Chủ ngữ là He/She/It → dùng Does; I/You/We/They → dùng Do."
+  },
+  {
+    "id": 29,
+    "question": "Do they ___ lunch at school every day?",
+    "correct": "eat",
+    "wrong_pool": ["eats", "eating", "ate", "are eating"],
+    "hint": "Sau Does/Do trong câu hỏi, động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 30,
+    "question": "___ your mother cook dinner every evening?",
+    "correct": "Does",
+    "wrong_pool": ["Do", "Is", "Are", "Did"],
+    "hint": "Chủ ngữ là He/She/It → dùng Does; I/You/We/They → dùng Do."
+  },
+  {
+    "id": 31,
+    "question": "Does he ___ his homework every afternoon?",
+    "correct": "do",
+    "wrong_pool": ["does", "doing", "did", "is doing"],
+    "hint": "Sau Does/Do trong câu hỏi, động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 32,
+    "question": "Do you ___ your teeth every morning?",
+    "correct": "brush",
+    "wrong_pool": ["brushes", "brushing", "brushed", "are brushing"],
+    "hint": "Sau Does/Do trong câu hỏi, động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 33,
+    "question": "___ they often play in the garden?",
+    "correct": "Do",
+    "wrong_pool": ["Does", "Is", "Are", "Did"],
+    "hint": "Chủ ngữ là He/She/It → dùng Does; I/You/We/They → dùng Do."
+  },
+  {
+    "id": 34,
+    "question": "Does she ___ English every day?",
+    "correct": "study",
+    "wrong_pool": ["studies", "studying", "studied", "is studying"],
+    "hint": "Sau Does/Do trong câu hỏi, động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 35,
+    "question": "___ your dog run in the park every morning?",
+    "correct": "Does",
+    "wrong_pool": ["Do", "Is", "Are", "Did"],
+    "hint": "Chủ ngữ là He/She/It → dùng Does; I/You/We/They → dùng Do."
+  },
+  {
+    "id": 36,
+    "question": "Do your friends ___ football every week?",
+    "correct": "play",
+    "wrong_pool": ["plays", "playing", "played", "are playing"],
+    "hint": "Sau Does/Do trong câu hỏi, động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 37,
+    "question": "My cat always ___ in the sun.",
+    "correct": "sleeps",
+    "wrong_pool": ["sleep", "sleeping", "slept", "is sleeping"],
+    "hint": "Trạng từ tần suất 'always' → thì Hiện Tại Đơn. Chủ ngữ My cat → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 38,
+    "question": "The children ___ to bed at 9 every night.",
+    "correct": "go",
+    "wrong_pool": ["goes", "going", "went", "are going"],
+    "hint": "Chủ ngữ The children (số nhiều) → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 39,
+    "question": "He rarely ___ TV because he prefers reading.",
+    "correct": "watches",
+    "wrong_pool": ["watch", "watching", "watched", "is watching"],
+    "hint": "Trạng từ tần suất 'rarely' → thì Hiện Tại Đơn. Chủ ngữ He → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 40,
+    "question": "I usually ___ up at 6 every morning.",
+    "correct": "wake",
+    "wrong_pool": ["wakes", "waking", "woke", "am waking"],
+    "hint": "Trạng từ tần suất 'usually' → thì Hiện Tại Đơn. Chủ ngữ I → động từ giữ nguyên dạng gốc."
+  },
+  {
+    "id": 41,
+    "question": "My teacher ___ us a test every Friday.",
+    "correct": "gives",
+    "wrong_pool": ["give", "giving", "gave", "is giving"],
+    "hint": "Chủ ngữ My teacher (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 42,
+    "question": "We always ___ our hands before meals.",
+    "correct": "wash",
+    "wrong_pool": ["washes", "washing", "washed", "are washing"],
+    "hint": "Trạng từ tần suất 'always' → thì Hiện Tại Đơn. Chủ ngữ We → động từ giữ nguyên dạng gốc."
+  },
+  {
+    "id": 43,
+    "question": "She sometimes ___ late on weekends.",
+    "correct": "sleeps",
+    "wrong_pool": ["sleep", "sleeping", "slept", "is sleeping"],
+    "hint": "Trạng từ tần suất 'sometimes' → thì Hiện Tại Đơn. Chủ ngữ She → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 44,
+    "question": "Birds ___ south every winter.",
+    "correct": "fly",
+    "wrong_pool": ["flies", "flying", "flew", "are flying"],
+    "hint": "Chủ ngữ Birds (số nhiều) → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 45,
+    "question": "He never ___ without saying goodbye.",
+    "correct": "leaves",
+    "wrong_pool": ["leave", "leaving", "left", "is leaving"],
+    "hint": "Trạng từ tần suất 'never' → thì Hiện Tại Đơn. Chủ ngữ He → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 46,
+    "question": "They always ___ \"thank you\" after receiving a gift.",
+    "correct": "say",
+    "wrong_pool": ["says", "saying", "said", "are saying"],
+    "hint": "Trạng từ tần suất 'always' → thì Hiện Tại Đơn. Chủ ngữ They → động từ giữ nguyên dạng gốc."
+  },
+  {
+    "id": 47,
+    "question": "My grandfather ___ a walk every morning.",
+    "correct": "takes",
+    "wrong_pool": ["take", "taking", "took", "is taking"],
+    "hint": "Chủ ngữ My grandfather (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 48,
+    "question": "She ___ in her diary every night.",
+    "correct": "writes",
+    "wrong_pool": ["write", "writing", "wrote", "is writing"],
+    "hint": "Chủ ngữ She → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 49,
+    "question": "We ___ our grandparents every Sunday.",
+    "correct": "visit",
+    "wrong_pool": ["visits", "visiting", "visited", "are visiting"],
+    "hint": "Chủ ngữ We → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 50,
+    "question": "He ___ his bike to school every day.",
+    "correct": "rides",
+    "wrong_pool": ["ride", "riding", "rode", "is riding"],
+    "hint": "Chủ ngữ He → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 51,
+    "question": "She doesn't ___ meat. She is a vegetarian.",
+    "correct": "eat",
+    "wrong_pool": ["eats", "eating", "ate", "is eating"],
+    "hint": "Sau 'doesn't/don't', động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 52,
+    "question": "Tom doesn't ___ late on school nights.",
+    "correct": "sleep",
+    "wrong_pool": ["sleeps", "sleeping", "slept", "is sleeping"],
+    "hint": "Sau 'doesn't/don't', động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 53,
+    "question": "We don't ___ TV on school nights.",
+    "correct": "watch",
+    "wrong_pool": ["watches", "watching", "watched", "are watching"],
+    "hint": "Sau 'doesn't/don't', động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 54,
+    "question": "My sister doesn't ___ junk food.",
+    "correct": "like",
+    "wrong_pool": ["likes", "liking", "liked", "is liking"],
+    "hint": "Sau 'doesn't/don't', động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 55,
+    "question": "He doesn't ___ glasses.",
+    "correct": "wear",
+    "wrong_pool": ["wears", "wearing", "wore", "is wearing"],
+    "hint": "Sau 'doesn't/don't', động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 56,
+    "question": "I don't ___ coffee. I prefer juice.",
+    "correct": "drink",
+    "wrong_pool": ["drinks", "drinking", "drank", "am drinking"],
+    "hint": "Sau 'doesn't/don't', động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 57,
+    "question": "They don't ___ homework on Fridays.",
+    "correct": "have",
+    "wrong_pool": ["has", "having", "had", "are having"],
+    "hint": "Sau 'doesn't/don't', động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 58,
+    "question": "She ___ not come to school on Sundays.",
+    "correct": "does",
+    "wrong_pool": ["do", "is", "are", "did"],
+    "hint": "Câu phủ định Hiện Tại Đơn: S + does not / do not + base form. Chủ ngữ là He/She/It → dùng 'does'."
+  },
+  {
+    "id": 59,
+    "question": "___ your sister study at the same school?",
+    "correct": "Does",
+    "wrong_pool": ["Do", "Is", "Are", "Did"],
+    "hint": "Chủ ngữ là He/She/It → dùng Does; I/You/We/They → dùng Do."
+  },
+  {
+    "id": 60,
+    "question": "Do you always ___ to school on time?",
+    "correct": "arrive",
+    "wrong_pool": ["arrives", "arriving", "arrived", "am arriving"],
+    "hint": "Sau Does/Do trong câu hỏi, động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 61,
+    "question": "___ Tom and Anna walk to school every day?",
+    "correct": "Do",
+    "wrong_pool": ["Does", "Is", "Are", "Did"],
+    "hint": "Chủ ngữ là He/She/It → dùng Does; I/You/We/They → dùng Do."
+  },
+  {
+    "id": 62,
+    "question": "Does your cat ___ a lot every day?",
+    "correct": "sleep",
+    "wrong_pool": ["sleeps", "sleeping", "slept", "is sleeping"],
+    "hint": "Sau Does/Do trong câu hỏi, động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 63,
+    "question": "___ the children always play outside after school?",
+    "correct": "Do",
+    "wrong_pool": ["Does", "Is", "Are", "Did"],
+    "hint": "Chủ ngữ là He/She/It → dùng Does; I/You/We/They → dùng Do."
+  },
+  {
+    "id": 64,
+    "question": "Does your teacher ___ you homework every day?",
+    "correct": "give",
+    "wrong_pool": ["gives", "giving", "gave", "is giving"],
+    "hint": "Sau Does/Do trong câu hỏi, động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 65,
+    "question": "___ he usually get up late on weekends?",
+    "correct": "Does",
+    "wrong_pool": ["Do", "Is", "Are", "Did"],
+    "hint": "Chủ ngữ là He/She/It → dùng Does; I/You/We/They → dùng Do."
+  },
+  {
+    "id": 66,
+    "question": "Do they ___ a snack after school every day?",
+    "correct": "have",
+    "wrong_pool": ["has", "having", "had", "are having"],
+    "hint": "Sau Does/Do trong câu hỏi, động từ luôn dùng dạng nguyên thể (base form)."
+  },
+  {
+    "id": 67,
+    "question": "My uncle ___ chess every Sunday.",
+    "correct": "plays",
+    "wrong_pool": ["play", "playing", "played", "is playing"],
+    "hint": "Chủ ngữ My uncle (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 68,
+    "question": "My cousin ___ me a letter once a month.",
+    "correct": "sends",
+    "wrong_pool": ["send", "sending", "sent", "is sending"],
+    "hint": "Once a month dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ My cousin → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 69,
+    "question": "The baby ___ a lot at night.",
+    "correct": "cries",
+    "wrong_pool": ["cry", "crying", "cried", "is crying"],
+    "hint": "Chủ ngữ The baby (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 70,
+    "question": "Our class ___ a field trip once a year.",
+    "correct": "takes",
+    "wrong_pool": ["take", "taking", "took", "is taking"],
+    "hint": "Once a year dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ Our class → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 71,
+    "question": "My aunt ___ cookies for us every weekend.",
+    "correct": "bakes",
+    "wrong_pool": ["bake", "baking", "baked", "is baking"],
+    "hint": "Chủ ngữ My aunt (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 72,
+    "question": "The students ___ English every Monday.",
+    "correct": "study",
+    "wrong_pool": ["studies", "studying", "studied", "are studying"],
+    "hint": "Chủ ngữ The students (số nhiều) → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 73,
+    "question": "My friend Tom always ___ early every morning.",
+    "correct": "jogs",
+    "wrong_pool": ["jog", "jogging", "jogged", "is jogging"],
+    "hint": "Trạng từ tần suất 'always' → thì Hiện Tại Đơn. Chủ ngữ My friend Tom (số ít) → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 74,
+    "question": "My best friend ___ me every evening.",
+    "correct": "calls",
+    "wrong_pool": ["call", "calling", "called", "is calling"],
+    "hint": "Chủ ngữ My best friend (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 75,
+    "question": "The sun ___ in the east every morning.",
+    "correct": "rises",
+    "wrong_pool": ["rise", "rising", "rose", "is rising"],
+    "hint": "Chủ ngữ The sun (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 76,
+    "question": "My neighbors ___ their garden every Saturday.",
+    "correct": "water",
+    "wrong_pool": ["waters", "watering", "watered", "are watering"],
+    "hint": "Chủ ngữ My neighbors (số nhiều) → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 77,
+    "question": "She ___ her cat every morning.",
+    "correct": "feeds",
+    "wrong_pool": ["feed", "feeding", "fed", "is feeding"],
+    "hint": "Chủ ngữ She → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 78,
+    "question": "He ___ to work by car every day.",
+    "correct": "drives",
+    "wrong_pool": ["drive", "driving", "drove", "is driving"],
+    "hint": "Chủ ngữ He → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 79,
+    "question": "We ___ lunch at noon every day.",
+    "correct": "have",
+    "wrong_pool": ["has", "having", "had", "are having"],
+    "hint": "Chủ ngữ We → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 80,
+    "question": "She ___ yoga three times a week.",
+    "correct": "does",
+    "wrong_pool": ["do", "doing", "did", "is doing"],
+    "hint": "Three times a week dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ She → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 81,
+    "question": "My father ___ fresh flowers every Sunday.",
+    "correct": "buys",
+    "wrong_pool": ["buy", "buying", "bought", "is buying"],
+    "hint": "Chủ ngữ My father (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 82,
+    "question": "The dog sometimes ___ at strangers.",
+    "correct": "barks",
+    "wrong_pool": ["bark", "barking", "barked", "is barking"],
+    "hint": "Trạng từ tần suất 'sometimes' → thì Hiện Tại Đơn. Chủ ngữ The dog → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 83,
+    "question": "I ___ to school on foot every day.",
+    "correct": "walk",
+    "wrong_pool": ["walks", "walking", "walked", "am walking"],
+    "hint": "Chủ ngữ I → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 84,
+    "question": "She ___ pictures every weekend.",
+    "correct": "draws",
+    "wrong_pool": ["draw", "drawing", "drew", "is drawing"],
+    "hint": "Chủ ngữ She → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 85,
+    "question": "He ___ home from school at 3 every day.",
+    "correct": "arrives",
+    "wrong_pool": ["arrive", "arriving", "arrived", "is arriving"],
+    "hint": "Chủ ngữ He → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 86,
+    "question": "My mother always ___ us a bedtime story.",
+    "correct": "tells",
+    "wrong_pool": ["tell", "telling", "told", "is telling"],
+    "hint": "Trạng từ tần suất 'always' → thì Hiện Tại Đơn. Chủ ngữ My mother → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 87,
+    "question": "She ___ her nails once a week.",
+    "correct": "paints",
+    "wrong_pool": ["paint", "painting", "painted", "is painting"],
+    "hint": "Once a week dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ She → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 88,
+    "question": "He ___ chess with his father every weekend.",
+    "correct": "plays",
+    "wrong_pool": ["play", "playing", "played", "is playing"],
+    "hint": "Chủ ngữ He → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 89,
+    "question": "My parents ___ to work by bus every day.",
+    "correct": "go",
+    "wrong_pool": ["goes", "going", "went", "are going"],
+    "hint": "Chủ ngữ My parents (số nhiều) → động từ giữ nguyên dạng gốc (base form)."
+  },
+  {
+    "id": 90,
+    "question": "The teacher ___ us new words every lesson.",
+    "correct": "teaches",
+    "wrong_pool": ["teach", "teaching", "taught", "is teaching"],
+    "hint": "Chủ ngữ The teacher (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 91,
+    "question": "She ___ not like rainy days.",
+    "correct": "does",
+    "wrong_pool": ["do", "is", "are", "did"],
+    "hint": "Câu phủ định Hiện Tại Đơn: S + does not / do not + base form. Chủ ngữ là He/She/It → dùng 'does'."
+  },
+  {
+    "id": 92,
+    "question": "They ___ not go to school on public holidays.",
+    "correct": "do",
+    "wrong_pool": ["does", "is", "are", "did"],
+    "hint": "Câu phủ định Hiện Tại Đơn: S + does not / do not + base form. Chủ ngữ They → dùng 'do'."
+  },
+  {
+    "id": 93,
+    "question": "My brother usually ___ up at 7 every morning.",
+    "correct": "wakes",
+    "wrong_pool": ["wake", "waking", "woke", "is waking"],
+    "hint": "Trạng từ tần suất 'usually' → thì Hiện Tại Đơn. Chủ ngữ My brother → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 94,
+    "question": "Anna rarely ___ mistakes.",
+    "correct": "makes",
+    "wrong_pool": ["make", "making", "made", "is making"],
+    "hint": "Trạng từ tần suất 'rarely' → thì Hiện Tại Đơn. Chủ ngữ Anna (số ít) → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 95,
+    "question": "The bus ___ at this stop every 10 minutes.",
+    "correct": "stops",
+    "wrong_pool": ["stop", "stopping", "stopped", "is stopping"],
+    "hint": "Chủ ngữ The bus (số ít) → động từ cần thêm -s hoặc -es."
+  },
+  {
+    "id": 96,
+    "question": "We ___ our class photo once a year.",
+    "correct": "take",
+    "wrong_pool": ["takes", "taking", "took", "are taking"],
+    "hint": "Once a year dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ We → động từ giữ nguyên dạng gốc."
+  },
+  {
+    "id": 97,
+    "question": "My sister never ___ her vegetables.",
+    "correct": "finishes",
+    "wrong_pool": ["finish", "finishing", "finished", "is finishing"],
+    "hint": "Trạng từ tần suất 'never' → thì Hiện Tại Đơn. Chủ ngữ My sister → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 98,
+    "question": "Tom usually ___ his bag the night before school.",
+    "correct": "packs",
+    "wrong_pool": ["pack", "packing", "packed", "is packing"],
+    "hint": "Trạng từ tần suất 'usually' → thì Hiện Tại Đơn. Chủ ngữ Tom (số ít) → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 99,
+    "question": "She always ___ a hat when it is sunny.",
+    "correct": "wears",
+    "wrong_pool": ["wear", "wearing", "wore", "is wearing"],
+    "hint": "Trạng từ tần suất 'always' → thì Hiện Tại Đơn. Chủ ngữ She → động từ thêm -s hoặc -es."
+  },
+  {
+    "id": 100,
+    "question": "Our family ___ a trip once a year.",
+    "correct": "takes",
+    "wrong_pool": ["take", "taking", "took", "is taking"],
+    "hint": "Once a year dùng để diễn tả tần suất → thì Hiện Tại Đơn. Chủ ngữ Our family (số ít) → động từ thêm -s hoặc -es."
+  }
+]

@@ -1,0 +1,712 @@
+[
+  {
+    "id": 1,
+    "question": "She ___ football yesterday afternoon.",
+    "correct": "played",
+    "wrong_pool": ["play", "plays", "playing", "has played"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 2,
+    "question": "He ___ his room last night.",
+    "correct": "cleaned",
+    "wrong_pool": ["clean", "cleans", "cleaning", "has cleaned"],
+    "hint": "Từ nhận dạng 'last night' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 3,
+    "question": "They ___ their grandmother last weekend.",
+    "correct": "visited",
+    "wrong_pool": ["visit", "visits", "visiting", "have visited"],
+    "hint": "Từ nhận dạng 'last weekend' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 4,
+    "question": "I ___ my friend on the phone yesterday morning.",
+    "correct": "called",
+    "wrong_pool": ["call", "calls", "calling", "have called"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 5,
+    "question": "She ___ dinner last night.",
+    "correct": "cooked",
+    "wrong_pool": ["cook", "cooks", "cooking", "has cooked"],
+    "hint": "Từ nhận dạng 'last night' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 6,
+    "question": "We ___ to school yesterday.",
+    "correct": "walked",
+    "wrong_pool": ["walk", "walks", "walking", "have walked"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 7,
+    "question": "He ___ TV last night.",
+    "correct": "watched",
+    "wrong_pool": ["watch", "watches", "watching", "has watched"],
+    "hint": "Từ nhận dạng 'last night' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 8,
+    "question": "My mother ___ a cake two days ago.",
+    "correct": "baked",
+    "wrong_pool": ["bake", "bakes", "baking", "has baked"],
+    "hint": "Từ nhận dạng 'ago' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 9,
+    "question": "They ___ the house last weekend.",
+    "correct": "painted",
+    "wrong_pool": ["paint", "paints", "painting", "have painted"],
+    "hint": "Từ nhận dạng 'last weekend' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 10,
+    "question": "I ___ my homework last night.",
+    "correct": "finished",
+    "wrong_pool": ["finish", "finishes", "finishing", "have finished"],
+    "hint": "Từ nhận dạng 'last night' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 11,
+    "question": "She ___ her friend last Sunday.",
+    "correct": "helped",
+    "wrong_pool": ["help", "helps", "helping", "has helped"],
+    "hint": "Từ nhận dạng 'last Sunday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 12,
+    "question": "He ___ to his teacher last Monday.",
+    "correct": "talked",
+    "wrong_pool": ["talk", "talks", "talking", "has talked"],
+    "hint": "Từ nhận dạng 'last Monday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 13,
+    "question": "The children ___ in the park yesterday.",
+    "correct": "jumped",
+    "wrong_pool": ["jump", "jumps", "jumping", "have jumped"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 14,
+    "question": "I ___ the flowers last Sunday morning.",
+    "correct": "watered",
+    "wrong_pool": ["water", "waters", "watering", "have watered"],
+    "hint": "Từ nhận dạng 'last Sunday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 15,
+    "question": "We ___ the bus yesterday morning.",
+    "correct": "missed",
+    "wrong_pool": ["miss", "misses", "missing", "have missed"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 16,
+    "question": "He ___ his bag the night before yesterday.",
+    "correct": "packed",
+    "wrong_pool": ["pack", "packs", "packing", "has packed"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 17,
+    "question": "They ___ a new English word last week.",
+    "correct": "learned",
+    "wrong_pool": ["learn", "learns", "learning", "have learned"],
+    "hint": "Từ nhận dạng 'last week' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 18,
+    "question": "I ___ at school at 7 yesterday morning.",
+    "correct": "arrived",
+    "wrong_pool": ["arrive", "arrives", "arriving", "have arrived"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 19,
+    "question": "She ___ to music on the way home yesterday.",
+    "correct": "listened",
+    "wrong_pool": ["listen", "listens", "listening", "has listened"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 20,
+    "question": "My parents ___ the car last Saturday.",
+    "correct": "washed",
+    "wrong_pool": ["wash", "washes", "washing", "have washed"],
+    "hint": "Từ nhận dạng 'last Saturday' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+
+  {
+    "id": 21,
+    "question": "He ___ to the park with his friends yesterday.",
+    "correct": "went",
+    "wrong_pool": ["go", "goes", "going", "has gone"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 22,
+    "question": "She ___ breakfast yesterday morning.",
+    "correct": "ate",
+    "wrong_pool": ["eat", "eats", "eating", "has eaten"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 23,
+    "question": "They ___ a great movie last night.",
+    "correct": "saw",
+    "wrong_pool": ["see", "sees", "seeing", "have seen"],
+    "hint": "Từ nhận dạng 'last night' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 24,
+    "question": "I ___ a gift from my grandmother last week.",
+    "correct": "got",
+    "wrong_pool": ["get", "gets", "getting", "have got"],
+    "hint": "Từ nhận dạng 'last week' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 25,
+    "question": "He ___ a great time at the party last Saturday.",
+    "correct": "had",
+    "wrong_pool": ["have", "has", "having", "has had"],
+    "hint": "Từ nhận dạng 'last Saturday' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 26,
+    "question": "She ___ a beautiful song at school last year.",
+    "correct": "sang",
+    "wrong_pool": ["sing", "sings", "singing", "has sung"],
+    "hint": "Từ nhận dạng 'last year' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 27,
+    "question": "We ___ juice at the party last weekend.",
+    "correct": "drank",
+    "wrong_pool": ["drink", "drinks", "drinking", "have drunk"],
+    "hint": "Từ nhận dạng 'last weekend' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 28,
+    "question": "He ___ a letter to his grandmother last month.",
+    "correct": "wrote",
+    "wrong_pool": ["write", "writes", "writing", "has written"],
+    "hint": "Từ nhận dạng 'last month' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 29,
+    "question": "They ___ a snowman last winter.",
+    "correct": "made",
+    "wrong_pool": ["make", "makes", "making", "have made"],
+    "hint": "Từ nhận dạng 'last winter' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 30,
+    "question": "I ___ the bus to the city two days ago.",
+    "correct": "took",
+    "wrong_pool": ["take", "takes", "taking", "have taken"],
+    "hint": "Từ nhận dạng 'ago' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 31,
+    "question": "She ___ her bike to school last Friday.",
+    "correct": "rode",
+    "wrong_pool": ["ride", "rides", "riding", "has ridden"],
+    "hint": "Từ nhận dạng 'last Friday' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 32,
+    "question": "He ___ asleep early last night.",
+    "correct": "fell",
+    "wrong_pool": ["fall", "falls", "falling", "has fallen"],
+    "hint": "Từ nhận dạng 'last night' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 33,
+    "question": "The teacher ___ them about dinosaurs last week.",
+    "correct": "told",
+    "wrong_pool": ["tell", "tells", "telling", "has told"],
+    "hint": "Từ nhận dạng 'last week' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 34,
+    "question": "I ___ up at 6 last Sunday morning.",
+    "correct": "woke",
+    "wrong_pool": ["wake", "wakes", "waking", "have woken"],
+    "hint": "Từ nhận dạng 'last Sunday' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 35,
+    "question": "She ___ her lost cat yesterday.",
+    "correct": "found",
+    "wrong_pool": ["find", "finds", "finding", "has found"],
+    "hint": "Từ nhận dạng 'yesterday' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+
+  {
+    "id": 36,
+    "question": "They didn't ___ lunch yesterday.",
+    "correct": "eat",
+    "wrong_pool": ["ate", "eating", "eats", "to eat"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 37,
+    "question": "She didn't ___ her homework last night.",
+    "correct": "finish",
+    "wrong_pool": ["finished", "finishing", "finishes", "to finish"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 38,
+    "question": "He didn't ___ to school last Monday.",
+    "correct": "go",
+    "wrong_pool": ["went", "going", "goes", "to go"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 39,
+    "question": "We didn't ___ TV last night. We read books.",
+    "correct": "watch",
+    "wrong_pool": ["watched", "watching", "watches", "to watch"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 40,
+    "question": "I didn't ___ any milk yesterday.",
+    "correct": "drink",
+    "wrong_pool": ["drank", "drinking", "drinks", "to drink"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 41,
+    "question": "She didn't ___ her room last week.",
+    "correct": "clean",
+    "wrong_pool": ["cleaned", "cleaning", "cleans", "to clean"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 42,
+    "question": "They didn't ___ the bus. They walked.",
+    "correct": "take",
+    "wrong_pool": ["took", "taking", "takes", "to take"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 43,
+    "question": "He didn't ___ anything wrong yesterday.",
+    "correct": "do",
+    "wrong_pool": ["did", "doing", "does", "to do"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+
+  {
+    "id": 44,
+    "question": "___ she visit her grandmother last week?",
+    "correct": "Did",
+    "wrong_pool": ["Does", "Was", "Do", "Is"],
+    "hint": "Câu hỏi Quá Khứ Đơn bắt đầu bằng trợ động từ 'Did'."
+  },
+  {
+    "id": 45,
+    "question": "___ they play football yesterday?",
+    "correct": "Did",
+    "wrong_pool": ["Do", "Were", "Does", "Are"],
+    "hint": "Câu hỏi Quá Khứ Đơn bắt đầu bằng trợ động từ 'Did'."
+  },
+  {
+    "id": 46,
+    "question": "___ he go to the party last Saturday?",
+    "correct": "Did",
+    "wrong_pool": ["Does", "Was", "Do", "Is"],
+    "hint": "Câu hỏi Quá Khứ Đơn bắt đầu bằng trợ động từ 'Did'."
+  },
+  {
+    "id": 47,
+    "question": "___ you see the film last night?",
+    "correct": "Did",
+    "wrong_pool": ["Do", "Were", "Does", "Are"],
+    "hint": "Câu hỏi Quá Khứ Đơn bắt đầu bằng trợ động từ 'Did'."
+  },
+  {
+    "id": 48,
+    "question": "___ your mother cook a special meal last week?",
+    "correct": "Did",
+    "wrong_pool": ["Does", "Was", "Do", "Is"],
+    "hint": "Câu hỏi Quá Khứ Đơn bắt đầu bằng trợ động từ 'Did'."
+  },
+  {
+    "id": 49,
+    "question": "___ it rain yesterday afternoon?",
+    "correct": "Did",
+    "wrong_pool": ["Does", "Was", "Do", "Is"],
+    "hint": "Câu hỏi Quá Khứ Đơn bắt đầu bằng trợ động từ 'Did'."
+  },
+  {
+    "id": 50,
+    "question": "___ your friends come to your house last weekend?",
+    "correct": "Did",
+    "wrong_pool": ["Do", "Were", "Does", "Are"],
+    "hint": "Câu hỏi Quá Khứ Đơn bắt đầu bằng trợ động từ 'Did'."
+  },
+
+  {
+    "id": 51,
+    "question": "Did she ___ to school yesterday?",
+    "correct": "go",
+    "wrong_pool": ["went", "going", "goes", "to go"],
+    "hint": "Sau 'Did + chủ ngữ', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 52,
+    "question": "Did he ___ the game last week?",
+    "correct": "win",
+    "wrong_pool": ["won", "winning", "wins", "to win"],
+    "hint": "Sau 'Did + chủ ngữ', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 53,
+    "question": "Did they ___ a good time last weekend?",
+    "correct": "have",
+    "wrong_pool": ["had", "having", "has", "to have"],
+    "hint": "Sau 'Did + chủ ngữ', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 54,
+    "question": "Did your class ___ a field trip last month?",
+    "correct": "take",
+    "wrong_pool": ["took", "taking", "takes", "to take"],
+    "hint": "Sau 'Did + chủ ngữ', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 55,
+    "question": "Did she ___ you with the homework yesterday?",
+    "correct": "help",
+    "wrong_pool": ["helped", "helping", "helps", "to help"],
+    "hint": "Sau 'Did + chủ ngữ', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 56,
+    "question": "Did he ___ his homework last night?",
+    "correct": "finish",
+    "wrong_pool": ["finished", "finishing", "finishes", "to finish"],
+    "hint": "Sau 'Did + chủ ngữ', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 57,
+    "question": "Did they ___ football yesterday?",
+    "correct": "play",
+    "wrong_pool": ["played", "playing", "plays", "to play"],
+    "hint": "Sau 'Did + chủ ngữ', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 58,
+    "question": "Did your father ___ home early last night?",
+    "correct": "come",
+    "wrong_pool": ["came", "coming", "comes", "to come"],
+    "hint": "Sau 'Did + chủ ngữ', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+
+  {
+    "id": 59,
+    "question": "He ___ happy yesterday.",
+    "correct": "was",
+    "wrong_pool": ["were", "is", "are", "be"],
+    "hint": "Động từ 'to be' quá khứ: I/He/She/It → was; You/We/They → were."
+  },
+  {
+    "id": 60,
+    "question": "They ___ tired after school last Friday.",
+    "correct": "were",
+    "wrong_pool": ["was", "are", "is", "be"],
+    "hint": "Động từ 'to be' quá khứ: I/He/She/It → was; You/We/They → were."
+  },
+  {
+    "id": 61,
+    "question": "I ___ at home last Sunday.",
+    "correct": "was",
+    "wrong_pool": ["were", "am", "is", "be"],
+    "hint": "Động từ 'to be' quá khứ: I/He/She/It → was; You/We/They → were."
+  },
+  {
+    "id": 62,
+    "question": "The weather ___ very sunny last week.",
+    "correct": "was",
+    "wrong_pool": ["were", "is", "are", "be"],
+    "hint": "Động từ 'to be' quá khứ: I/He/She/It → was; You/We/They → were."
+  },
+  {
+    "id": 63,
+    "question": "We ___ at the park yesterday afternoon.",
+    "correct": "were",
+    "wrong_pool": ["was", "are", "is", "be"],
+    "hint": "Động từ 'to be' quá khứ: I/He/She/It → was; You/We/They → were."
+  },
+  {
+    "id": 64,
+    "question": "She ___ sick last Monday.",
+    "correct": "was",
+    "wrong_pool": ["were", "is", "are", "be"],
+    "hint": "Động từ 'to be' quá khứ: I/He/She/It → was; You/We/They → were."
+  },
+  {
+    "id": 65,
+    "question": "Tom and Anna ___ in the same class last year.",
+    "correct": "were",
+    "wrong_pool": ["was", "are", "is", "be"],
+    "hint": "Động từ 'to be' quá khứ: I/He/She/It → was; You/We/They → were."
+  },
+
+  {
+    "id": 66,
+    "question": "She ___ her aunt the other day.",
+    "correct": "visited",
+    "wrong_pool": ["visit", "visits", "visiting", "has visited"],
+    "hint": "Từ nhận dạng 'the other day' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 67,
+    "question": "I ___ a bicycle when I was young.",
+    "correct": "had",
+    "wrong_pool": ["have", "has", "having", "have had"],
+    "hint": "Từ nhận dạng 'when I was young' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 68,
+    "question": "In the past, people ___ without phones.",
+    "correct": "lived",
+    "wrong_pool": ["live", "lives", "living", "have lived"],
+    "hint": "Từ nhận dạng 'in the past' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 69,
+    "question": "The other day, I ___ my old friend at the supermarket.",
+    "correct": "met",
+    "wrong_pool": ["meet", "meets", "meeting", "have met"],
+    "hint": "Từ nhận dạng 'the other day' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 70,
+    "question": "She ___ a new dress last month.",
+    "correct": "bought",
+    "wrong_pool": ["buy", "buys", "buying", "has bought"],
+    "hint": "Từ nhận dạng 'last month' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 71,
+    "question": "The other day, he ___ his wallet at school.",
+    "correct": "left",
+    "wrong_pool": ["leave", "leaves", "leaving", "has left"],
+    "hint": "Từ nhận dạng 'the other day' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 72,
+    "question": "When I was little, I ___ very shy.",
+    "correct": "was",
+    "wrong_pool": ["were", "am", "is", "be"],
+    "hint": "Từ nhận dạng 'when I was...' → thì Quá Khứ Đơn. Động từ 'to be' quá khứ: I → was."
+  },
+  {
+    "id": 73,
+    "question": "A week ago, I ___ a new friend at the library.",
+    "correct": "made",
+    "wrong_pool": ["make", "makes", "making", "have made"],
+    "hint": "Từ nhận dạng 'ago' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 74,
+    "question": "When I was young, my grandfather ___ me stories every night.",
+    "correct": "told",
+    "wrong_pool": ["tell", "tells", "telling", "has told"],
+    "hint": "Từ nhận dạng 'when I was young' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 75,
+    "question": "In the past, children ___ outside more often.",
+    "correct": "played",
+    "wrong_pool": ["play", "plays", "playing", "have played"],
+    "hint": "Từ nhận dạng 'in the past' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+
+  {
+    "id": 76,
+    "question": "She ___ not go to school yesterday. She was sick.",
+    "correct": "did",
+    "wrong_pool": ["does", "was", "is", "do"],
+    "hint": "Câu phủ định Quá Khứ Đơn: S + did not + base form. Điền 'did' vào chỗ trống."
+  },
+  {
+    "id": 77,
+    "question": "They ___ not watch TV last night. They studied.",
+    "correct": "did",
+    "wrong_pool": ["do", "were", "are", "does"],
+    "hint": "Câu phủ định Quá Khứ Đơn: S + did not + base form. Điền 'did' vào chỗ trống."
+  },
+  {
+    "id": 78,
+    "question": "He ___ not finish his homework last night.",
+    "correct": "did",
+    "wrong_pool": ["does", "was", "is", "do"],
+    "hint": "Câu phủ định Quá Khứ Đơn: S + did not + base form. Điền 'did' vào chỗ trống."
+  },
+  {
+    "id": 79,
+    "question": "I ___ not know the answer yesterday.",
+    "correct": "did",
+    "wrong_pool": ["do", "was", "am", "does"],
+    "hint": "Câu phủ định Quá Khứ Đơn: S + did not + base form. Điền 'did' vào chỗ trống."
+  },
+  {
+    "id": 80,
+    "question": "We ___ not go to the party last Saturday.",
+    "correct": "did",
+    "wrong_pool": ["do", "were", "are", "does"],
+    "hint": "Câu phủ định Quá Khứ Đơn: S + did not + base form. Điền 'did' vào chỗ trống."
+  },
+
+  {
+    "id": 81,
+    "question": "She didn't ___ to the party last Saturday.",
+    "correct": "come",
+    "wrong_pool": ["came", "coming", "comes", "to come"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 82,
+    "question": "They didn't ___ any water after playing yesterday.",
+    "correct": "drink",
+    "wrong_pool": ["drank", "drinking", "drinks", "to drink"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 83,
+    "question": "He didn't ___ the test last week.",
+    "correct": "pass",
+    "wrong_pool": ["passed", "passing", "passes", "to pass"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 84,
+    "question": "I didn't ___ my bed yesterday morning.",
+    "correct": "make",
+    "wrong_pool": ["made", "making", "makes", "to make"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 85,
+    "question": "She didn't ___ her glasses, so she couldn't see the board.",
+    "correct": "wear",
+    "wrong_pool": ["wore", "wearing", "wears", "to wear"],
+    "hint": "Sau 'didn't', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+
+  {
+    "id": 86,
+    "question": "My family ___ to another city three years ago.",
+    "correct": "moved",
+    "wrong_pool": ["move", "moves", "moving", "have moved"],
+    "hint": "Từ nhận dạng 'ago' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 87,
+    "question": "She ___ her piano exam last week.",
+    "correct": "passed",
+    "wrong_pool": ["pass", "passes", "passing", "has passed"],
+    "hint": "Từ nhận dạng 'last week' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 88,
+    "question": "The other day, my dog ___ a cat and ran away.",
+    "correct": "saw",
+    "wrong_pool": ["see", "sees", "seeing", "has seen"],
+    "hint": "Từ nhận dạng 'the other day' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 89,
+    "question": "We ___ a big fish last summer.",
+    "correct": "caught",
+    "wrong_pool": ["catch", "catches", "catching", "have caught"],
+    "hint": "Từ nhận dạng 'last summer' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 90,
+    "question": "When I was young, my parents ___ me to the zoo every year.",
+    "correct": "took",
+    "wrong_pool": ["take", "takes", "taking", "have taken"],
+    "hint": "Từ nhận dạng 'when I was young' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 91,
+    "question": "He ___ sick last week and stayed home from school.",
+    "correct": "felt",
+    "wrong_pool": ["feel", "feels", "feeling", "has felt"],
+    "hint": "Từ nhận dạng 'last week' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 92,
+    "question": "The teacher ___ us a test last Friday.",
+    "correct": "gave",
+    "wrong_pool": ["give", "gives", "giving", "has given"],
+    "hint": "Từ nhận dạng 'last Friday' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 93,
+    "question": "She ___ her best friend a birthday card last month.",
+    "correct": "sent",
+    "wrong_pool": ["send", "sends", "sending", "has sent"],
+    "hint": "Từ nhận dạng 'last month' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 94,
+    "question": "In the past, she ___ very fast.",
+    "correct": "ran",
+    "wrong_pool": ["run", "runs", "running", "has run"],
+    "hint": "Từ nhận dạng 'in the past' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  },
+  {
+    "id": 95,
+    "question": "He ___ the ball into the goal in the match last week.",
+    "correct": "kicked",
+    "wrong_pool": ["kick", "kicks", "kicking", "has kicked"],
+    "hint": "Từ nhận dạng 'last week' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+
+  {
+    "id": 96,
+    "question": "___ he ride his bike to school last week?",
+    "correct": "Did",
+    "wrong_pool": ["Does", "Was", "Do", "Is"],
+    "hint": "Câu hỏi Quá Khứ Đơn bắt đầu bằng trợ động từ 'Did'."
+  },
+  {
+    "id": 97,
+    "question": "Did your sister ___ you with cooking yesterday?",
+    "correct": "help",
+    "wrong_pool": ["helped", "helping", "helps", "to help"],
+    "hint": "Sau 'Did + chủ ngữ', động từ luôn dùng dạng nguyên thể (base form) — không chia quá khứ."
+  },
+  {
+    "id": 98,
+    "question": "The children ___ very excited at the school festival last year.",
+    "correct": "were",
+    "wrong_pool": ["was", "are", "is", "be"],
+    "hint": "Động từ 'to be' quá khứ: I/He/She/It → was; You/We/They → were."
+  },
+  {
+    "id": 99,
+    "question": "She ___ a lot when she was a baby.",
+    "correct": "cried",
+    "wrong_pool": ["cry", "cries", "crying", "has cried"],
+    "hint": "Từ nhận dạng 'when she was a baby' → thì Quá Khứ Đơn. Động từ thêm -ed."
+  },
+  {
+    "id": 100,
+    "question": "He ___ first place in the competition last year.",
+    "correct": "won",
+    "wrong_pool": ["win", "wins", "winning", "has won"],
+    "hint": "Từ nhận dạng 'last year' → thì Quá Khứ Đơn. Động từ này bất quy tắc, cần nhớ dạng quá khứ (V2)."
+  }
+]

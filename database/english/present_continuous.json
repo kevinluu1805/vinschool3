@@ -1,0 +1,712 @@
+[
+  {
+    "id": 1,
+    "question": "She is ___ TV right now.",
+    "correct": "watching",
+    "wrong_pool": ["watch", "watches", "watched", "to watch"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 2,
+    "question": "He is ___ in the pool right now.",
+    "correct": "swimming",
+    "wrong_pool": ["swim", "swims", "swam", "to swim"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 3,
+    "question": "They are ___ football at the moment.",
+    "correct": "playing",
+    "wrong_pool": ["play", "plays", "played", "to play"],
+    "hint": "Từ nhận dạng 'at the moment' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 4,
+    "question": "I am ___ a book right now.",
+    "correct": "reading",
+    "wrong_pool": ["read", "reads", "was reading", "to read"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 5,
+    "question": "She is ___ to music at the moment.",
+    "correct": "listening",
+    "wrong_pool": ["listen", "listens", "listened", "to listen"],
+    "hint": "Từ nhận dạng 'at the moment' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 6,
+    "question": "We are ___ lunch right now.",
+    "correct": "eating",
+    "wrong_pool": ["eat", "eats", "ate", "to eat"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 7,
+    "question": "He is ___ his homework now.",
+    "correct": "doing",
+    "wrong_pool": ["do", "does", "did", "to do"],
+    "hint": "Từ nhận dạng 'now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 8,
+    "question": "My mother is ___ dinner at the moment.",
+    "correct": "cooking",
+    "wrong_pool": ["cook", "cooks", "cooked", "to cook"],
+    "hint": "Từ nhận dạng 'at the moment' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 9,
+    "question": "The children are ___ in the park right now.",
+    "correct": "running",
+    "wrong_pool": ["run", "runs", "ran", "to run"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 10,
+    "question": "She is ___ a letter right now.",
+    "correct": "writing",
+    "wrong_pool": ["write", "writes", "wrote", "to write"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 11,
+    "question": "He is ___ his bike now.",
+    "correct": "riding",
+    "wrong_pool": ["ride", "rides", "rode", "to ride"],
+    "hint": "Từ nhận dạng 'now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 12,
+    "question": "They are ___ to school at the moment.",
+    "correct": "walking",
+    "wrong_pool": ["walk", "walks", "walked", "to walk"],
+    "hint": "Từ nhận dạng 'at the moment' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 13,
+    "question": "I am ___ to my friend right now.",
+    "correct": "talking",
+    "wrong_pool": ["talk", "talks", "talked", "to talk"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 14,
+    "question": "She is ___ in the rain right now.",
+    "correct": "dancing",
+    "wrong_pool": ["dance", "dances", "danced", "to dance"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 15,
+    "question": "He is ___ a picture at the moment.",
+    "correct": "drawing",
+    "wrong_pool": ["draw", "draws", "drew", "to draw"],
+    "hint": "Từ nhận dạng 'at the moment' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 16,
+    "question": "My cat is ___ on the sofa right now.",
+    "correct": "sleeping",
+    "wrong_pool": ["sleep", "sleeps", "slept", "to sleep"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 17,
+    "question": "They are ___ a sandcastle right now.",
+    "correct": "building",
+    "wrong_pool": ["build", "builds", "built", "to build"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 18,
+    "question": "She is ___ the dishes at the moment.",
+    "correct": "washing",
+    "wrong_pool": ["wash", "washes", "washed", "to wash"],
+    "hint": "Từ nhận dạng 'at the moment' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 19,
+    "question": "He is ___ a song right now.",
+    "correct": "singing",
+    "wrong_pool": ["sing", "sings", "sang", "to sing"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 20,
+    "question": "We are ___ for the bus right now.",
+    "correct": "waiting",
+    "wrong_pool": ["wait", "waits", "waited", "to wait"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+
+  {
+    "id": 21,
+    "question": "She ___ watching TV right now.",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ She → dùng 'is'."
+  },
+  {
+    "id": 22,
+    "question": "They ___ playing in the garden at the moment.",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ They → dùng 'are'."
+  },
+  {
+    "id": 23,
+    "question": "I ___ reading a book right now.",
+    "correct": "am",
+    "wrong_pool": ["is", "are", "was", "do"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ I → dùng 'am'."
+  },
+  {
+    "id": 24,
+    "question": "He ___ cooking dinner now.",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ He → dùng 'is'."
+  },
+  {
+    "id": 25,
+    "question": "We ___ doing our homework right now.",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ We → dùng 'are'."
+  },
+  {
+    "id": 26,
+    "question": "My sister ___ listening to music at the moment.",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ My sister → dùng 'is'."
+  },
+  {
+    "id": 27,
+    "question": "The dog ___ sleeping on the floor right now.",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ The dog → dùng 'is'."
+  },
+  {
+    "id": 28,
+    "question": "My parents ___ watching a movie at the moment.",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ My parents → dùng 'are'."
+  },
+  {
+    "id": 29,
+    "question": "You ___ talking too loud right now.",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ You → dùng 'are'."
+  },
+  {
+    "id": 30,
+    "question": "Tom and Anna ___ studying together right now.",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ Tom and Anna (hai người) → dùng 'are'."
+  },
+
+  {
+    "id": 31,
+    "question": "Look! The cat is ___ up the tree!",
+    "correct": "climbing",
+    "wrong_pool": ["climb", "climbs", "climbed", "to climb"],
+    "hint": "Câu mệnh lệnh gây chú ý (Look!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 32,
+    "question": "Listen! Someone is ___ outside!",
+    "correct": "singing",
+    "wrong_pool": ["sing", "sings", "sang", "to sing"],
+    "hint": "Câu mệnh lệnh gây chú ý (Listen!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 33,
+    "question": "Look! He is ___ his kite!",
+    "correct": "flying",
+    "wrong_pool": ["fly", "flies", "flew", "to fly"],
+    "hint": "Câu mệnh lệnh gây chú ý (Look!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 34,
+    "question": "Be quiet! The baby is ___!",
+    "correct": "sleeping",
+    "wrong_pool": ["sleep", "sleeps", "slept", "to sleep"],
+    "hint": "Câu mệnh lệnh gây chú ý (Be quiet!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 35,
+    "question": "Look! The dog is ___ after the ball!",
+    "correct": "running",
+    "wrong_pool": ["run", "runs", "ran", "to run"],
+    "hint": "Câu mệnh lệnh gây chú ý (Look!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 36,
+    "question": "Listen! My mother is ___!",
+    "correct": "calling",
+    "wrong_pool": ["call", "calls", "called", "to call"],
+    "hint": "Câu mệnh lệnh gây chú ý (Listen!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 37,
+    "question": "Look! It is ___ outside!",
+    "correct": "raining",
+    "wrong_pool": ["rain", "rains", "rained", "to rain"],
+    "hint": "Câu mệnh lệnh gây chú ý (Look!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 38,
+    "question": "Be quiet! Dad is ___!",
+    "correct": "working",
+    "wrong_pool": ["work", "works", "worked", "to work"],
+    "hint": "Câu mệnh lệnh gây chú ý (Be quiet!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 39,
+    "question": "Look! She is ___ her dog in the park!",
+    "correct": "walking",
+    "wrong_pool": ["walk", "walks", "walked", "to walk"],
+    "hint": "Câu mệnh lệnh gây chú ý (Look!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 40,
+    "question": "Watch out! A car is ___!",
+    "correct": "coming",
+    "wrong_pool": ["come", "comes", "came", "to come"],
+    "hint": "Câu mệnh lệnh gây chú ý (Watch out!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 41,
+    "question": "Look! The sun is ___!",
+    "correct": "shining",
+    "wrong_pool": ["shine", "shines", "shone", "to shine"],
+    "hint": "Câu mệnh lệnh gây chú ý (Look!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 42,
+    "question": "Listen! The children are ___!",
+    "correct": "laughing",
+    "wrong_pool": ["laugh", "laughs", "laughed", "to laugh"],
+    "hint": "Câu mệnh lệnh gây chú ý (Listen!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+
+  {
+    "id": 43,
+    "question": "Look! The birds ___ flying!",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Câu mệnh lệnh gây chú ý (Look!) → thì Hiện Tại Tiếp Diễn. Chủ ngữ The birds → dùng 'are'."
+  },
+  {
+    "id": 44,
+    "question": "Listen! Someone ___ crying!",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Câu mệnh lệnh gây chú ý (Listen!) → thì Hiện Tại Tiếp Diễn. Chủ ngữ Someone → dùng 'is'."
+  },
+  {
+    "id": 45,
+    "question": "Be quiet! The teacher ___ talking!",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Câu mệnh lệnh gây chú ý (Be quiet!) → thì Hiện Tại Tiếp Diễn. Chủ ngữ The teacher → dùng 'is'."
+  },
+  {
+    "id": 46,
+    "question": "Look! The children ___ playing in the snow!",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Câu mệnh lệnh gây chú ý (Look!) → thì Hiện Tại Tiếp Diễn. Chủ ngữ The children → dùng 'are'."
+  },
+  {
+    "id": 47,
+    "question": "Watch out! A ball ___ coming!",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Câu mệnh lệnh gây chú ý (Watch out!) → thì Hiện Tại Tiếp Diễn. Chủ ngữ A ball → dùng 'is'."
+  },
+  {
+    "id": 48,
+    "question": "Listen! The baby ___ laughing!",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Câu mệnh lệnh gây chú ý (Listen!) → thì Hiện Tại Tiếp Diễn. Chủ ngữ The baby → dùng 'is'."
+  },
+  {
+    "id": 49,
+    "question": "Look! It ___ snowing!",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Câu mệnh lệnh gây chú ý (Look!) → thì Hiện Tại Tiếp Diễn. Chủ ngữ It → dùng 'is'."
+  },
+  {
+    "id": 50,
+    "question": "Be quiet! Grandpa ___ sleeping!",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Câu mệnh lệnh gây chú ý (Be quiet!) → thì Hiện Tại Tiếp Diễn. Chủ ngữ Grandpa → dùng 'is'."
+  },
+
+  {
+    "id": 51,
+    "question": "She is ___ very hard these days.",
+    "correct": "studying",
+    "wrong_pool": ["study", "studies", "studied", "to study"],
+    "hint": "Từ nhận dạng 'these days' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 52,
+    "question": "He is ___ a new book currently.",
+    "correct": "reading",
+    "wrong_pool": ["read", "reads", "was reading", "to read"],
+    "hint": "Từ nhận dạng 'currently' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 53,
+    "question": "They are ___ a new house these days.",
+    "correct": "building",
+    "wrong_pool": ["build", "builds", "built", "to build"],
+    "hint": "Từ nhận dạng 'these days' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 54,
+    "question": "I am ___ a new language these days.",
+    "correct": "learning",
+    "wrong_pool": ["learn", "learns", "learned", "to learn"],
+    "hint": "Từ nhận dạng 'these days' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 55,
+    "question": "She is ___ better these days.",
+    "correct": "feeling",
+    "wrong_pool": ["feel", "feels", "felt", "to feel"],
+    "hint": "Từ nhận dạng 'these days' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 56,
+    "question": "He is ___ on a new project currently.",
+    "correct": "working",
+    "wrong_pool": ["work", "works", "worked", "to work"],
+    "hint": "Từ nhận dạng 'currently' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 57,
+    "question": "Currently, we are ___ a new game.",
+    "correct": "playing",
+    "wrong_pool": ["play", "plays", "played", "to play"],
+    "hint": "Từ nhận dạng 'currently' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 58,
+    "question": "These days, she is ___ more water.",
+    "correct": "drinking",
+    "wrong_pool": ["drink", "drinks", "drank", "to drink"],
+    "hint": "Từ nhận dạng 'these days' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 59,
+    "question": "He is ___ the house currently.",
+    "correct": "painting",
+    "wrong_pool": ["paint", "paints", "painted", "to paint"],
+    "hint": "Từ nhận dạng 'currently' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 60,
+    "question": "Currently, the teacher is ___ us a new story.",
+    "correct": "telling",
+    "wrong_pool": ["tell", "tells", "told", "to tell"],
+    "hint": "Từ nhận dạng 'currently' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+
+  {
+    "id": 61,
+    "question": "Currently, she ___ studying very hard.",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Từ nhận dạng 'currently' → thì Hiện Tại Tiếp Diễn. Chủ ngữ she → dùng 'is'."
+  },
+  {
+    "id": 62,
+    "question": "These days, they ___ building a new school nearby.",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Từ nhận dạng 'these days' → thì Hiện Tại Tiếp Diễn. Chủ ngữ they → dùng 'are'."
+  },
+  {
+    "id": 63,
+    "question": "He ___ working on a new project currently.",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Từ nhận dạng 'currently' → thì Hiện Tại Tiếp Diễn. Chủ ngữ He → dùng 'is'."
+  },
+  {
+    "id": 64,
+    "question": "Currently, I ___ learning to swim.",
+    "correct": "am",
+    "wrong_pool": ["is", "are", "was", "do"],
+    "hint": "Từ nhận dạng 'currently' → thì Hiện Tại Tiếp Diễn. Chủ ngữ I → dùng 'am'."
+  },
+  {
+    "id": 65,
+    "question": "These days, my parents ___ cooking healthier food.",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Từ nhận dạng 'these days' → thì Hiện Tại Tiếp Diễn. Chủ ngữ my parents → dùng 'are'."
+  },
+
+  {
+    "id": 66,
+    "question": "She isn't ___ right now. She is studying.",
+    "correct": "sleeping",
+    "wrong_pool": ["sleep", "sleeps", "slept", "to sleep"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Câu phủ định: S + isn't/aren't + V-ing."
+  },
+  {
+    "id": 67,
+    "question": "They aren't ___ to music. They are reading.",
+    "correct": "listening",
+    "wrong_pool": ["listen", "listens", "listened", "to listen"],
+    "hint": "Thì Hiện Tại Tiếp Diễn phủ định: S + isn't/aren't + V-ing. Động từ cần thêm -ing."
+  },
+  {
+    "id": 68,
+    "question": "He isn't ___ TV at the moment. He is outside.",
+    "correct": "watching",
+    "wrong_pool": ["watch", "watches", "watched", "to watch"],
+    "hint": "Từ nhận dạng 'at the moment' → thì Hiện Tại Tiếp Diễn. Câu phủ định: S + isn't/aren't + V-ing."
+  },
+  {
+    "id": 69,
+    "question": "I am not ___ right now. I am eating.",
+    "correct": "playing",
+    "wrong_pool": ["play", "plays", "played", "to play"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Câu phủ định: S + am not + V-ing."
+  },
+  {
+    "id": 70,
+    "question": "We aren't ___ lunch at the moment.",
+    "correct": "eating",
+    "wrong_pool": ["eat", "eats", "ate", "to eat"],
+    "hint": "Từ nhận dạng 'at the moment' → thì Hiện Tại Tiếp Diễn. Câu phủ định: S + isn't/aren't + V-ing."
+  },
+  {
+    "id": 71,
+    "question": "He isn't ___ his homework now.",
+    "correct": "doing",
+    "wrong_pool": ["do", "does", "did", "to do"],
+    "hint": "Từ nhận dạng 'now' → thì Hiện Tại Tiếp Diễn. Câu phủ định: S + isn't/aren't + V-ing."
+  },
+  {
+    "id": 72,
+    "question": "The children aren't ___ right now. They are playing.",
+    "correct": "crying",
+    "wrong_pool": ["cry", "cries", "cried", "to cry"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Câu phủ định: S + isn't/aren't + V-ing."
+  },
+
+  {
+    "id": 73,
+    "question": "She ___ not dancing right now.",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Chủ ngữ She → dùng 'is'."
+  },
+  {
+    "id": 74,
+    "question": "They ___ not sleeping at the moment.",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Từ nhận dạng 'at the moment' → thì Hiện Tại Tiếp Diễn. Chủ ngữ They → dùng 'are'."
+  },
+  {
+    "id": 75,
+    "question": "He ___ not eating. He is playing outside.",
+    "correct": "is",
+    "wrong_pool": ["are", "am", "was", "does"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ He → dùng 'is'."
+  },
+  {
+    "id": 76,
+    "question": "I ___ not talking. I am listening.",
+    "correct": "am",
+    "wrong_pool": ["is", "are", "was", "do"],
+    "hint": "Thì Hiện Tại Tiếp Diễn: S + am/is/are + V-ing. Chủ ngữ I → dùng 'am'."
+  },
+  {
+    "id": 77,
+    "question": "We ___ not watching TV right now. We are studying.",
+    "correct": "are",
+    "wrong_pool": ["is", "am", "were", "do"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Chủ ngữ We → dùng 'are'."
+  },
+
+  {
+    "id": 78,
+    "question": "___ she studying right now?",
+    "correct": "Is",
+    "wrong_pool": ["Are", "Am", "Does", "Was"],
+    "hint": "Câu hỏi Hiện Tại Tiếp Diễn: Is/Are/Am + S + V-ing? Chủ ngữ she → dùng 'Is'."
+  },
+  {
+    "id": 79,
+    "question": "___ he sleeping right now?",
+    "correct": "Is",
+    "wrong_pool": ["Are", "Am", "Does", "Was"],
+    "hint": "Câu hỏi Hiện Tại Tiếp Diễn: Is/Are/Am + S + V-ing? Chủ ngữ he → dùng 'Is'."
+  },
+  {
+    "id": 80,
+    "question": "___ your parents watching TV now?",
+    "correct": "Are",
+    "wrong_pool": ["Is", "Am", "Do", "Were"],
+    "hint": "Câu hỏi Hiện Tại Tiếp Diễn: Is/Are/Am + S + V-ing? Chủ ngữ your parents → dùng 'Are'."
+  },
+  {
+    "id": 81,
+    "question": "___ I doing this right?",
+    "correct": "Am",
+    "wrong_pool": ["Is", "Are", "Do", "Was"],
+    "hint": "Câu hỏi Hiện Tại Tiếp Diễn: Is/Are/Am + S + V-ing? Chủ ngữ I → dùng 'Am'."
+  },
+  {
+    "id": 82,
+    "question": "___ your friends walking to school right now?",
+    "correct": "Are",
+    "wrong_pool": ["Is", "Am", "Do", "Were"],
+    "hint": "Câu hỏi Hiện Tại Tiếp Diễn: Is/Are/Am + S + V-ing? Chủ ngữ your friends → dùng 'Are'."
+  },
+  {
+    "id": 83,
+    "question": "___ it raining outside right now?",
+    "correct": "Is",
+    "wrong_pool": ["Are", "Am", "Does", "Was"],
+    "hint": "Câu hỏi Hiện Tại Tiếp Diễn: Is/Are/Am + S + V-ing? Chủ ngữ it → dùng 'Is'."
+  },
+  {
+    "id": 84,
+    "question": "___ your brother eating lunch now?",
+    "correct": "Is",
+    "wrong_pool": ["Are", "Am", "Does", "Was"],
+    "hint": "Câu hỏi Hiện Tại Tiếp Diễn: Is/Are/Am + S + V-ing? Chủ ngữ your brother → dùng 'Is'."
+  },
+  {
+    "id": 85,
+    "question": "___ the students listening to the teacher now?",
+    "correct": "Are",
+    "wrong_pool": ["Is", "Am", "Do", "Were"],
+    "hint": "Câu hỏi Hiện Tại Tiếp Diễn: Is/Are/Am + S + V-ing? Chủ ngữ the students → dùng 'Are'."
+  },
+  {
+    "id": 86,
+    "question": "___ she wearing a hat right now?",
+    "correct": "Is",
+    "wrong_pool": ["Are", "Am", "Does", "Was"],
+    "hint": "Câu hỏi Hiện Tại Tiếp Diễn: Is/Are/Am + S + V-ing? Chủ ngữ she → dùng 'Is'."
+  },
+  {
+    "id": 87,
+    "question": "___ the birds singing in the tree right now?",
+    "correct": "Are",
+    "wrong_pool": ["Is", "Am", "Do", "Were"],
+    "hint": "Câu hỏi Hiện Tại Tiếp Diễn: Is/Are/Am + S + V-ing? Chủ ngữ the birds → dùng 'Are'."
+  },
+
+  {
+    "id": 88,
+    "question": "Are they ___ football at the moment?",
+    "correct": "playing",
+    "wrong_pool": ["play", "plays", "played", "to play"],
+    "hint": "Từ nhận dạng 'at the moment' → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 89,
+    "question": "Is she ___ right now?",
+    "correct": "crying",
+    "wrong_pool": ["cry", "cries", "cried", "to cry"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 90,
+    "question": "Is your brother ___ his homework at the moment?",
+    "correct": "doing",
+    "wrong_pool": ["do", "does", "did", "to do"],
+    "hint": "Từ nhận dạng 'at the moment' → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 91,
+    "question": "Are your friends ___ to school right now?",
+    "correct": "walking",
+    "wrong_pool": ["walk", "walks", "walked", "to walk"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 92,
+    "question": "Is the dog ___ outside right now?",
+    "correct": "barking",
+    "wrong_pool": ["bark", "barks", "barked", "to bark"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 93,
+    "question": "Is your mother ___ on the phone right now?",
+    "correct": "talking",
+    "wrong_pool": ["talk", "talks", "talked", "to talk"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 94,
+    "question": "Are you ___ a good time right now?",
+    "correct": "having",
+    "wrong_pool": ["have", "has", "had", "to have"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 95,
+    "question": "Is the teacher ___ a story right now?",
+    "correct": "telling",
+    "wrong_pool": ["tell", "tells", "told", "to tell"],
+    "hint": "Từ nhận dạng 'right now' → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+
+  {
+    "id": 96,
+    "question": "Right now, my brother is ___ very loudly.",
+    "correct": "laughing",
+    "wrong_pool": ["laugh", "laughs", "laughed", "to laugh"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 97,
+    "question": "At the moment, she is ___ a present for her mother.",
+    "correct": "making",
+    "wrong_pool": ["make", "makes", "made", "to make"],
+    "hint": "Từ nhận dạng 'at the moment' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 98,
+    "question": "Watch out! He is ___ too fast!",
+    "correct": "driving",
+    "wrong_pool": ["drive", "drives", "drove", "to drive"],
+    "hint": "Câu mệnh lệnh gây chú ý (Watch out!) → hành động đang diễn ra ngay lúc này → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 99,
+    "question": "Right now, she is ___ quietly in the chair.",
+    "correct": "sitting",
+    "wrong_pool": ["sit", "sits", "sat", "to sit"],
+    "hint": "Từ nhận dạng 'right now' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  },
+  {
+    "id": 100,
+    "question": "At the moment, everyone is ___ the new student.",
+    "correct": "welcoming",
+    "wrong_pool": ["welcome", "welcomes", "welcomed", "to welcome"],
+    "hint": "Từ nhận dạng 'at the moment' → hành động đang xảy ra → thì Hiện Tại Tiếp Diễn. Động từ cần thêm -ing."
+  }
+]

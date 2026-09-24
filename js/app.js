@@ -1,6 +1,7 @@
 'use strict';
 
-const DB = './database';
+const APP_CONFIG = window.APP_CONFIG || {};
+const DB = APP_CONFIG.db || window.DB_PATH || './database';
 const QUESTION_COUNTS = [1, 3, 5, 10];
 
 let _settingsOutsideListener = null;
@@ -12,7 +13,7 @@ const state = {
   counts: {},          // { [typeId]: number } — questions per type, default 1
   quiz: [],            // [{ typeId, typeLabel, question, correct, answers, userAnswer }]
   settings: {
-    help: true,
+    help: APP_CONFIG.showSettings !== false,
   },
   theories: [],
 };
@@ -87,6 +88,7 @@ async function startQuiz() {
           correct: q.correct,
           answers: shuffle([q.correct, ...pickN(q.wrong_pool, Math.min(3, q.wrong_pool.length))]),
           userAnswer: null,
+          hint: q.hint || null,
         });
       }
     }
@@ -114,10 +116,15 @@ function tmplSelection() {
   const totalQ = [...state.selected].reduce((sum, id) => sum + (state.counts[id] || 1), 0);
   return `
     <div class="space-y-6">
-      <div class="text-center pt-4">
-        <h1 class="text-3xl font-bold text-slate-800">VinSchool Math Quiz</h1>
+      <div class="flex items-center pt-4">
+        <a href="../" class="flex items-center gap-1.5 text-sm text-slate-400 hover:text-blue-600 transition-colors">
+          <i class="fa-solid fa-arrow-left text-xs"></i>
+          Chọn môn
+        </a>
+        <h1 class="flex-1 text-center text-3xl font-bold text-slate-800 ${APP_CONFIG.showSettings !== false ? 'pr-16' : ''}">${APP_CONFIG.subject || 'Toán'}</h1>
       </div>
 
+      ${APP_CONFIG.showSettings !== false ? `
       <div class="relative flex justify-end" id="settings-wrapper">
         <button id="btn-settings"
           class="flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-slate-900 bg-white border border-slate-200 rounded-lg px-3 py-1.5 transition-colors shadow-sm">
@@ -129,10 +136,11 @@ function tmplSelection() {
           <label class="flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-slate-50 transition-colors rounded-xl">
             <input type="checkbox" id="setting-help" class="w-4 h-4 accent-blue-600 cursor-pointer"
               ${state.settings.help ? 'checked' : ''}>
-            <span class="text-slate-700 text-sm">Cho xem lý thuyết</span>
+            <span class="text-slate-700 text-sm">${APP_CONFIG.settingsLabel || 'Cho xem lý thuyết'}</span>
           </label>
         </div>
       </div>
+      ` : ''}
 
       <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
         <div class="flex items-center px-5 py-2 border-b border-slate-100 bg-slate-50">
@@ -194,6 +202,12 @@ function tmplQuiz() {
                 <button class="answer-btn" data-q="${i}" data-answer="${ans}">${ans}</button>
               `).join('')}
             </div>
+            ${q.hint && state.settings.help ? `
+            <div>
+              <button class="hint-btn text-xs text-slate-400 hover:text-blue-600 underline mt-1 transition-colors" data-q="${i}">Xem gợi ý</button>
+              <p class="hint-text hidden text-xs text-amber-600 bg-amber-50 rounded-lg px-3 py-2 mt-1" data-q="${i}">${q.hint}</p>
+            </div>
+            ` : ''}
           </div>
         `).join('')}
       </div>
@@ -206,7 +220,7 @@ function tmplQuiz() {
       </div>
     </div>
 
-    ${state.settings.help ? `
+    ${state.settings.help && APP_CONFIG.hasTheory ? `
     <button id="btn-help"
       class="fixed bottom-6 right-6 w-14 h-14 rounded-full bg-blue-600 hover:bg-blue-700 text-white shadow-lg flex items-center justify-center text-xl transition-colors z-40">
       <i class="fa-solid fa-book-open"></i>
@@ -248,7 +262,7 @@ function tmplResults() {
         <p class="text-6xl font-bold ${scoreColor} mt-3">
           ${correct}<span class="text-3xl text-slate-300">/${total}</span>
         </p>
-        <p class="text-slate-400 mt-2 text-sm">${pct}% chính xác</p>
+        <p class="text-slate-400 mt-2 text-sm">${pct}% chính xác${state.settings.help && state.quiz.some(q => q.hint) ? ' (có sử dụng gợi ý)' : ''}</p>
       </div>
 
       <div class="space-y-3">
@@ -275,6 +289,7 @@ function tmplResults() {
                         : '<span class="text-slate-400 font-normal italic">Chưa chọn</span>'}
                     </p>
                     ${!ok ? `<p class="text-emerald-600 font-medium mt-0.5">Đáp án đúng: ${q.correct}</p>` : ''}
+                    ${!ok && q.hint ? `<p class="text-amber-600 text-xs mt-1">Gợi ý: ${q.hint}</p>` : ''}
                   </div>
                 </div>
               </div>
@@ -339,40 +354,49 @@ function render() {
 
     const settingsBtn = document.getElementById('btn-settings');
     const settingsDropdown = document.getElementById('settings-dropdown');
-    if (_settingsOutsideListener) {
-      document.removeEventListener('click', _settingsOutsideListener);
+    if (settingsBtn) {
+      if (_settingsOutsideListener) {
+        document.removeEventListener('click', _settingsOutsideListener);
+      }
+      _settingsOutsideListener = () => {
+        settingsDropdown.classList.add('hidden');
+      };
+      document.addEventListener('click', _settingsOutsideListener);
+
+      settingsBtn.addEventListener('click', e => {
+        e.stopPropagation();
+        settingsDropdown.classList.toggle('hidden');
+      });
+
+      settingsDropdown.addEventListener('click', e => {
+        e.stopPropagation();
+      });
+
+      document.getElementById('setting-help').addEventListener('change', e => {
+        state.settings.help = e.target.checked;
+        localStorage.setItem('settings', JSON.stringify(state.settings));
+      });
     }
-    _settingsOutsideListener = () => {
-      settingsDropdown.classList.add('hidden');
-    };
-    document.addEventListener('click', _settingsOutsideListener);
-
-    settingsBtn.addEventListener('click', e => {
-      e.stopPropagation();
-      settingsDropdown.classList.toggle('hidden');
-    });
-
-    settingsDropdown.addEventListener('click', e => {
-      e.stopPropagation();
-    });
-
-    document.getElementById('setting-help').addEventListener('change', e => {
-      state.settings.help = e.target.checked;
-      localStorage.setItem('settings', JSON.stringify(state.settings));
-    });
   }
 
   if (state.view === 'quiz') {
     document.getElementById('quiz-list').addEventListener('click', e => {
       const btn = e.target.closest('.answer-btn');
       if (btn) selectAnswer(parseInt(btn.dataset.q), btn.dataset.answer);
+      const hintBtn = e.target.closest('.hint-btn');
+      if (hintBtn) {
+        const qi = hintBtn.dataset.q;
+        const hintText = document.querySelector(`.hint-text[data-q="${qi}"]`);
+        if (hintText) hintText.classList.toggle('hidden');
+        hintBtn.textContent = hintText && !hintText.classList.contains('hidden') ? 'Ẩn gợi ý' : 'Xem gợi ý';
+      }
     });
     document.getElementById('btn-verify').addEventListener('click', () => {
       state.view = 'results';
       render();
     });
 
-    if (state.settings.help) {
+    if (state.settings.help && APP_CONFIG.hasTheory) {
       const overlay = document.getElementById('help-modal-overlay');
       const searchInput = document.getElementById('help-search');
 
@@ -419,7 +443,9 @@ function render() {
     const validIds = new Set(state.types.map(t => t.id));
     state.selected = new Set(saved.filter(id => validIds.has(id)));
     state.counts = JSON.parse(localStorage.getItem('question_counts') || '{}');
-    Object.assign(state.settings, JSON.parse(localStorage.getItem('settings') || '{}'));
+    if (APP_CONFIG.showSettings !== false) {
+      Object.assign(state.settings, JSON.parse(localStorage.getItem('settings') || '{}'));
+    }
     render();
   } catch (err) {
     document.getElementById('app').innerHTML = `
