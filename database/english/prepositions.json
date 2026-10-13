@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "question": "School starts ___ Monday.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày trong tuần (Monday) → on"
+  },
+  {
+    "id": 2,
+    "question": "We have P.E. ___ Wednesday.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày trong tuần (Wednesday) → on"
+  },
+  {
+    "id": 3,
+    "question": "The party is ___ Saturday.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày trong tuần (Saturday) → on"
+  },
+  {
+    "id": 4,
+    "question": "I visit my grandparents ___ Sunday.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày trong tuần (Sunday) → on"
+  },
+  {
+    "id": 5,
+    "question": "My piano lesson is ___ Thursday.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày trong tuần (Thursday) → on"
+  },
+  {
+    "id": 6,
+    "question": "We play football ___ Friday afternoon.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày trong tuần (Friday) → on"
+  },
+  {
+    "id": 7,
+    "question": "She goes to the market ___ Tuesday.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày trong tuần (Tuesday) → on"
+  },
+  {
+    "id": 8,
+    "question": "The school trip is ___ Friday.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày trong tuần (Friday) → on"
+  },
+  {
+    "id": 9,
+    "question": "My sister has art class ___ Monday and Wednesday.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày trong tuần → on"
+  },
+  {
+    "id": 10,
+    "question": "The book fair opens ___ Saturday morning.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày trong tuần (Saturday) → on"
+  },
+  {
+    "id": 11,
+    "question": "My birthday is ___ May.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Tháng (May) → in; nếu có ngày cụ thể mới dùng on"
+  },
+  {
+    "id": 12,
+    "question": "School starts ___ September.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Tháng (September) → in"
+  },
+  {
+    "id": 13,
+    "question": "It is very hot ___ July.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Tháng (July) → in"
+  },
+  {
+    "id": 14,
+    "question": "We have a long holiday ___ January.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Tháng (January) → in"
+  },
+  {
+    "id": 15,
+    "question": "The flowers bloom ___ March.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Tháng (March) → in"
+  },
+  {
+    "id": 16,
+    "question": "It snows ___ December.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Tháng (December) → in"
+  },
+  {
+    "id": 17,
+    "question": "We go back to school ___ August.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Tháng (August) → in"
+  },
+  {
+    "id": 18,
+    "question": "The school trip is ___ April.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Tháng (April) → in"
+  },
+  {
+    "id": 19,
+    "question": "My parents got married ___ October.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Tháng (October) → in"
+  },
+  {
+    "id": 20,
+    "question": "Autumn starts ___ September.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Tháng (September) → in"
+  },
+  {
+    "id": 21,
+    "question": "Christmas is ___ 25th December.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày cụ thể (25 tháng 12) → on; chú ý: 'in December' nhưng 'on 25th December'"
+  },
+  {
+    "id": 22,
+    "question": "My mum's birthday is ___ 3rd March.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày cụ thể (ngày 3 tháng 3) → on"
+  },
+  {
+    "id": 23,
+    "question": "The concert is ___ 10th July.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày tháng cụ thể → on"
+  },
+  {
+    "id": 24,
+    "question": "School finishes ___ 30th May.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày cụ thể (30/5) → on"
+  },
+  {
+    "id": 25,
+    "question": "Her birthday is ___ 15th August.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày tháng cụ thể → on"
+  },
+  {
+    "id": 26,
+    "question": "The exam is ___ 20th November.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày cụ thể → on"
+  },
+  {
+    "id": 27,
+    "question": "The festival is ___ 1st June.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày cụ thể (1/6) → on"
+  },
+  {
+    "id": 28,
+    "question": "They got married ___ 14th February.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày tháng cụ thể → on"
+  },
+  {
+    "id": 29,
+    "question": "The school sports day is ___ 5th October.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày cụ thể (5/10) → on"
+  },
+  {
+    "id": 30,
+    "question": "New Year's Day is ___ 1st January.",
+    "correct": "on",
+    "wrong_pool": ["in", "at", "for", "from"],
+    "hint": "Ngày cụ thể (1/1) → on; chú ý khác với 'in January' (chỉ tháng)"
+  },
+  {
+    "id": 31,
+    "question": "I was born ___ 2016.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Năm → in"
+  },
+  {
+    "id": 32,
+    "question": "She started school ___ 2022.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Năm → in"
+  },
+  {
+    "id": 33,
+    "question": "We go to the beach ___ summer.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Mùa (summer) → in"
+  },
+  {
+    "id": 34,
+    "question": "The leaves fall ___ autumn.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Mùa Thu → in"
+  },
+  {
+    "id": 35,
+    "question": "It is very cold ___ winter.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Mùa Đông → in"
+  },
+  {
+    "id": 36,
+    "question": "Flowers bloom ___ spring.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Mùa Xuân → in"
+  },
+  {
+    "id": 37,
+    "question": "My brother was born ___ 2018.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Năm → in"
+  },
+  {
+    "id": 38,
+    "question": "We play in the snow ___ winter.",
+    "correct": "in",
+    "wrong_pool": ["on", "at", "for", "from"],
+    "hint": "Mùa Đông → in"
+  },
+  {
+    "id": 39,
+    "question": "I am ___ Vietnam.",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "Xuất xứ/quốc tịch → from"
+  },
+  {
+    "id": 40,
+    "question": "Where is she ___?",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "Hỏi về quê hương/quốc tịch → from"
+  },
+  {
+    "id": 41,
+    "question": "He is ___ Japan.",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "Quốc tịch → from"
+  },
+  {
+    "id": 42,
+    "question": "They are ___ the USA.",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "Xuất xứ → from"
+  },
+  {
+    "id": 43,
+    "question": "She comes ___ France.",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "'comes from' = đến từ → from"
+  },
+  {
+    "id": 44,
+    "question": "Where do you come ___?",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "'come from' = đến từ đâu → from"
+  },
+  {
+    "id": 45,
+    "question": "My teacher is ___ England.",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "Xuất xứ giáo viên → from"
+  },
+  {
+    "id": 46,
+    "question": "Haruto is ___ Japan.",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "Xuất xứ → from"
+  },
+  {
+    "id": 47,
+    "question": "My new friend is ___ Korea.",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "Xuất xứ bạn mới → from"
+  },
+  {
+    "id": 48,
+    "question": "She is ___ Australia.",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "Quốc tịch → from"
+  },
+  {
+    "id": 49,
+    "question": "My favourite singer is ___ the UK.",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "Xuất xứ → from"
+  },
+  {
+    "id": 50,
+    "question": "This panda is ___ China.",
+    "correct": "from",
+    "wrong_pool": ["in", "on", "at", "for"],
+    "hint": "Xuất xứ → from"
+  }
+]

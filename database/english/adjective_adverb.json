@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "question": "Football is ___. (fun / funnily)",
+    "correct": "fun",
+    "wrong_pool": ["funnily", "funner", "funning", "funs"],
+    "hint": "Sau 'is' → tính từ (adjective) mô tả danh từ → fun"
+  },
+  {
+    "id": 2,
+    "question": "The music is ___. (loud / loudly)",
+    "correct": "loud",
+    "wrong_pool": ["loudly", "louder", "louds", "louding"],
+    "hint": "Sau 'is' → tính từ → loud"
+  },
+  {
+    "id": 3,
+    "question": "The sky looks ___. (beautiful / beautifully)",
+    "correct": "beautiful",
+    "wrong_pool": ["beautifully", "beauty", "beautify", "beautifuls"],
+    "hint": "'looks' là linking verb → tính từ theo sau → beautiful"
+  },
+  {
+    "id": 4,
+    "question": "The cake tastes ___. (sweet / sweetly)",
+    "correct": "sweet",
+    "wrong_pool": ["sweetly", "sweeten", "sweets", "sweeter"],
+    "hint": "'tastes' là linking verb → tính từ → sweet"
+  },
+  {
+    "id": 5,
+    "question": "The classroom is ___. (clean / cleanly)",
+    "correct": "clean",
+    "wrong_pool": ["cleanly", "cleaned", "cleans", "cleaner"],
+    "hint": "Sau 'is' → tính từ → clean"
+  },
+  {
+    "id": 6,
+    "question": "The baby looks ___. (cute / cutely)",
+    "correct": "cute",
+    "wrong_pool": ["cutely", "cuter", "cutes", "cutest"],
+    "hint": "'looks' là linking verb → tính từ → cute"
+  },
+  {
+    "id": 7,
+    "question": "The dog is ___. (quiet / quietly)",
+    "correct": "quiet",
+    "wrong_pool": ["quietly", "quieter", "quietness", "quieted"],
+    "hint": "Sau 'is' → tính từ → quiet"
+  },
+  {
+    "id": 8,
+    "question": "The lesson was ___. (interesting / interestingly)",
+    "correct": "interesting",
+    "wrong_pool": ["interestingly", "interest", "interested", "interests"],
+    "hint": "Sau 'was' → tính từ → interesting"
+  },
+  {
+    "id": 9,
+    "question": "The soup smells ___. (good / well)",
+    "correct": "good",
+    "wrong_pool": ["well", "goodly", "goods", "betterly"],
+    "hint": "'smells' là linking verb → tính từ → good (không phải 'well')"
+  },
+  {
+    "id": 10,
+    "question": "The bag is ___. (heavy / heavily)",
+    "correct": "heavy",
+    "wrong_pool": ["heavily", "heavier", "heaviness", "heavied"],
+    "hint": "Sau 'is' → tính từ → heavy"
+  },
+  {
+    "id": 11,
+    "question": "The night is ___. (dark / darkly)",
+    "correct": "dark",
+    "wrong_pool": ["darkly", "darker", "darken", "darkness"],
+    "hint": "Sau 'is' → tính từ → dark"
+  },
+  {
+    "id": 12,
+    "question": "The children are ___. (noisy / noisily)",
+    "correct": "noisy",
+    "wrong_pool": ["noisily", "noise", "noisier", "noises"],
+    "hint": "Sau 'are' → tính từ → noisy"
+  },
+  {
+    "id": 13,
+    "question": "She speaks ___. (soft / softly)",
+    "correct": "softly",
+    "wrong_pool": ["soft", "softer", "soften", "softs"],
+    "hint": "Sau động từ thường 'speaks' → trạng từ (adverb) → softly"
+  },
+  {
+    "id": 14,
+    "question": "He runs ___. (quick / quickly)",
+    "correct": "quickly",
+    "wrong_pool": ["quick", "quicker", "quicken", "quickness"],
+    "hint": "Sau động từ 'runs' → trạng từ → quickly"
+  },
+  {
+    "id": 15,
+    "question": "The boy walks ___. (slow / slowly)",
+    "correct": "slowly",
+    "wrong_pool": ["slow", "slower", "slowness", "slows"],
+    "hint": "Sau động từ 'walks' → trạng từ → slowly"
+  },
+  {
+    "id": 16,
+    "question": "She dances ___. (graceful / gracefully)",
+    "correct": "gracefully",
+    "wrong_pool": ["graceful", "grace", "graces", "gracefulness"],
+    "hint": "Sau động từ 'dances' → trạng từ → gracefully"
+  },
+  {
+    "id": 17,
+    "question": "He answered the question ___. (correct / correctly)",
+    "correct": "correctly",
+    "wrong_pool": ["correct", "corrects", "correctness", "correcter"],
+    "hint": "Sau 'answered' → trạng từ → correctly"
+  },
+  {
+    "id": 18,
+    "question": "She writes ___. (neat / neatly)",
+    "correct": "neatly",
+    "wrong_pool": ["neat", "neater", "neatness", "neats"],
+    "hint": "Sau động từ 'writes' → trạng từ → neatly"
+  },
+  {
+    "id": 19,
+    "question": "He finished his work ___. (quick / quickly)",
+    "correct": "quickly",
+    "wrong_pool": ["quick", "quicker", "quicken", "quickened"],
+    "hint": "Sau 'finished' → trạng từ → quickly"
+  },
+  {
+    "id": 20,
+    "question": "She smiled ___. (happy / happily)",
+    "correct": "happily",
+    "wrong_pool": ["happy", "happier", "happiness", "happied"],
+    "hint": "Sau 'smiled' → trạng từ → happily"
+  },
+  {
+    "id": 21,
+    "question": "He shouted ___. (loud / loudly)",
+    "correct": "loudly",
+    "wrong_pool": ["loud", "louder", "louds", "louding"],
+    "hint": "Sau 'shouted' → trạng từ → loudly"
+  },
+  {
+    "id": 22,
+    "question": "She dances ___. (beautiful / beautifully)",
+    "correct": "beautifully",
+    "wrong_pool": ["beautiful", "beauty", "beautify", "beautifuls"],
+    "hint": "Sau 'dances' → trạng từ → beautifully"
+  },
+  {
+    "id": 23,
+    "question": "The cat moves ___. (quiet / quietly)",
+    "correct": "quietly",
+    "wrong_pool": ["quiet", "quieter", "quietness", "quieted"],
+    "hint": "Sau động từ 'moves' → trạng từ → quietly"
+  },
+  {
+    "id": 24,
+    "question": "She draws ___. (careful / carefully)",
+    "correct": "carefully",
+    "wrong_pool": ["careful", "carefulness", "cares", "carefuler"],
+    "hint": "Sau 'draws' → trạng từ → carefully"
+  },
+  {
+    "id": 25,
+    "question": "He sings ___. (good / well)",
+    "correct": "well",
+    "wrong_pool": ["good", "goodly", "goods", "betterly"],
+    "hint": "Sau động từ thường 'sings' → trạng từ; 'good' là tính từ, trạng từ của 'good' là 'well' (bất quy tắc) → well"
+  },
+  {
+    "id": 26,
+    "question": "She kicked the ball ___. (hard / hardly)",
+    "correct": "hard",
+    "wrong_pool": ["hardly", "harder", "harden", "hardness"],
+    "hint": "Sau 'kicked' → trạng từ; 'hard' là trạng từ bất quy tắc; 'hardly' nghĩa là 'hầu như không' (sai nghĩa) → hard"
+  },
+  {
+    "id": 27,
+    "question": "He reads ___. (fast / fastly)",
+    "correct": "fast",
+    "wrong_pool": ["fastly", "faster", "fasted", "fasting"],
+    "hint": "'fast' vừa là tính từ vừa là trạng từ; 'fastly' không tồn tại trong tiếng Anh → fast"
+  },
+  {
+    "id": 28,
+    "question": "He plays football ___. (good / well)",
+    "correct": "well",
+    "wrong_pool": ["good", "goodly", "goods", "better"],
+    "hint": "Sau động từ thường 'plays' → trạng từ; trạng từ của 'good' là 'well' (bất quy tắc) → well"
+  },
+  {
+    "id": 29,
+    "question": "She works ___. (hard / hardly)",
+    "correct": "hard",
+    "wrong_pool": ["hardly", "harder", "harden", "hardness"],
+    "hint": "Sau 'works' → trạng từ; 'hard' là trạng từ bất quy tắc; 'hardly' = 'hầu như không' (nghĩa hoàn toàn khác) → hard"
+  },
+  {
+    "id": 30,
+    "question": "He ran ___. (fast / fastly)",
+    "correct": "fast",
+    "wrong_pool": ["fastly", "fastest", "fasting", "fasted"],
+    "hint": "Sau 'ran' → trạng từ; 'fast' vừa là tính từ vừa là trạng từ, không thêm -ly → fast"
+  }
+]

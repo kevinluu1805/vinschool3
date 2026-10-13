@@ -1,5 +1,12 @@
 [
-  { "id": "present_simple",     "label": "Present Simple" },
-  { "id": "present_continuous", "label": "Present Continuous" },
-  { "id": "past_simple",        "label": "Past Simple" }
+  { "id": "present_simple",          "label": "Present Simple" },
+  { "id": "present_continuous",      "label": "Present Continuous" },
+  { "id": "past_simple",             "label": "Past Simple" },
+  { "id": "modal_must",              "label": "Must / Mustn't" },
+  { "id": "past_simple_questions",   "label": "Câu hỏi - Quá Khứ Đơn" },
+  { "id": "question_words",          "label": "Từ để hỏi" },
+  { "id": "demonstrative_pronouns",  "label": "Đại từ chỉ định" },
+  { "id": "connectors",              "label": "Từ nối & Like + V-ing" },
+  { "id": "adjective_adverb",        "label": "Tính từ & Trạng từ" },
+  { "id": "prepositions",            "label": "Giới từ (on/in/from)" }
 ]

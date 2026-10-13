@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "question": "I like ___ in the park. (run)",
+    "correct": "running",
+    "wrong_pool": ["run", "runs", "ran", "to run"],
+    "hint": "Sau 'like' → động từ thêm -ing (V-ing); run → running (nhân đôi phụ âm cuối)"
+  },
+  {
+    "id": 2,
+    "question": "She likes ___ songs. (sing)",
+    "correct": "singing",
+    "wrong_pool": ["sing", "sings", "sang", "to sing"],
+    "hint": "Sau 'likes' → V-ing → singing"
+  },
+  {
+    "id": 3,
+    "question": "He doesn't like ___ vegetables. (eat)",
+    "correct": "eating",
+    "wrong_pool": ["eat", "eats", "ate", "to eat"],
+    "hint": "Sau 'doesn't like' → vẫn dùng V-ing → eating"
+  },
+  {
+    "id": 4,
+    "question": "Do you like ___ in the sea? (swim)",
+    "correct": "swimming",
+    "wrong_pool": ["swim", "swims", "swam", "to swim"],
+    "hint": "Sau 'like' → V-ing; swim → swimming (nhân đôi phụ âm cuối)"
+  },
+  {
+    "id": 5,
+    "question": "They like ___ pictures. (draw)",
+    "correct": "drawing",
+    "wrong_pool": ["draw", "draws", "drew", "to draw"],
+    "hint": "Sau 'like' → V-ing → drawing"
+  },
+  {
+    "id": 6,
+    "question": "My sister likes ___ her room. (clean)",
+    "correct": "cleaning",
+    "wrong_pool": ["clean", "cleans", "cleaned", "to clean"],
+    "hint": "Sau 'likes' → V-ing → cleaning"
+  },
+  {
+    "id": 7,
+    "question": "I don't like ___ early in the morning. (wake up)",
+    "correct": "waking up",
+    "wrong_pool": ["wake up", "wakes up", "woke up", "to wake up"],
+    "hint": "Sau 'don't like' → V-ing → waking up"
+  },
+  {
+    "id": 8,
+    "question": "He likes ___ with his friends after school. (play)",
+    "correct": "playing",
+    "wrong_pool": ["play", "plays", "played", "to play"],
+    "hint": "Sau 'likes' → V-ing → playing"
+  },
+  {
+    "id": 9,
+    "question": "We like ___ new words every day. (learn)",
+    "correct": "learning",
+    "wrong_pool": ["learn", "learns", "learned", "to learn"],
+    "hint": "Sau 'like' → V-ing → learning"
+  },
+  {
+    "id": 10,
+    "question": "She likes ___ on the weekends. (dance)",
+    "correct": "dancing",
+    "wrong_pool": ["dance", "dances", "danced", "to dance"],
+    "hint": "Sau 'likes' → V-ing; dance → dancing (bỏ -e rồi thêm -ing)"
+  },
+  {
+    "id": 11,
+    "question": "I like reading ___ drawing.",
+    "correct": "and",
+    "wrong_pool": ["or", "but", "so", "then"],
+    "hint": "Thích cả hai → dùng 'and' để nối (I like A and B)"
+  },
+  {
+    "id": 12,
+    "question": "She doesn't like singing ___ dancing.",
+    "correct": "or",
+    "wrong_pool": ["and", "but", "so", "then"],
+    "hint": "Không thích cả hai → dùng 'or' (doesn't like A or B)"
+  },
+  {
+    "id": 13,
+    "question": "He likes football ___ basketball.",
+    "correct": "and",
+    "wrong_pool": ["or", "but", "so", "then"],
+    "hint": "Thích cả hai → 'and'"
+  },
+  {
+    "id": 14,
+    "question": "I like swimming ___ I don't like running.",
+    "correct": "but",
+    "wrong_pool": ["and", "or", "so", "then"],
+    "hint": "Ý tương phản (thích bơi nhưng không thích chạy) → but"
+  },
+  {
+    "id": 15,
+    "question": "She likes singing ___ she doesn't like dancing.",
+    "correct": "but",
+    "wrong_pool": ["and", "or", "so", "then"],
+    "hint": "Ý tương phản giữa hai vế câu → but"
+  },
+  {
+    "id": 16,
+    "question": "___ of all, open your book to page 5.",
+    "correct": "First",
+    "wrong_pool": ["Then", "Finally", "After", "Next"],
+    "hint": "'First of all' = đầu tiên trong chuỗi hành động → First"
+  },
+  {
+    "id": 17,
+    "question": "___, wash your hands. Then, eat your food.",
+    "correct": "First",
+    "wrong_pool": ["Then", "Finally", "After", "Next"],
+    "hint": "Bước trước 'Then' → đây là bước đầu tiên → First"
+  },
+  {
+    "id": 18,
+    "question": "___, put on your shoes. Then, open the door. Finally, go outside.",
+    "correct": "First",
+    "wrong_pool": ["Then", "Finally", "After", "Next"],
+    "hint": "Bước đầu tiên trong chuỗi 3 bước → First"
+  },
+  {
+    "id": 19,
+    "question": "First, put on your socks. ___, put on your shoes.",
+    "correct": "Then",
+    "wrong_pool": ["First", "Finally", "Before", "After"],
+    "hint": "Hành động ngay tiếp theo sau 'First' (chưa phải bước cuối) → Then"
+  },
+  {
+    "id": 20,
+    "question": "First, mix the flour and eggs. ___, add the milk.",
+    "correct": "Then",
+    "wrong_pool": ["First", "Finally", "Before", "After"],
+    "hint": "Bước tiếp theo trong quy trình, chưa phải bước cuối → Then"
+  },
+  {
+    "id": 21,
+    "question": "First, say hello to your teacher. ___, sit down at your desk.",
+    "correct": "Then",
+    "wrong_pool": ["First", "Finally", "Before", "After"],
+    "hint": "Hành động tiếp theo sau bước đầu tiên → Then"
+  },
+  {
+    "id": 22,
+    "question": "First, read the question. Then, think carefully. ___, write your answer.",
+    "correct": "Finally",
+    "wrong_pool": ["First", "Next", "Before", "Then"],
+    "hint": "Bước cuối cùng sau 'First' và 'Then' → Finally"
+  },
+  {
+    "id": 23,
+    "question": "First, draw a circle. Then, colour it blue. ___, write your name.",
+    "correct": "Finally",
+    "wrong_pool": ["First", "Next", "Before", "Then"],
+    "hint": "Bước kết thúc chuỗi 3 bước → Finally"
+  },
+  {
+    "id": 24,
+    "question": "First, open your bag. Then, take out your book. ___, close your bag.",
+    "correct": "Finally",
+    "wrong_pool": ["First", "Next", "Before", "Then"],
+    "hint": "Bước cuối cùng → Finally"
+  },
+  {
+    "id": 25,
+    "question": "___ breakfast, I brush my teeth.",
+    "correct": "After",
+    "wrong_pool": ["Before", "Then", "Next", "First"],
+    "hint": "Đánh răng SAU khi ăn sáng → After"
+  },
+  {
+    "id": 26,
+    "question": "___ school, she goes to the library.",
+    "correct": "After",
+    "wrong_pool": ["Before", "Then", "Next", "First"],
+    "hint": "Đến thư viện SAU khi tan trường → After"
+  },
+  {
+    "id": 27,
+    "question": "___ going to bed, drink a glass of milk.",
+    "correct": "Before",
+    "wrong_pool": ["After", "Then", "Next", "Finally"],
+    "hint": "Uống sữa TRƯỚC khi đi ngủ → Before"
+  },
+  {
+    "id": 28,
+    "question": "Wash your hands ___ eating lunch.",
+    "correct": "before",
+    "wrong_pool": ["after", "then", "next", "finally"],
+    "hint": "Rửa tay TRƯỚC khi ăn → before"
+  },
+  {
+    "id": 29,
+    "question": "We sang songs ___ danced at the party.",
+    "correct": "and",
+    "wrong_pool": ["or", "but", "then", "so"],
+    "hint": "Nối 2 hành động làm cùng nhau → and"
+  },
+  {
+    "id": 30,
+    "question": "She picked up her bag ___ walked to the door.",
+    "correct": "and",
+    "wrong_pool": ["or", "but", "then", "so"],
+    "hint": "Nối 2 hành động liên tiếp → and"
+  }
+]

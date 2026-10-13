@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "question": "You ___ be quiet in the library.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "should", "don't"],
+    "hint": "Trong thư viện cần yên lặng → đây là quy định bắt buộc → must"
+  },
+  {
+    "id": 2,
+    "question": "You ___ run in the classroom.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Chạy trong lớp gây nguy hiểm → bị cấm → mustn't"
+  },
+  {
+    "id": 3,
+    "question": "Students ___ wear their uniforms to school.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Mặc đồng phục là quy định bắt buộc → must"
+  },
+  {
+    "id": 4,
+    "question": "You ___ cross the road when the light is red.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Đèn đỏ là tuyệt đối cấm qua đường → mustn't"
+  },
+  {
+    "id": 5,
+    "question": "You ___ wash your hands before eating.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Rửa tay trước khi ăn là quy định vệ sinh bắt buộc → must"
+  },
+  {
+    "id": 6,
+    "question": "You ___ cheat on your test.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Gian lận bài kiểm tra là vi phạm nghiêm trọng → bị cấm → mustn't"
+  },
+  {
+    "id": 7,
+    "question": "You ___ do your homework every day.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Làm bài tập hàng ngày là yêu cầu bắt buộc của học sinh → must"
+  },
+  {
+    "id": 8,
+    "question": "You ___ touch the electric socket.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Chạm vào ổ điện rất nguy hiểm → tuyệt đối cấm → mustn't"
+  },
+  {
+    "id": 9,
+    "question": "You ___ brush your teeth every morning.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Đánh răng mỗi sáng là thói quen vệ sinh bắt buộc → must"
+  },
+  {
+    "id": 10,
+    "question": "You ___ shout in the classroom.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Hét to trong lớp gây mất trật tự → bị cấm → mustn't"
+  },
+  {
+    "id": 11,
+    "question": "You ___ listen to your teacher carefully.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Lắng nghe giáo viên là quy định học đường bắt buộc → must"
+  },
+  {
+    "id": 12,
+    "question": "You ___ throw rubbish on the floor.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Xả rác ra sàn là vi phạm vệ sinh môi trường → bị cấm → mustn't"
+  },
+  {
+    "id": 13,
+    "question": "You ___ look both ways before crossing the road.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Quan sát cả hai phía khi qua đường là quy tắc an toàn bắt buộc → must"
+  },
+  {
+    "id": 14,
+    "question": "You ___ bring sharp things to school.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Mang vật sắc nhọn đến trường rất nguy hiểm → bị cấm → mustn't"
+  },
+  {
+    "id": 15,
+    "question": "You ___ bring your textbooks to school every day.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Mang sách giáo khoa là quy định học tập bắt buộc → must"
+  },
+  {
+    "id": 16,
+    "question": "You ___ use your phone during class.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Dùng điện thoại trong giờ học là vi phạm nội quy → bị cấm → mustn't"
+  },
+  {
+    "id": 17,
+    "question": "You ___ stand up when the teacher enters the classroom.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Đứng dậy chào giáo viên là lễ phép và quy định bắt buộc → must"
+  },
+  {
+    "id": 18,
+    "question": "You ___ write on the walls.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Viết lên tường làm hỏng tài sản → bị cấm → mustn't"
+  },
+  {
+    "id": 19,
+    "question": "You ___ drink clean water every day.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Uống đủ nước sạch mỗi ngày là yêu cầu sức khoẻ bắt buộc → must"
+  },
+  {
+    "id": 20,
+    "question": "You ___ push other students.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Xô đẩy bạn bè gây nguy hiểm và là vi phạm nội quy → bị cấm → mustn't"
+  },
+  {
+    "id": 21,
+    "question": "You ___ sleep early to stay healthy.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Ngủ sớm là thói quen sức khoẻ bắt buộc → must"
+  },
+  {
+    "id": 22,
+    "question": "You ___ talk loudly in the hospital.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Nói to trong bệnh viện ảnh hưởng đến bệnh nhân → bị cấm → mustn't"
+  },
+  {
+    "id": 23,
+    "question": "You ___ help your parents at home.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Phụ giúp cha mẹ ở nhà là bổn phận và yêu cầu bắt buộc → must"
+  },
+  {
+    "id": 24,
+    "question": "You ___ swim in a river alone.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Bơi một mình ngoài sông rất nguy hiểm → tuyệt đối cấm → mustn't"
+  },
+  {
+    "id": 25,
+    "question": "You ___ take care of your books and things.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Giữ gìn đồ dùng học tập là yêu cầu bắt buộc → must"
+  },
+  {
+    "id": 26,
+    "question": "You ___ eat or drink inside the library.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Ăn uống trong thư viện làm bẩn sách và gây mất trật tự → bị cấm → mustn't"
+  },
+  {
+    "id": 27,
+    "question": "You ___ come to school on time.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Đến trường đúng giờ là quy định bắt buộc → must"
+  },
+  {
+    "id": 28,
+    "question": "You ___ borrow things without asking.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Lấy đồ người khác mà không xin phép là vi phạm → bị cấm → mustn't"
+  },
+  {
+    "id": 29,
+    "question": "You ___ eat vegetables and fruit every day.",
+    "correct": "must",
+    "wrong_pool": ["mustn't", "can", "don't", "may"],
+    "hint": "Ăn rau và trái cây hàng ngày là yêu cầu dinh dưỡng bắt buộc → must"
+  },
+  {
+    "id": 30,
+    "question": "You ___ fight with your classmates.",
+    "correct": "mustn't",
+    "wrong_pool": ["must", "can", "should", "may"],
+    "hint": "Đánh nhau với bạn học là vi phạm nghiêm trọng → bị cấm → mustn't"
+  }
+]

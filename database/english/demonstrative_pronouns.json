@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "question": "___ is my book. (1 cuốn, gần em)",
+    "correct": "This",
+    "wrong_pool": ["That", "These", "Those"],
+    "hint": "1 cuốn (số ít) + gần → This"
+  },
+  {
+    "id": 2,
+    "question": "___ are my friends. (nhiều bạn, ở xa em)",
+    "correct": "Those",
+    "wrong_pool": ["These", "This", "That"],
+    "hint": "Nhiều người (số nhiều) + xa → Those"
+  },
+  {
+    "id": 3,
+    "question": "___ is my teacher. (1 người, đứng xa em)",
+    "correct": "That",
+    "wrong_pool": ["This", "These", "Those"],
+    "hint": "1 người (số ít) + xa → That"
+  },
+  {
+    "id": 4,
+    "question": "___ are my pencils. (nhiều cái bút, trên bàn em)",
+    "correct": "These",
+    "wrong_pool": ["Those", "This", "That"],
+    "hint": "Nhiều vật (số nhiều) + gần → These"
+  },
+  {
+    "id": 5,
+    "question": "___ is a cat. (1 con mèo, ngồi bên cạnh em)",
+    "correct": "This",
+    "wrong_pool": ["That", "These", "Those"],
+    "hint": "1 con vật (số ít) + gần → This"
+  },
+  {
+    "id": 6,
+    "question": "___ are tall buildings. (nhiều tòa nhà, ở đằng xa)",
+    "correct": "Those",
+    "wrong_pool": ["These", "This", "That"],
+    "hint": "Nhiều vật (số nhiều) + xa → Those"
+  },
+  {
+    "id": 7,
+    "question": "Look! ___ is a rainbow! (ở trên trời, rất xa)",
+    "correct": "That",
+    "wrong_pool": ["This", "These", "Those"],
+    "hint": "1 vật (số ít) + xa → That"
+  },
+  {
+    "id": 8,
+    "question": "___ are my new shoes. (đang đi trên chân em)",
+    "correct": "These",
+    "wrong_pool": ["Those", "This", "That"],
+    "hint": "Nhiều vật (số nhiều) + gần → These"
+  },
+  {
+    "id": 9,
+    "question": "___ is an apple. (quả táo trong tay em)",
+    "correct": "This",
+    "wrong_pool": ["That", "These", "Those"],
+    "hint": "1 vật (số ít) + gần → This"
+  },
+  {
+    "id": 10,
+    "question": "___ are birds in the sky. (chim bay ở trên cao, xa em)",
+    "correct": "Those",
+    "wrong_pool": ["These", "This", "That"],
+    "hint": "Nhiều vật (số nhiều) + xa → Those"
+  },
+  {
+    "id": 11,
+    "question": "___ is my house. (đang đứng trước cửa nhà mình)",
+    "correct": "This",
+    "wrong_pool": ["That", "These", "Those"],
+    "hint": "1 nơi (số ít) + gần → This"
+  },
+  {
+    "id": 12,
+    "question": "___ is my school. (trông thấy trường từ phía xa)",
+    "correct": "That",
+    "wrong_pool": ["This", "These", "Those"],
+    "hint": "1 nơi (số ít) + xa → That"
+  },
+  {
+    "id": 13,
+    "question": "___ are cookies on the plate. (đĩa bánh ngay trước mặt em)",
+    "correct": "These",
+    "wrong_pool": ["Those", "This", "That"],
+    "hint": "Nhiều bánh (số nhiều) + gần → These"
+  },
+  {
+    "id": 14,
+    "question": "___ are mountains far away.",
+    "correct": "Those",
+    "wrong_pool": ["These", "This", "That"],
+    "hint": "Nhiều vật (số nhiều) + xa (far away) → Those"
+  },
+  {
+    "id": 15,
+    "question": "___ girl is my sister. (cô bé đứng ngay bên cạnh em)",
+    "correct": "This",
+    "wrong_pool": ["That", "These", "Those"],
+    "hint": "1 người (số ít) + gần → This"
+  },
+  {
+    "id": 16,
+    "question": "___ boy over there is my cousin.",
+    "correct": "That",
+    "wrong_pool": ["This", "These", "Those"],
+    "hint": "1 người (số ít) + xa (over there) → That"
+  },
+  {
+    "id": 17,
+    "question": "Are ___ your books? (sách ngay trên bàn em)",
+    "correct": "these",
+    "wrong_pool": ["those", "this", "that"],
+    "hint": "Nhiều cuốn (số nhiều) + gần → these"
+  },
+  {
+    "id": 18,
+    "question": "Is ___ your pencil case? (hộp bút ngay trước mặt em)",
+    "correct": "this",
+    "wrong_pool": ["that", "these", "those"],
+    "hint": "1 vật (số ít) + gần → this"
+  },
+  {
+    "id": 19,
+    "question": "___ flowers look beautiful. (những bông hoa ở đằng kia)",
+    "correct": "Those",
+    "wrong_pool": ["These", "This", "That"],
+    "hint": "Nhiều bông hoa (số nhiều) + xa → Those"
+  },
+  {
+    "id": 20,
+    "question": "___ dog is cute. (con chó ngồi xa em)",
+    "correct": "That",
+    "wrong_pool": ["This", "These", "Those"],
+    "hint": "1 con vật (số ít) + xa → That"
+  },
+  {
+    "id": 21,
+    "question": "___ is my bag. (túi em đang đeo trên vai)",
+    "correct": "This",
+    "wrong_pool": ["That", "These", "Those"],
+    "hint": "1 vật (số ít) + gần → This"
+  },
+  {
+    "id": 22,
+    "question": "___ are my classmates. (các bạn đứng bên cạnh em)",
+    "correct": "These",
+    "wrong_pool": ["Those", "This", "That"],
+    "hint": "Nhiều người (số nhiều) + gần → These"
+  },
+  {
+    "id": 23,
+    "question": "What is ___? (chỉ vào 1 vật đang cầm trên tay)",
+    "correct": "this",
+    "wrong_pool": ["that", "these", "those"],
+    "hint": "1 vật (số ít) + gần → this"
+  },
+  {
+    "id": 24,
+    "question": "What are ___? (chỉ vào nhiều vật ở phía xa em)",
+    "correct": "those",
+    "wrong_pool": ["these", "this", "that"],
+    "hint": "Nhiều vật (số nhiều) + xa → those"
+  },
+  {
+    "id": 25,
+    "question": "___ is not my umbrella. (chiếc ô đứng ở góc phòng xa em)",
+    "correct": "That",
+    "wrong_pool": ["This", "These", "Those"],
+    "hint": "1 vật (số ít) + xa → That"
+  },
+  {
+    "id": 26,
+    "question": "___ are not her glasses. (nhiều chiếc kính trên bàn phía xa)",
+    "correct": "Those",
+    "wrong_pool": ["These", "This", "That"],
+    "hint": "Nhiều vật (số nhiều) + xa → Those"
+  },
+  {
+    "id": 27,
+    "question": "___ cake is delicious! (miếng bánh em đang ăn)",
+    "correct": "This",
+    "wrong_pool": ["That", "These", "Those"],
+    "hint": "1 vật (số ít) + gần → This"
+  },
+  {
+    "id": 28,
+    "question": "___ children are playing football. (những đứa trẻ ở sân bên kia)",
+    "correct": "Those",
+    "wrong_pool": ["These", "This", "That"],
+    "hint": "Nhiều người (số nhiều) + xa → Those"
+  },
+  {
+    "id": 29,
+    "question": "___ are my crayons. (hộp bút màu ngay trong tay em)",
+    "correct": "These",
+    "wrong_pool": ["Those", "This", "That"],
+    "hint": "Nhiều vật (số nhiều) + gần → These"
+  },
+  {
+    "id": 30,
+    "question": "___ clouds look dark. (những đám mây ở trên trời xa)",
+    "correct": "Those",
+    "wrong_pool": ["These", "This", "That"],
+    "hint": "Nhiều vật (số nhiều) + xa → Those"
+  }
+]

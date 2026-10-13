@@ -68,6 +68,36 @@ function renderTheoryList(query) {
 
 // ── Actions ───────────────────────────────────────────────────────────────────
 
+async function startRandom() {
+  const btn = document.getElementById('btn-start');
+  btn.textContent = 'Loading…';
+  btn.disabled = true;
+
+  try {
+    const allQuestions = [];
+    for (const type of state.types) {
+      const pool = await fetchJSON(`${DB}/${type.id}.json`);
+      for (const q of pool) allQuestions.push({ type, q });
+    }
+    const picked = pickN(allQuestions, 20);
+    state.quiz = shuffle(picked.map(({ type, q }) => ({
+      typeId: type.id,
+      typeLabel: type.label,
+      question: q.question,
+      correct: q.correct,
+      answers: shuffle([q.correct, ...pickN(q.wrong_pool, Math.min(3, q.wrong_pool.length))]),
+      userAnswer: null,
+      hint: q.hint || null,
+    })));
+    state.view = 'quiz';
+    render();
+  } catch (err) {
+    alert(err.message);
+    btn.textContent = 'Làm ngẫu nhiên';
+    btn.disabled = false;
+  }
+}
+
 async function startQuiz() {
   const btn = document.getElementById('btn-start');
   btn.textContent = 'Loading…';
@@ -143,10 +173,12 @@ function tmplSelection() {
       ` : ''}
 
       <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-        <div class="flex items-center px-5 py-2 border-b border-slate-100 bg-slate-50">
-          <span class="flex-1"></span>
+        <label class="flex items-center gap-3 px-5 py-3 cursor-pointer hover:bg-slate-100 transition-colors border-b border-slate-200 bg-slate-50">
+          <input type="checkbox" id="cb-select-all" class="w-5 h-5 accent-blue-600 cursor-pointer flex-shrink-0"
+            ${state.selected.size === state.types.length ? 'checked' : ''}>
+          <span class="text-slate-600 font-semibold flex-1 text-sm">Chọn tất cả</span>
           <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Số lượng câu hỏi</span>
-        </div>
+        </label>
         ${state.types.map(t => `
           <label class="flex items-center gap-3 px-5 py-4 cursor-pointer hover:bg-slate-50 transition-colors border-b border-slate-100 last:border-0">
             <input type="checkbox" class="w-5 h-5 accent-blue-600 cursor-pointer flex-shrink-0"
@@ -169,10 +201,9 @@ function tmplSelection() {
 
       <div class="text-center">
         <button id="btn-start"
-          class="px-10 py-3 rounded-xl font-semibold text-white transition-colors
-            ${n > 0 ? 'bg-blue-600 hover:bg-blue-700 cursor-pointer' : 'bg-slate-300 cursor-not-allowed'}"
-          ${n === 0 ? 'disabled' : ''}>
-          ${n === 0 ? 'Bắt đầu' : `Bắt đầu làm ${totalQ} câu hỏi`}
+          class="px-10 py-3 rounded-xl font-semibold text-white transition-colors cursor-pointer
+            ${n > 0 ? 'bg-blue-600 hover:bg-blue-700' : 'bg-emerald-600 hover:bg-emerald-700'}">
+          ${n === 0 ? 'Làm ngẫu nhiên' : `Bắt đầu làm ${totalQ} câu hỏi`}
         </button>
       </div>
     </div>`;
@@ -349,8 +380,22 @@ function render() {
         }
       });
     });
+    const cbSelectAll = document.getElementById('cb-select-all');
+    if (cbSelectAll) {
+      cbSelectAll.indeterminate = state.selected.size > 0 && state.selected.size < state.types.length;
+      cbSelectAll.addEventListener('change', () => {
+        if (cbSelectAll.checked) {
+          state.types.forEach(t => state.selected.add(t.id));
+        } else {
+          state.selected.clear();
+        }
+        localStorage.setItem('selected_types', JSON.stringify([...state.selected]));
+        render();
+      });
+    }
+
     const btn = document.getElementById('btn-start');
-    if (btn && !btn.disabled) btn.addEventListener('click', startQuiz);
+    if (btn) btn.addEventListener('click', state.selected.size === 0 ? startRandom : startQuiz);
 
     const settingsBtn = document.getElementById('btn-settings');
     const settingsDropdown = document.getElementById('settings-dropdown');

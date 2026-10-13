@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "question": "___ is your favourite colour?",
+    "correct": "What",
+    "wrong_pool": ["Who", "Where", "When", "How"],
+    "hint": "Hỏi về sự vật (màu sắc) → What"
+  },
+  {
+    "id": 2,
+    "question": "___ is your best friend?",
+    "correct": "Who",
+    "wrong_pool": ["What", "Where", "When", "Which"],
+    "hint": "Hỏi về người → Who"
+  },
+  {
+    "id": 3,
+    "question": "___ do you live?",
+    "correct": "Where",
+    "wrong_pool": ["What", "Who", "When", "How"],
+    "hint": "Hỏi về địa điểm sống → Where"
+  },
+  {
+    "id": 4,
+    "question": "___ is your birthday?",
+    "correct": "When",
+    "wrong_pool": ["What", "Where", "Who", "Which"],
+    "hint": "Hỏi về thời gian (ngày sinh) → When"
+  },
+  {
+    "id": 5,
+    "question": "___ are you today?",
+    "correct": "How",
+    "wrong_pool": ["What", "Who", "Where", "When"],
+    "hint": "Hỏi về tình trạng sức khoẻ/cảm xúc → How"
+  },
+  {
+    "id": 6,
+    "question": "___ colour do you want — the red one or the blue one?",
+    "correct": "Which",
+    "wrong_pool": ["What", "Who", "How", "When"],
+    "hint": "Chọn lựa giữa 2 màu cụ thể → Which"
+  },
+  {
+    "id": 7,
+    "question": "___ students are in your class?",
+    "correct": "How many",
+    "wrong_pool": ["How", "What", "Which", "Who"],
+    "hint": "Hỏi số lượng học sinh (đếm được) → How many"
+  },
+  {
+    "id": 8,
+    "question": "___ does your father do?",
+    "correct": "What",
+    "wrong_pool": ["Who", "Where", "When", "How"],
+    "hint": "Hỏi về nghề nghiệp → What"
+  },
+  {
+    "id": 9,
+    "question": "___ taught you to sing?",
+    "correct": "Who",
+    "wrong_pool": ["What", "Where", "When", "Which"],
+    "hint": "Hỏi về người đã dạy → Who"
+  },
+  {
+    "id": 10,
+    "question": "___ is your school?",
+    "correct": "Where",
+    "wrong_pool": ["What", "Who", "When", "How"],
+    "hint": "Hỏi địa điểm của trường → Where"
+  },
+  {
+    "id": 11,
+    "question": "___ does school start?",
+    "correct": "When",
+    "wrong_pool": ["What", "Where", "Who", "Which"],
+    "hint": "Hỏi về thời gian bắt đầu → When"
+  },
+  {
+    "id": 12,
+    "question": "___ do you go to school?",
+    "correct": "How",
+    "wrong_pool": ["What", "Where", "Who", "When"],
+    "hint": "Hỏi về phương tiện/cách thức đến trường → How"
+  },
+  {
+    "id": 13,
+    "question": "___ is sitting next to you?",
+    "correct": "Who",
+    "wrong_pool": ["What", "Where", "When", "Which"],
+    "hint": "Hỏi về người ngồi bên cạnh → Who"
+  },
+  {
+    "id": 14,
+    "question": "___ is the toilet?",
+    "correct": "Where",
+    "wrong_pool": ["What", "Who", "When", "How"],
+    "hint": "Hỏi về vị trí phòng vệ sinh → Where"
+  },
+  {
+    "id": 15,
+    "question": "___ do you usually eat for breakfast?",
+    "correct": "What",
+    "wrong_pool": ["Who", "Where", "When", "How"],
+    "hint": "Hỏi về món ăn → What"
+  },
+  {
+    "id": 16,
+    "question": "___ do you go to bed?",
+    "correct": "When",
+    "wrong_pool": ["What", "Where", "Who", "Which"],
+    "hint": "Hỏi về thời điểm đi ngủ → When"
+  },
+  {
+    "id": 17,
+    "question": "___ old are you?",
+    "correct": "How",
+    "wrong_pool": ["What", "Which", "Who", "When"],
+    "hint": "\"How old\" là cụm hỏi tuổi cố định → How"
+  },
+  {
+    "id": 18,
+    "question": "___ bag is bigger — yours or mine?",
+    "correct": "Which",
+    "wrong_pool": ["What", "Who", "How", "When"],
+    "hint": "So sánh và chọn giữa 2 cái túi cụ thể → Which"
+  },
+  {
+    "id": 19,
+    "question": "___ is your class teacher?",
+    "correct": "Who",
+    "wrong_pool": ["What", "Where", "When", "Which"],
+    "hint": "Hỏi về người là giáo viên chủ nhiệm → Who"
+  },
+  {
+    "id": 20,
+    "question": "___ does your family go on holiday?",
+    "correct": "Where",
+    "wrong_pool": ["What", "Who", "When", "How"],
+    "hint": "Hỏi địa điểm đi nghỉ → Where"
+  },
+  {
+    "id": 21,
+    "question": "___ is your favourite subject?",
+    "correct": "What",
+    "wrong_pool": ["Who", "Where", "When", "How"],
+    "hint": "Hỏi về môn học yêu thích (sự vật) → What"
+  },
+  {
+    "id": 22,
+    "question": "___ do you feel today?",
+    "correct": "How",
+    "wrong_pool": ["What", "Where", "Who", "When"],
+    "hint": "Hỏi về cảm xúc/tình trạng của người → How"
+  },
+  {
+    "id": 23,
+    "question": "___ is the next school holiday?",
+    "correct": "When",
+    "wrong_pool": ["What", "Where", "Who", "Which"],
+    "hint": "Hỏi về thời gian ngày nghỉ → When"
+  },
+  {
+    "id": 24,
+    "question": "___ sport do you like — football or swimming?",
+    "correct": "Which",
+    "wrong_pool": ["What", "Who", "How", "When"],
+    "hint": "Chọn giữa 2 môn thể thao cụ thể → Which"
+  },
+  {
+    "id": 25,
+    "question": "___ tall is your brother?",
+    "correct": "How",
+    "wrong_pool": ["What", "Which", "Who", "When"],
+    "hint": "\"How tall\" là cụm hỏi chiều cao cố định → How"
+  },
+  {
+    "id": 26,
+    "question": "___ is your home like?",
+    "correct": "What",
+    "wrong_pool": ["How", "Where", "Who", "When"],
+    "hint": "\"What is ... like?\" hỏi về đặc điểm/miêu tả sự vật → What"
+  },
+  {
+    "id": 27,
+    "question": "___ pets do you have?",
+    "correct": "How many",
+    "wrong_pool": ["How", "What", "Which", "Who"],
+    "hint": "Hỏi số lượng thú cưng (đếm được) → How many"
+  },
+  {
+    "id": 28,
+    "question": "___ is calling me?",
+    "correct": "Who",
+    "wrong_pool": ["What", "Where", "When", "Which"],
+    "hint": "Hỏi về người đang gọi → Who"
+  },
+  {
+    "id": 29,
+    "question": "___ is your favourite food?",
+    "correct": "What",
+    "wrong_pool": ["Who", "Where", "When", "How"],
+    "hint": "Hỏi về món ăn yêu thích (sự vật) → What"
+  },
+  {
+    "id": 30,
+    "question": "___ is the supermarket?",
+    "correct": "Where",
+    "wrong_pool": ["What", "Who", "When", "How"],
+    "hint": "Hỏi địa điểm của siêu thị → Where"
+  }
+]

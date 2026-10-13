@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "question": "___ she at home yesterday?",
+    "correct": "Was",
+    "wrong_pool": ["Were", "Did", "Is", "Does"],
+    "hint": "Chủ ngữ 'she' (số ít) + trạng ngữ quá khứ 'yesterday' → Was"
+  },
+  {
+    "id": 2,
+    "question": "___ he happy last night?",
+    "correct": "Was",
+    "wrong_pool": ["Were", "Did", "Is", "Does"],
+    "hint": "Chủ ngữ 'he' (số ít) + trạng ngữ quá khứ 'last night' → Was"
+  },
+  {
+    "id": 3,
+    "question": "___ the weather nice last Sunday?",
+    "correct": "Was",
+    "wrong_pool": ["Were", "Did", "Is", "Does"],
+    "hint": "Chủ ngữ 'the weather' (số ít) + trạng ngữ quá khứ 'last Sunday' → Was"
+  },
+  {
+    "id": 4,
+    "question": "___ your dog in the garden this morning?",
+    "correct": "Was",
+    "wrong_pool": ["Were", "Did", "Is", "Does"],
+    "hint": "Chủ ngữ 'your dog' (số ít) + sự kiện đã qua → Was"
+  },
+  {
+    "id": 5,
+    "question": "___ the milk fresh yesterday?",
+    "correct": "Was",
+    "wrong_pool": ["Were", "Did", "Is", "Does"],
+    "hint": "Chủ ngữ 'the milk' (số ít) + 'yesterday' → Was"
+  },
+  {
+    "id": 6,
+    "question": "___ her mother a teacher last year?",
+    "correct": "Was",
+    "wrong_pool": ["Were", "Did", "Is", "Does"],
+    "hint": "Chủ ngữ 'her mother' (số ít) + 'last year' → Was"
+  },
+  {
+    "id": 7,
+    "question": "___ the cat sleeping on the sofa last night?",
+    "correct": "Was",
+    "wrong_pool": ["Were", "Did", "Is", "Does"],
+    "hint": "Chủ ngữ 'the cat' (số ít) + 'last night' → Was"
+  },
+  {
+    "id": 8,
+    "question": "___ it cold last Monday?",
+    "correct": "Was",
+    "wrong_pool": ["Were", "Did", "Is", "Does"],
+    "hint": "Chủ ngữ 'it' (số ít) + 'last Monday' → Was"
+  },
+  {
+    "id": 9,
+    "question": "___ they at the park last weekend?",
+    "correct": "Were",
+    "wrong_pool": ["Was", "Did", "Are", "Do"],
+    "hint": "Chủ ngữ 'they' (số nhiều) + 'last weekend' → Were"
+  },
+  {
+    "id": 10,
+    "question": "___ your friends at school last Monday?",
+    "correct": "Were",
+    "wrong_pool": ["Was", "Did", "Are", "Do"],
+    "hint": "Chủ ngữ 'your friends' (số nhiều) + 'last Monday' → Were"
+  },
+  {
+    "id": 11,
+    "question": "___ you at the library yesterday afternoon?",
+    "correct": "Were",
+    "wrong_pool": ["Was", "Did", "Are", "Do"],
+    "hint": "Chủ ngữ 'you' → Were; trạng ngữ 'yesterday afternoon' → quá khứ"
+  },
+  {
+    "id": 12,
+    "question": "___ the children tired after the game?",
+    "correct": "Were",
+    "wrong_pool": ["Was", "Did", "Are", "Do"],
+    "hint": "Chủ ngữ 'the children' (số nhiều) + hỏi về trạng thái quá khứ → Were"
+  },
+  {
+    "id": 13,
+    "question": "___ you and Tom at the cinema last night?",
+    "correct": "Were",
+    "wrong_pool": ["Was", "Did", "Are", "Do"],
+    "hint": "'You and Tom' = 2 người (số nhiều) + 'last night' → Were"
+  },
+  {
+    "id": 14,
+    "question": "___ the students happy with their results last week?",
+    "correct": "Were",
+    "wrong_pool": ["Was", "Did", "Are", "Do"],
+    "hint": "Chủ ngữ 'the students' (số nhiều) + 'last week' → Were"
+  },
+  {
+    "id": 15,
+    "question": "___ they at home last Sunday?",
+    "correct": "Were",
+    "wrong_pool": ["Was", "Did", "Are", "Do"],
+    "hint": "Chủ ngữ 'they' (số nhiều) + 'last Sunday' → Were"
+  },
+  {
+    "id": 16,
+    "question": "___ your parents at work yesterday?",
+    "correct": "Were",
+    "wrong_pool": ["Was", "Did", "Are", "Do"],
+    "hint": "Chủ ngữ 'your parents' (số nhiều) + 'yesterday' → Were"
+  },
+  {
+    "id": 17,
+    "question": "___ she go to school yesterday?",
+    "correct": "Did",
+    "wrong_pool": ["Was", "Were", "Does", "Do"],
+    "hint": "Câu hỏi với động từ thường 'go' (không phải to be) + quá khứ → Did"
+  },
+  {
+    "id": 18,
+    "question": "___ they watch a movie last night?",
+    "correct": "Did",
+    "wrong_pool": ["Was", "Were", "Does", "Do"],
+    "hint": "Động từ thường 'watch' + 'last night' → Did"
+  },
+  {
+    "id": 19,
+    "question": "___ he eat his breakfast this morning?",
+    "correct": "Did",
+    "wrong_pool": ["Was", "Were", "Does", "Do"],
+    "hint": "Động từ thường 'eat' + sự kiện đã qua → Did"
+  },
+  {
+    "id": 20,
+    "question": "___ your parents visit the school last week?",
+    "correct": "Did",
+    "wrong_pool": ["Was", "Were", "Does", "Do"],
+    "hint": "Động từ thường 'visit' + 'last week' → Did"
+  },
+  {
+    "id": 21,
+    "question": "___ she call you yesterday?",
+    "correct": "Did",
+    "wrong_pool": ["Was", "Were", "Does", "Do"],
+    "hint": "Động từ thường 'call' + 'yesterday' → Did"
+  },
+  {
+    "id": 22,
+    "question": "___ the teacher check our homework yesterday?",
+    "correct": "Did",
+    "wrong_pool": ["Was", "Were", "Does", "Do"],
+    "hint": "Động từ thường 'check' + 'yesterday' → Did"
+  },
+  {
+    "id": 23,
+    "question": "___ they win the football match last Saturday?",
+    "correct": "Did",
+    "wrong_pool": ["Was", "Were", "Does", "Do"],
+    "hint": "Động từ thường 'win' + 'last Saturday' → Did"
+  },
+  {
+    "id": 24,
+    "question": "___ your brother read this book last year?",
+    "correct": "Did",
+    "wrong_pool": ["Was", "Were", "Does", "Do"],
+    "hint": "Động từ thường 'read' + 'last year' → Did"
+  },
+  {
+    "id": 25,
+    "question": "___ the dog bark last night?",
+    "correct": "Did",
+    "wrong_pool": ["Was", "Were", "Does", "Do"],
+    "hint": "Động từ thường 'bark' + 'last night' → Did"
+  },
+  {
+    "id": 26,
+    "question": "___ did you go last weekend? (Answer: I went to the zoo.)",
+    "correct": "Where",
+    "wrong_pool": ["Who", "What", "When", "How"],
+    "hint": "Câu trả lời là địa điểm 'the zoo' → hỏi địa điểm → Where"
+  },
+  {
+    "id": 27,
+    "question": "___ was the party? (Answer: It was at my house.)",
+    "correct": "Where",
+    "wrong_pool": ["Who", "What", "When", "How"],
+    "hint": "Câu trả lời là địa điểm 'at my house' → Where"
+  },
+  {
+    "id": 28,
+    "question": "___ did she live when she was young? (Answer: She lived in Hanoi.)",
+    "correct": "Where",
+    "wrong_pool": ["Who", "What", "When", "How"],
+    "hint": "Câu trả lời là địa điểm 'in Hanoi' → Where"
+  },
+  {
+    "id": 29,
+    "question": "___ did they go after school? (Answer: They went to the playground.)",
+    "correct": "Where",
+    "wrong_pool": ["Who", "What", "When", "How"],
+    "hint": "Câu trả lời là địa điểm 'the playground' → Where"
+  },
+  {
+    "id": 30,
+    "question": "___ was the cat yesterday? (Answer: It was under the table.)",
+    "correct": "Where",
+    "wrong_pool": ["Who", "What", "When", "How"],
+    "hint": "Câu trả lời là vị trí 'under the table' → Where"
+  },
+  {
+    "id": 31,
+    "question": "___ did she see at the park? (Answer: She saw her friend.)",
+    "correct": "Who",
+    "wrong_pool": ["What", "Where", "When", "How"],
+    "hint": "Câu trả lời là người 'her friend' → hỏi người → Who"
+  },
+  {
+    "id": 32,
+    "question": "___ was at the door? (Answer: My grandmother was at the door.)",
+    "correct": "Who",
+    "wrong_pool": ["What", "Where", "When", "How"],
+    "hint": "Câu trả lời là người 'My grandmother' → Who"
+  },
+  {
+    "id": 33,
+    "question": "___ did you go with last weekend? (Answer: I went with my mum.)",
+    "correct": "Who",
+    "wrong_pool": ["What", "Where", "When", "How"],
+    "hint": "Câu trả lời là người 'my mum' → Who"
+  },
+  {
+    "id": 34,
+    "question": "___ called you last night? (Answer: My teacher called me.)",
+    "correct": "Who",
+    "wrong_pool": ["What", "Where", "When", "How"],
+    "hint": "Câu trả lời là người 'My teacher' → Who"
+  },
+  {
+    "id": 35,
+    "question": "___ did he meet at the market? (Answer: He met his uncle.)",
+    "correct": "Who",
+    "wrong_pool": ["What", "Where", "When", "How"],
+    "hint": "Câu trả lời là người 'his uncle' → Who"
+  },
+  {
+    "id": 36,
+    "question": "___ did they do last Sunday? (Answer: They played football.)",
+    "correct": "What",
+    "wrong_pool": ["Where", "Who", "When", "How"],
+    "hint": "Câu trả lời là hoạt động 'played football' → hỏi hoạt động → What"
+  },
+  {
+    "id": 37,
+    "question": "___ did she eat for breakfast? (Answer: She ate rice and eggs.)",
+    "correct": "What",
+    "wrong_pool": ["Where", "Who", "When", "How"],
+    "hint": "Câu trả lời là thức ăn 'rice and eggs' → What"
+  },
+  {
+    "id": 38,
+    "question": "___ did he buy at the shop? (Answer: He bought a new book.)",
+    "correct": "What",
+    "wrong_pool": ["Where", "Who", "When", "How"],
+    "hint": "Câu trả lời là đồ vật 'a new book' → What"
+  },
+  {
+    "id": 39,
+    "question": "___ did you have for lunch yesterday? (Answer: I had noodles.)",
+    "correct": "What",
+    "wrong_pool": ["Where", "Who", "When", "How"],
+    "hint": "Câu trả lời là thức ăn 'noodles' → What"
+  },
+  {
+    "id": 40,
+    "question": "___ did the children make in class? (Answer: They made paper boats.)",
+    "correct": "What",
+    "wrong_pool": ["Where", "Who", "When", "How"],
+    "hint": "Câu trả lời là vật 'paper boats' → What"
+  },
+  {
+    "id": 41,
+    "question": "___ did he go to bed last night? (Answer: He went to bed at 9 o'clock.)",
+    "correct": "When",
+    "wrong_pool": ["Where", "What", "Who", "How"],
+    "hint": "Câu trả lời là thời gian '9 o'clock' → hỏi thời gian → When"
+  },
+  {
+    "id": 42,
+    "question": "___ was the show? (Answer: It was last Friday.)",
+    "correct": "When",
+    "wrong_pool": ["Where", "What", "Who", "How"],
+    "hint": "Câu trả lời là thời gian 'last Friday' → When"
+  },
+  {
+    "id": 43,
+    "question": "___ did she arrive at school? (Answer: She arrived at 7 in the morning.)",
+    "correct": "When",
+    "wrong_pool": ["Where", "What", "Who", "How"],
+    "hint": "Câu trả lời là thời gian '7 in the morning' → When"
+  },
+  {
+    "id": 44,
+    "question": "___ did they go on holiday? (Answer: They went last summer.)",
+    "correct": "When",
+    "wrong_pool": ["Where", "What", "Who", "How"],
+    "hint": "Câu trả lời là khoảng thời gian 'last summer' → When"
+  },
+  {
+    "id": 45,
+    "question": "___ did you wake up this morning? (Answer: I woke up at 6 o'clock.)",
+    "correct": "When",
+    "wrong_pool": ["Where", "What", "Who", "How"],
+    "hint": "Câu trả lời là thời gian '6 o'clock' → When"
+  },
+  {
+    "id": 46,
+    "question": "___ did you travel to the city last summer? (Answer: I travelled by plane.)",
+    "correct": "How",
+    "wrong_pool": ["Where", "What", "Who", "When"],
+    "hint": "Câu trả lời là phương tiện 'by plane' → hỏi cách thức → How"
+  },
+  {
+    "id": 47,
+    "question": "___ did she feel after the race? (Answer: She felt very tired.)",
+    "correct": "How",
+    "wrong_pool": ["Where", "What", "Who", "When"],
+    "hint": "Câu trả lời là cảm giác 'very tired' → How"
+  },
+  {
+    "id": 48,
+    "question": "___ did he get to school yesterday? (Answer: He rode his bike.)",
+    "correct": "How",
+    "wrong_pool": ["Where", "What", "Who", "When"],
+    "hint": "Câu trả lời là cách di chuyển 'rode his bike' → How"
+  },
+  {
+    "id": 49,
+    "question": "___ did the show go last night? (Answer: It went very well.)",
+    "correct": "How",
+    "wrong_pool": ["Where", "What", "Who", "When"],
+    "hint": "Câu trả lời mô tả kết quả/mức độ 'very well' → How"
+  },
+  {
+    "id": 50,
+    "question": "___ did they make the kite? (Answer: They used paper and sticks.)",
+    "correct": "How",
+    "wrong_pool": ["Where", "What", "Who", "When"],
+    "hint": "Câu trả lời là cách thực hiện 'used paper and sticks' → How"
+  }
+]
