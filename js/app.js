@@ -21,13 +21,13 @@ const state = {
 // ── Utilities ─────────────────────────────────────────────────────────────────
 
 async function fetchJSON(url) {
-  const res = await fetch(url);
+  const res = await fetch(url, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Cannot load ${url}`);
   return res.json();
 }
 
 async function fetchText(url) {
-  const res = await fetch(url);
+  const res = await fetch(url, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`Cannot load ${url}`);
   return res.text();
 }
