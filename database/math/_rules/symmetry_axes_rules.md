@@ -3,7 +3,7 @@
 ## Mục tiêu
 Cho một hình hoặc hoạ tiết, học sinh chọn **số trục đối xứng** (lấy từ Phiếu 8, Phần B – Câu 10). Có 3 nhóm:
 - **Hình học cơ bản**: vuông, chữ nhật, tam giác đều, tam giác cân, tam giác vuông cân, thoi, ngũ/lục/thất/bát giác đều, thang cân, ngôi sao 5 cánh, chữ thập, ngôi nhà.
-- **Hình 0 trục**: bình hành, tam giác thường/tù, thang vuông, chữ L (hai nhánh dài khác nhau), chong chóng 3 và 4 cánh, chữ S. Chong chóng và chữ S chỉ đối xứng qua phép **xoay**, không có trục, nên dễ gây nhầm.
+- **Hình 0 trục**: bình hành, tam giác thường/tù, thang vuông, chữ L (hai nhánh dài khác nhau), chong chóng 3 cánh, chữ S, hình vuông chia 2 màu bởi đường lệch. Chong chóng và chữ S chỉ đối xứng qua phép **xoay**, không có trục, nên dễ gây nhầm.
 - **Hình có hoạ tiết**: hình gốc có thêm chấm, đường kẻ hoặc phần tô màu, làm giữ nguyên hoặc **giảm** số trục so với hình gốc.
 
 Không dùng hình tròn (có vô số trục).
@@ -14,8 +14,9 @@ Không dùng hình tròn (có vô số trục).
 - Câu hỏi:
   - Nhóm cơ bản và nhóm 0 trục: `"Hình dưới đây có bao nhiêu trục đối xứng?"`
   - Nhóm hoạ tiết: `"Hoạ tiết dưới đây có bao nhiêu trục đối xứng? (tính cả chấm, đường kẻ và phần tô màu bên trong)"`
+  - Hình 0 trục có tô 2 màu (group `zero_color` trong script): `"Hình dưới đây có bao nhiêu trục đối xứng? (tính cả phần tô màu bên trong)"`
 - `figure` = `figures/symmetry_<tên>.svg` (tương đối với `database/math/`), viết dạng HTML fragment, `viewBox="0 0 200 200"`, cùng style với `polygon_*.svg`.
-  - Thứ tự vẽ: nền hình → phần tô màu (`#60a5fa`) → chấm (`#1e3a8a`) và đường kẻ → viền hình (luôn nằm trên cùng).
+  - Thứ tự vẽ: nền hình → phần tô màu (`#60a5fa`; `fill2` là màu cam `#fdba74`, dùng khi cần hình có 2 màu khác hẳn nhau, script coi 2 màu là khác nhau khi đếm trục) → chấm (`#1e3a8a`) và đường kẻ → viền hình (luôn nằm trên cùng).
 - File JSON và SVG được sinh bằng `scripts/gen_symmetry_axes.py`. Muốn thêm hình thì thêm vào `ITEMS` rồi chạy `python3 scripts/gen_symmetry_axes.py`. Script **tự đếm số trục bằng hình học**: thử mọi trục đi qua trọng tâm (theo lưới 0,5°, cộng thêm các trục đi qua từng đỉnh và các trục là trung trực của từng cặp đỉnh, để bắt được trục ở góc lẻ như của thất giác đều), rồi kiểm tra ảnh của từng chấm, cạnh, đường kẻ và vùng tô có trùng với hình ban đầu không. Vì vậy `correct` luôn khớp với hình vẽ. Khi thêm hình mới, hãy chạy lại kiểm tra này, không tự đếm bằng tay.
 
 ## Phân bố (50 câu)
@@ -37,7 +38,7 @@ Không dùng hình tròn (có vô số trục).
 | 8 | Lục giác đều | 6 |
 | 9 | Thang cân | 1 |
 | 10 | Bát giác đều | 8 |
-| 11–15 | Bình hành, tam giác thường, thang vuông, chong chóng, chữ S | 0 |
+| 11–15 | Bình hành, tam giác thường, thang vuông, hình vuông chia 2 màu bởi đường lệch (xanh/cam), chữ S | 0 |
 | 16 | Vuông + 4 chấm đối xứng (như đề) | 4 |
 | 17 | Vuông + 1 chấm ở góc | 1 (đường chéo) |
 | 18 | Vuông + 1 chấm giữa cạnh trên | 1 (trục dọc) |

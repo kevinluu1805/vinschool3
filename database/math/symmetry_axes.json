@@ -170,8 +170,8 @@
   },
   {
     "id": 14,
-    "question": "Hình dưới đây có bao nhiêu trục đối xứng?",
-    "figure": "figures/symmetry_chong_chong.svg",
+    "question": "Hình dưới đây có bao nhiêu trục đối xứng? (tính cả phần tô màu bên trong)",
+    "figure": "figures/symmetry_vuong_2_mau_lech.svg",
     "correct": "0",
     "wrong_pool": [
       "1",

@@ -16,9 +16,10 @@ RECT_H = [(20,55),(180,55),(180,145),(20,145)]
 RECT_V = [(55,20),(145,20),(145,180),(55,180)]
 TRI_EQ = reg(3, 85, 100, 115)
 
-# primitive: (kind, data)  kind ∈ shape | fill | dot | line | ring
+# primitive: (kind, data)  kind ∈ shape | fill | fill2 (màu cam, khác màu fill) | dot | line | ring
 def shape(pts): return ("shape", pts)
 def fill(pts): return ("fill", pts)
+def fill2(pts): return ("fill2", pts)
 def dot(x, y): return ("dot", (x, y, 8))
 def line(a, b): return ("line", (a, b))
 def ring(x, y, r): return ("ring", (x, y, r))
@@ -39,9 +40,8 @@ ITEMS = [
  ("binh_hanh", "zero", "Hình bình hành", [shape([(60,50),(185,50),(140,150),(15,150)])], None),
  ("tam_giac_thuong", "zero", "Tam giác thường", [shape([(40,170),(180,170),(75,40)])], None),
  ("thang_vuong", "zero", "Hình thang vuông", [shape([(30,40),(110,40),(175,160),(30,160)])], None),
- ("chong_chong", "zero", "Chong chóng 4 cánh",
-   [shape([(100,100),(100,20),(160,40)]), shape([(100,100),(180,100),(160,160)]),
-    shape([(100,100),(100,180),(40,160)]), shape([(100,100),(20,100),(40,40)])], None),
+ ("vuong_2_mau_lech", "zero_color", "Hình vuông chia 2 màu bởi đường lệch",
+   [fill([(35,35),(75,35),(165,165),(35,165)]), fill2([(75,35),(165,35),(165,165)]), shape(SQ)], None),
  ("chu_s", "zero", "Hình chữ S ghép từ 4 ô vuông",
    [shape([(70,40),(170,40),(170,90),(120,90),(120,140),(20,140),(20,90),(70,90)])], None),
 
@@ -121,7 +121,7 @@ ITEMS = [
 # ---------- kiểm tra số trục bằng hình học ----------
 def key_pts(p):
     k, d = p
-    if k in ("shape", "fill"): return list(d)
+    if k in ("shape", "fill", "fill2"): return list(d)
     if k in ("dot", "ring"): return [(d[0], d[1])]
     return list(d)
 
@@ -136,7 +136,7 @@ def close(a, b, tol=0.6): return abs(a[0]-b[0]) < tol and abs(a[1]-b[1]) < tol
 def same(p, q):
     if p[0] != q[0]: return False
     k = p[0]
-    if k in ("shape", "fill"):
+    if k in ("shape", "fill", "fill2"):
         A, B = p[1], q[1]
         if len(A) != len(B): return False
         ea = [(A[i], A[(i+1) % len(A)]) for i in range(len(A))]
@@ -149,7 +149,7 @@ def same(p, q):
 
 def refl_prim(p, c, ang):
     k, d = p
-    if k in ("shape", "fill"): return (k, [reflect(v, c, ang) for v in d])
+    if k in ("shape", "fill", "fill2"): return (k, [reflect(v, c, ang) for v in d])
     if k in ("dot", "ring"): return (k, (*reflect(d[:2], c, ang), d[2]))
     return (k, tuple(reflect(v, c, ang) for v in d))
 
@@ -180,6 +180,7 @@ def svg(prims, label):
             bg.append(f'<polygon points="{fmt(d)}" fill="#dbeafe"/>')
             outlines.append(f'<polygon points="{fmt(d)}" fill="none" stroke="#2563eb" stroke-width="4" stroke-linejoin="round"/>')
         elif k == "fill": fills.append(f'<polygon points="{fmt(d)}" fill="#60a5fa"/>')
+        elif k == "fill2": fills.append(f'<polygon points="{fmt(d)}" fill="#fdba74"/>')
         elif k == "dot": marks.append(f'<circle cx="{d[0]}" cy="{d[1]}" r="{d[2]}" fill="#1e3a8a"/>')
         elif k == "ring": marks.append(f'<circle cx="{d[0]}" cy="{d[1]}" r="{d[2]}" fill="none" stroke="#2563eb" stroke-width="4"/>')
         else: marks.append(f'<line x1="{d[0][0]}" y1="{d[0][1]}" x2="{d[1][0]}" y2="{d[1][1]}" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>')
@@ -206,8 +207,9 @@ for i, (name, group, label, prims, base) in enumerate(ITEMS, 1):
     wp = []
     for t in ([base] if base else []) + TRAPS[n]:
         if t != str(n) and t not in wp: wp.append(t)
-    q = "Hình dưới đây có bao nhiêu trục đối xứng?" if group != "pattern" else \
-        "Hoạ tiết dưới đây có bao nhiêu trục đối xứng? (tính cả chấm, đường kẻ và phần tô màu bên trong)"
+    q = {"pattern": "Hoạ tiết dưới đây có bao nhiêu trục đối xứng? (tính cả chấm, đường kẻ và phần tô màu bên trong)",
+         "zero_color": "Hình dưới đây có bao nhiêu trục đối xứng? (tính cả phần tô màu bên trong)",
+         }.get(group, "Hình dưới đây có bao nhiêu trục đối xứng?")
     qs.append({"id": i, "question": q, "figure": path, "correct": str(n), "wrong_pool": wp[:5]})
     print(f"{i:2} {group:7} {n}  {label}  {wp[:5]}")
 json.dump(qs, open(os.path.join(OUT, "symmetry_axes.json"), "w"), ensure_ascii=False, indent=2)

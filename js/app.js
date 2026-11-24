@@ -2,7 +2,7 @@
 
 const APP_CONFIG = window.APP_CONFIG || {};
 const DB = APP_CONFIG.db || window.DB_PATH || './database';
-const QUESTION_COUNTS = [1, 3, 5, 10];
+const QUESTION_COUNTS = [1, 5, 10, 20];
 
 let _settingsOutsideListener = null;
 
@@ -21,6 +21,10 @@ const state = {
 };
 
 // ── Utilities ─────────────────────────────────────────────────────────────────
+
+function questionRef(typeId, id) {
+  return `${DB.replace(/^(\.{1,2}\/)+/, '')}/${typeId}.json id=${id}`;
+}
 
 async function fetchJSON(url) {
   const res = await fetch(url, { cache: 'no-cache' });
@@ -96,6 +100,7 @@ async function startRandom() {
     state.quiz = shuffle(picked.map(({ type, q }, i) => ({
       typeId: type.id,
       typeLabel: type.label,
+      ref: questionRef(type.id, q.id),
       question: q.question,
       correct: q.correct,
       answers: shuffle([q.correct, ...pickN(q.wrong_pool, Math.min(3, q.wrong_pool.length))]),
@@ -130,6 +135,7 @@ async function startQuiz() {
         state.quiz.push({
           typeId,
           typeLabel: type.label,
+          ref: questionRef(typeId, q.id),
           question: q.question,
           correct: q.correct,
           answers: shuffle([q.correct, ...pickN(q.wrong_pool, Math.min(3, q.wrong_pool.length))]),
@@ -335,7 +341,7 @@ function tmplResults() {
                   ${ok ? '✓' : '✗'}
                 </span>
                 <div class="flex-1 space-y-2">
-                  <div>
+                  <div class="copy-ref cursor-pointer" data-ref="${q.ref}">
                     <p class="text-xs font-semibold text-blue-500 uppercase tracking-wider">${q.typeLabel}</p>
                     <p class="text-slate-700 font-medium mt-0.5">${q.question}</p>
                   </div>
@@ -497,6 +503,9 @@ function render() {
   }
 
   if (state.view === 'results') {
+    document.querySelectorAll('.copy-ref').forEach(el => {
+      el.addEventListener('click', () => navigator.clipboard.writeText(el.dataset.ref));
+    });
     document.getElementById('btn-retry').addEventListener('click', () => {
       const saved = JSON.parse(localStorage.getItem('selected_types') || '[]');
       const validIds = new Set(state.types.map(t => t.id));
