@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "question": "Có 165 học sinh làm tranh khảm. Mỗi bạn làm một bức tranh bằng 9 viên đá khảm. Tính chính xác số viên đá cả nhóm cần dùng.",
+    "correct": "1485",
+    "wrong_pool": [
+      "945",
+      "1320",
+      "1650",
+      "1495",
+      "1385"
+    ],
+    "hint": "Lấy 165 × 9. Nhớ cộng phần nhớ sang hàng bên trái."
+  },
+  {
+    "id": 2,
+    "question": "Mỗi hộp bút có 6 chiếc bút. Trường mua 128 hộp bút. Tính chính xác số chiếc bút trường đã mua.",
+    "correct": "768",
+    "wrong_pool": [
+      "628",
+      "640",
+      "896",
+      "778",
+      "668"
+    ],
+    "hint": "Lấy 128 × 6. Nhớ cộng phần nhớ sang hàng bên trái."
+  },
+  {
+    "id": 3,
+    "question": "Một con robot đồ chơi cần 4 cục pin. Cửa hàng lắp pin cho 247 con robot. Tính chính xác số cục pin cửa hàng cần dùng.",
+    "correct": "988",
+    "wrong_pool": [
+      "868",
+      "741",
+      "1235",
+      "998",
+      "888"
+    ],
+    "hint": "Lấy 247 × 4. Nhớ cộng phần nhớ sang hàng bên trái."
+  },
+  {
+    "id": 4,
+    "question": "Mỗi tuần có 7 ngày. Hỏi 136 tuần có tất cả bao nhiêu ngày? Tính chính xác.",
+    "correct": "952",
+    "wrong_pool": [
+      "712",
+      "816",
+      "1088",
+      "962",
+      "852"
+    ],
+    "hint": "Lấy 136 × 7. Nhớ cộng phần nhớ sang hàng bên trái."
+  },
+  {
+    "id": 5,
+    "question": "Mỗi chiếc bàn có 8 chiếc ốc vít. Xưởng đóng 215 chiếc bàn. Tính chính xác số ốc vít xưởng cần dùng.",
+    "correct": "1720",
+    "wrong_pool": [
+      "1680",
+      "1505",
+      "1935",
+      "1730",
+      "1620"
+    ],
+    "hint": "Lấy 215 × 8. Nhớ cộng phần nhớ sang hàng bên trái."
+  },
+  {
+    "id": 6,
+    "question": "Mỗi túi gạo nặng 5 kg. Một cửa hàng có 184 túi gạo như thế. Tính chính xác số ki-lô-gam gạo cửa hàng có.",
+    "correct": "920",
+    "wrong_pool": [
+      "500",
+      "736",
+      "1104",
+      "930",
+      "820"
+    ],
+    "hint": "Lấy 184 × 5. Nhớ cộng phần nhớ sang hàng bên trái."
+  },
+  {
+    "id": 7,
+    "question": "Mỗi bạn được phát 3 quyển vở. Khối lớp 3 có 326 bạn. Tính chính xác số quyển vở cần phát.",
+    "correct": "978",
+    "wrong_pool": [
+      "968",
+      "652",
+      "1304",
+      "988",
+      "878"
+    ],
+    "hint": "Lấy 326 × 3. Nhớ cộng phần nhớ sang hàng bên trái."
+  },
+  {
+    "id": 8,
+    "question": "Mỗi lốc sữa chua có 6 hộp. Siêu thị nhập về 159 lốc sữa chua. Tính chính xác số hộp sữa chua siêu thị nhập về.",
+    "correct": "954",
+    "wrong_pool": [
+      "604",
+      "795",
+      "1113",
+      "964",
+      "854"
+    ],
+    "hint": "Lấy 159 × 6. Nhớ cộng phần nhớ sang hàng bên trái."
+  },
+  {
+    "id": 9,
+    "question": "Mỗi chiếc ghế có 4 chân. Hội trường có 275 chiếc ghế. Tính chính xác số chân ghế trong hội trường.",
+    "correct": "1100",
+    "wrong_pool": [
+      "880",
+      "825",
+      "1375",
+      "1110",
+      "1000"
+    ],
+    "hint": "Lấy 275 × 4. Nhớ cộng phần nhớ sang hàng bên trái."
+  },
+  {
+    "id": 10,
+    "question": "Mỗi bông hoa giấy cần 9 cánh hoa. Lớp em làm 148 bông hoa giấy. Tính chính xác số cánh hoa cần cắt.",
+    "correct": "1332",
+    "wrong_pool": [
+      "962",
+      "1184",
+      "1480",
+      "1342",
+      "1232"
+    ],
+    "hint": "Lấy 148 × 9. Nhớ cộng phần nhớ sang hàng bên trái."
+  },
+  {
+    "id": 11,
+    "question": "Petra có 89 tấm ảnh. Mỗi trang album xếp đầy được 6 tấm. Hỏi Petra xếp được nhiều nhất bao nhiêu trang đầy và còn thừa bao nhiêu tấm ảnh?",
+    "correct": "14 trang, thừa 5 tấm ảnh",
+    "wrong_pool": [
+      "13 trang, thừa 11 tấm ảnh",
+      "15 trang, thừa 5 tấm ảnh",
+      "14 trang, thừa 1 tấm ảnh",
+      "5 trang, thừa 14 tấm ảnh",
+      "14 trang, thừa 6 tấm ảnh"
+    ],
+    "hint": "Thực hiện phép chia 89 : 6. Thương là số trang đầy, số dư là số tấm ảnh còn thừa. Số dư phải bé hơn 6."
+  },
+  {
+    "id": 12,
+    "question": "Có 58 quả cam, xếp vào các túi, mỗi túi 4 quả. Hỏi xếp được nhiều nhất bao nhiêu túi đầy và còn thừa bao nhiêu quả cam?",
+    "correct": "14 túi, thừa 2 quả cam",
+    "wrong_pool": [
+      "13 túi, thừa 6 quả cam",
+      "15 túi, thừa 2 quả cam",
+      "2 túi, thừa 14 quả cam",
+      "14 túi, thừa 3 quả cam",
+      "14 túi, thừa 1 quả cam"
+    ],
+    "hint": "Thực hiện phép chia 58 : 4. Thương là số túi đầy, số dư là số quả cam còn thừa. Số dư phải bé hơn 4."
+  },
+  {
+    "id": 13,
+    "question": "Có 75 chiếc bánh, xếp vào các hộp, mỗi hộp 7 chiếc. Hỏi xếp được nhiều nhất bao nhiêu hộp đầy và còn thừa bao nhiêu chiếc bánh?",
+    "correct": "10 hộp, thừa 5 chiếc bánh",
+    "wrong_pool": [
+      "9 hộp, thừa 12 chiếc bánh",
+      "11 hộp, thừa 5 chiếc bánh",
+      "10 hộp, thừa 2 chiếc bánh",
+      "5 hộp, thừa 10 chiếc bánh",
+      "10 hộp, thừa 6 chiếc bánh"
+    ],
+    "hint": "Thực hiện phép chia 75 : 7. Thương là số hộp đầy, số dư là số chiếc bánh còn thừa. Số dư phải bé hơn 7."
+  },
+  {
+    "id": 14,
+    "question": "Có 67 m vải, mỗi bộ quần áo may hết 5 m vải. Hỏi may được nhiều nhất bao nhiêu bộ quần áo và còn thừa bao nhiêu mét vải?",
+    "correct": "13 bộ, thừa 2 m vải",
+    "wrong_pool": [
+      "12 bộ, thừa 7 m vải",
+      "14 bộ, thừa 2 m vải",
+      "13 bộ, thừa 3 m vải",
+      "2 bộ, thừa 13 m vải",
+      "13 bộ, thừa 1 m vải"
+    ],
+    "hint": "Thực hiện phép chia 67 : 5. Thương là số bộ đầy, số dư là số m vải còn thừa. Số dư phải bé hơn 5."
+  },
+  {
+    "id": 15,
+    "question": "Có 94 quyển sách, xếp lên các ngăn tủ, mỗi ngăn 8 quyển. Hỏi xếp được nhiều nhất bao nhiêu ngăn đầy và còn thừa bao nhiêu quyển sách?",
+    "correct": "11 ngăn, thừa 6 quyển sách",
+    "wrong_pool": [
+      "10 ngăn, thừa 14 quyển sách",
+      "12 ngăn, thừa 6 quyển sách",
+      "11 ngăn, thừa 2 quyển sách",
+      "6 ngăn, thừa 11 quyển sách",
+      "11 ngăn, thừa 7 quyển sách"
+    ],
+    "hint": "Thực hiện phép chia 94 : 8. Thương là số ngăn đầy, số dư là số quyển sách còn thừa. Số dư phải bé hơn 8."
+  },
+  {
+    "id": 16,
+    "question": "Có 53 bông hoa, cắm vào các lọ, mỗi lọ 3 bông. Hỏi cắm được nhiều nhất bao nhiêu lọ đầy và còn thừa bao nhiêu bông hoa?",
+    "correct": "17 lọ, thừa 2 bông hoa",
+    "wrong_pool": [
+      "16 lọ, thừa 5 bông hoa",
+      "18 lọ, thừa 2 bông hoa",
+      "17 lọ, thừa 1 bông hoa",
+      "2 lọ, thừa 17 bông hoa",
+      "17 lọ, thừa 3 bông hoa"
+    ],
+    "hint": "Thực hiện phép chia 53 : 3. Thương là số lọ đầy, số dư là số bông hoa còn thừa. Số dư phải bé hơn 3."
+  },
+  {
+    "id": 17,
+    "question": "Có 85 cái bút, buộc thành các bó, mỗi bó 9 cái. Hỏi buộc được nhiều nhất bao nhiêu bó và còn thừa bao nhiêu cái bút?",
+    "correct": "9 bó, thừa 4 cái bút",
+    "wrong_pool": [
+      "8 bó, thừa 13 cái bút",
+      "10 bó, thừa 4 cái bút",
+      "9 bó, thừa 5 cái bút",
+      "4 bó, thừa 9 cái bút",
+      "9 bó, thừa 3 cái bút"
+    ],
+    "hint": "Thực hiện phép chia 85 : 9. Thương là số bó đầy, số dư là số cái bút còn thừa. Số dư phải bé hơn 9."
+  },
+  {
+    "id": 18,
+    "question": "Có 79 quả trứng, xếp vào các khay, mỗi khay 6 quả. Hỏi xếp được nhiều nhất bao nhiêu khay đầy và còn thừa bao nhiêu quả trứng?",
+    "correct": "13 khay, thừa 1 quả trứng",
+    "wrong_pool": [
+      "12 khay, thừa 7 quả trứng",
+      "14 khay, thừa 1 quả trứng",
+      "13 khay, thừa 5 quả trứng",
+      "1 khay, thừa 13 quả trứng",
+      "13 khay, thừa 2 quả trứng"
+    ],
+    "hint": "Thực hiện phép chia 79 : 6. Thương là số khay đầy, số dư là số quả trứng còn thừa. Số dư phải bé hơn 6."
+  },
+  {
+    "id": 19,
+    "question": "Có 46 chiếc bánh quy, chia đều vào các đĩa, mỗi đĩa 4 chiếc. Hỏi được nhiều nhất bao nhiêu đĩa đầy và còn thừa bao nhiêu chiếc bánh quy?",
+    "correct": "11 đĩa, thừa 2 chiếc bánh quy",
+    "wrong_pool": [
+      "10 đĩa, thừa 6 chiếc bánh quy",
+      "12 đĩa, thừa 2 chiếc bánh quy",
+      "2 đĩa, thừa 11 chiếc bánh quy",
+      "11 đĩa, thừa 3 chiếc bánh quy",
+      "11 đĩa, thừa 1 chiếc bánh quy"
+    ],
+    "hint": "Thực hiện phép chia 46 : 4. Thương là số đĩa đầy, số dư là số chiếc bánh quy còn thừa. Số dư phải bé hơn 4."
+  },
+  {
+    "id": 20,
+    "question": "Có 62 viên bi, bỏ vào các túi, mỗi túi 7 viên. Hỏi được nhiều nhất bao nhiêu túi đầy và còn thừa bao nhiêu viên bi?",
+    "correct": "8 túi, thừa 6 viên bi",
+    "wrong_pool": [
+      "7 túi, thừa 13 viên bi",
+      "9 túi, thừa 6 viên bi",
+      "8 túi, thừa 1 viên bi",
+      "6 túi, thừa 8 viên bi",
+      "8 túi, thừa 7 viên bi"
+    ],
+    "hint": "Thực hiện phép chia 62 : 7. Thương là số túi đầy, số dư là số viên bi còn thừa. Số dư phải bé hơn 7."
+  },
+  {
+    "id": 21,
+    "question": "Petra có 89 tấm ảnh. Mỗi trang album xếp đầy được 6 tấm. Hỏi Petra cần ít nhất bao nhiêu trang để xếp hết số tấm ảnh đó?",
+    "correct": "15 trang",
+    "wrong_pool": [
+      "14 trang",
+      "16 trang",
+      "5 trang",
+      "19 trang",
+      "13 trang"
+    ],
+    "hint": "Thực hiện phép chia 89 : 6. Nếu còn dư thì cần thêm 1 trang nữa cho phần dư."
+  },
+  {
+    "id": 22,
+    "question": "Lớp 3B có 45 học sinh đi chơi thuyền. Mỗi thuyền chở được 6 bạn. Hỏi cần ít nhất bao nhiêu chiếc thuyền để chở hết các bạn?",
+    "correct": "8 thuyền",
+    "wrong_pool": [
+      "7 thuyền",
+      "9 thuyền",
+      "3 thuyền",
+      "10 thuyền",
+      "6 thuyền"
+    ],
+    "hint": "Thực hiện phép chia 45 : 6. Nếu còn dư thì cần thêm 1 thuyền nữa cho phần dư."
+  },
+  {
+    "id": 23,
+    "question": "Có 38 quả bóng, mỗi rổ đựng được 4 quả. Hỏi cần ít nhất bao nhiêu cái rổ để đựng hết số bóng?",
+    "correct": "10 rổ",
+    "wrong_pool": [
+      "9 rổ",
+      "11 rổ",
+      "2 rổ",
+      "8 rổ",
+      "4 rổ"
+    ],
+    "hint": "Thực hiện phép chia 38 : 4. Nếu còn dư thì cần thêm 1 rổ nữa cho phần dư."
+  },
+  {
+    "id": 24,
+    "question": "Có 52 khách đi du lịch, mỗi xe chở được 5 người. Hỏi cần ít nhất bao nhiêu chiếc xe để chở hết số khách?",
+    "correct": "11 xe",
+    "wrong_pool": [
+      "10 xe",
+      "12 xe",
+      "2 xe",
+      "9 xe",
+      "5 xe"
+    ],
+    "hint": "Thực hiện phép chia 52 : 5. Nếu còn dư thì cần thêm 1 xe nữa cho phần dư."
+  },
+  {
+    "id": 25,
+    "question": "Có 71 chiếc cốc, mỗi hộp đựng được 8 chiếc. Hỏi cần ít nhất bao nhiêu cái hộp để đựng hết số cốc?",
+    "correct": "9 hộp",
+    "wrong_pool": [
+      "8 hộp",
+      "10 hộp",
+      "7 hộp",
+      "15 hộp",
+      "11 hộp"
+    ],
+    "hint": "Thực hiện phép chia 71 : 8. Nếu còn dư thì cần thêm 1 hộp nữa cho phần dư."
+  },
+  {
+    "id": 26,
+    "question": "Có 65 lít nước mắm, mỗi can chứa được 7 lít. Hỏi cần ít nhất bao nhiêu cái can để chứa hết số nước mắm?",
+    "correct": "10 can",
+    "wrong_pool": [
+      "9 can",
+      "11 can",
+      "2 can",
+      "8 can",
+      "7 can"
+    ],
+    "hint": "Thực hiện phép chia 65 : 7. Nếu còn dư thì cần thêm 1 can nữa cho phần dư."
+  },
+  {
+    "id": 27,
+    "question": "Có 40 học sinh ngồi vào các bàn, mỗi bàn ngồi được 3 bạn. Hỏi cần ít nhất bao nhiêu cái bàn để tất cả học sinh đều có chỗ ngồi?",
+    "correct": "14 bàn",
+    "wrong_pool": [
+      "13 bàn",
+      "15 bàn",
+      "1 bàn",
+      "12 bàn",
+      "3 bàn"
+    ],
+    "hint": "Thực hiện phép chia 40 : 3. Nếu còn dư thì cần thêm 1 bàn nữa cho phần dư."
+  },
+  {
+    "id": 28,
+    "question": "Có 83 quả xoài, mỗi thùng đựng được 9 quả. Hỏi cần ít nhất bao nhiêu thùng để đựng hết số xoài?",
+    "correct": "10 thùng",
+    "wrong_pool": [
+      "9 thùng",
+      "11 thùng",
+      "2 thùng",
+      "8 thùng",
+      "12 thùng"
+    ],
+    "hint": "Thực hiện phép chia 83 : 9. Nếu còn dư thì cần thêm 1 thùng nữa cho phần dư."
+  },
+  {
+    "id": 29,
+    "question": "Có 57 chiếc bánh, mỗi hộp đựng được 4 chiếc. Hỏi cần ít nhất bao nhiêu hộp để đựng hết số bánh?",
+    "correct": "15 hộp",
+    "wrong_pool": [
+      "14 hộp",
+      "16 hộp",
+      "1 hộp",
+      "13 hộp",
+      "4 hộp"
+    ],
+    "hint": "Thực hiện phép chia 57 : 4. Nếu còn dư thì cần thêm 1 hộp nữa cho phần dư."
+  },
+  {
+    "id": 30,
+    "question": "Có 61 người đi thang máy, mỗi lượt thang máy chở được 6 người. Hỏi thang máy phải chở ít nhất bao nhiêu lượt để chở hết mọi người?",
+    "correct": "11 lượt",
+    "wrong_pool": [
+      "10 lượt",
+      "12 lượt",
+      "1 lượt",
+      "9 lượt",
+      "6 lượt"
+    ],
+    "hint": "Thực hiện phép chia 61 : 6. Nếu còn dư thì cần thêm 1 lượt nữa cho phần dư."
+  }
+]

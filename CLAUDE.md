@@ -47,6 +47,7 @@ vinschool/
 │   ├── question_types.json        # Index — list of all available question types
 │   ├── number_sequence.json       # Questions for "Number Sequence"
 │   └── sort_numbers.json          # Questions for "Sort Numbers"
+├── scripts/gen_*.py               # Generators for some question files (math) — edit the script, then re-run; don't hand-edit their JSON
 ├── package.json                   # { "start": "npx serve ." }
 ├── DESIGN.md                      # Detailed design doc
 └── CLAUDE.md                      # This file
@@ -116,6 +117,7 @@ Rules:
 - `correct` and all `wrong_pool` entries are **strings** (keeps the model uniform across all question types)
 - `wrong_pool` must have **at least 3** entries (quiz picks exactly 3)
 - Having 5+ in `wrong_pool` reduces repetition across quiz runs
+- Optional `figure`: path (relative to the subject's DB folder) to an HTML/SVG fragment shown under the question — see `database/math/polygon_shapes.json`
 
 ## Adding a new question type
 

@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "question": "Rajiv có 45 chiếc ô tô đồ chơi. Bạn tặng một phần năm số ô tô cho em trai. Hỏi Rajiv còn lại bao nhiêu chiếc ô tô đồ chơi?",
+    "correct": "36",
+    "wrong_pool": [
+      "9",
+      "40",
+      "54",
+      "27",
+      "45"
+    ],
+    "hint": "Bước 1: tìm một phần năm của 45 (lấy 45 chia cho 5). Bước 2: lấy 45 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 2,
+    "question": "Lan có 24 cái kẹo. Lan cho bạn một phần ba số kẹo đó. Hỏi Lan còn lại bao nhiêu cái kẹo?",
+    "correct": "16",
+    "wrong_pool": [
+      "8",
+      "21",
+      "32",
+      "24",
+      "19"
+    ],
+    "hint": "Bước 1: tìm một phần ba của 24 (lấy 24 chia cho 3). Bước 2: lấy 24 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 3,
+    "question": "Minh có 32 viên bi. Minh cho em một phần tư số viên bi. Hỏi Minh còn lại bao nhiêu viên bi?",
+    "correct": "24",
+    "wrong_pool": [
+      "8",
+      "28",
+      "40",
+      "16",
+      "32"
+    ],
+    "hint": "Bước 1: tìm một phần tư của 32 (lấy 32 chia cho 4). Bước 2: lấy 32 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 4,
+    "question": "Mẹ mua 42 quả trứng. Mẹ đã dùng một phần sáu số trứng để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?",
+    "correct": "35",
+    "wrong_pool": [
+      "7",
+      "36",
+      "49",
+      "28",
+      "42"
+    ],
+    "hint": "Bước 1: tìm một phần sáu của 42 (lấy 42 chia cho 6). Bước 2: lấy 42 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 5,
+    "question": "Một cửa hàng có 56 chiếc áo. Cửa hàng đã bán một phần bảy số áo. Hỏi cửa hàng còn lại bao nhiêu chiếc áo?",
+    "correct": "48",
+    "wrong_pool": [
+      "8",
+      "49",
+      "64",
+      "40",
+      "56"
+    ],
+    "hint": "Bước 1: tìm một phần bảy của 56 (lấy 56 chia cho 7). Bước 2: lấy 56 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 6,
+    "question": "Hoa có 72 bông hoa. Hoa tặng cô giáo một phần tám số bông hoa. Hỏi Hoa còn lại bao nhiêu bông hoa?",
+    "correct": "63",
+    "wrong_pool": [
+      "9",
+      "64",
+      "81",
+      "54",
+      "72"
+    ],
+    "hint": "Bước 1: tìm một phần tám của 72 (lấy 72 chia cho 8). Bước 2: lấy 72 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 7,
+    "question": "Thư viện lớp có 63 quyển truyện. Các bạn đã mượn một phần chín số quyển truyện. Hỏi thư viện lớp còn lại bao nhiêu quyển truyện?",
+    "correct": "56",
+    "wrong_pool": [
+      "7",
+      "54",
+      "70",
+      "49",
+      "63"
+    ],
+    "hint": "Bước 1: tìm một phần chín của 63 (lấy 63 chia cho 9). Bước 2: lấy 63 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 8,
+    "question": "Nam có 35 nhãn vở. Nam dán một phần năm số nhãn vở lên sách. Hỏi Nam còn lại bao nhiêu nhãn vở chưa dán?",
+    "correct": "28",
+    "wrong_pool": [
+      "7",
+      "30",
+      "42",
+      "21",
+      "35"
+    ],
+    "hint": "Bước 1: tìm một phần năm của 35 (lấy 35 chia cho 5). Bước 2: lấy 35 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 9,
+    "question": "Bác nông dân có 48 con gà. Bác bán một phần sáu số gà. Hỏi bác nông dân còn lại bao nhiêu con gà?",
+    "correct": "40",
+    "wrong_pool": [
+      "8",
+      "42",
+      "56",
+      "32",
+      "48"
+    ],
+    "hint": "Bước 1: tìm một phần sáu của 48 (lấy 48 chia cho 6). Bước 2: lấy 48 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 10,
+    "question": "Petra có 81 tấm ảnh. Petra tặng bạn một phần chín số tấm ảnh. Hỏi Petra còn lại bao nhiêu tấm ảnh?",
+    "correct": "72",
+    "wrong_pool": [
+      "9",
+      "90",
+      "63",
+      "81",
+      "71"
+    ],
+    "hint": "Bước 1: tìm một phần chín của 81 (lấy 81 chia cho 9). Bước 2: lấy 81 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 11,
+    "question": "Lớp 3A có 36 học sinh. Có một phần tư số học sinh đi học bơi. Hỏi lớp 3A còn bao nhiêu học sinh không đi học bơi?",
+    "correct": "27",
+    "wrong_pool": [
+      "9",
+      "32",
+      "45",
+      "18",
+      "36"
+    ],
+    "hint": "Bước 1: tìm một phần tư của 36 (lấy 36 chia cho 4). Bước 2: lấy 36 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 12,
+    "question": "An có một sợi dây dài 64 cm. An cắt đi một phần tám sợi dây. Hỏi sợi dây còn lại dài bao nhiêu xăng-ti-mét?",
+    "correct": "56",
+    "wrong_pool": [
+      "8",
+      "72",
+      "48",
+      "64",
+      "55"
+    ],
+    "hint": "Bước 1: tìm một phần tám của 64 (lấy 64 chia cho 8). Bước 2: lấy 64 trừ đi kết quả vừa tìm."
+  },
+  {
+    "id": 13,
+    "question": "Mai có 30 cái bút chì màu. Mai cho em một phần ba số bút chì màu. Hỏi Mai đã cho em bao nhiêu cái bút chì màu?",
+    "correct": "10",
+    "wrong_pool": [
+      "20",
+      "27",
+      "3",
+      "13",
+      "33"
+    ],
+    "hint": "Tìm một phần ba của 30 bằng cách lấy 30 chia cho 3."
+  },
+  {
+    "id": 14,
+    "question": "Bình có 28 quả táo. Bình biếu bà một phần tư số táo. Hỏi Bình đã biếu bà bao nhiêu quả táo?",
+    "correct": "7",
+    "wrong_pool": [
+      "21",
+      "24",
+      "4",
+      "14",
+      "11"
+    ],
+    "hint": "Tìm một phần tư của 28 bằng cách lấy 28 chia cho 4."
+  },
+  {
+    "id": 15,
+    "question": "Một vườn trường có 54 cây. Một phần sáu số cây là cây bàng. Hỏi vườn trường có bao nhiêu cây bàng?",
+    "correct": "9",
+    "wrong_pool": [
+      "45",
+      "48",
+      "6",
+      "18",
+      "15"
+    ],
+    "hint": "Tìm một phần sáu của 54 bằng cách lấy 54 chia cho 6."
+  },
+  {
+    "id": 16,
+    "question": "Linh có 42 viên kẹo. Linh chia cho bạn một phần bảy số viên kẹo. Hỏi Linh đã chia cho bạn bao nhiêu viên kẹo?",
+    "correct": "6",
+    "wrong_pool": [
+      "36",
+      "35",
+      "7",
+      "12",
+      "13"
+    ],
+    "hint": "Tìm một phần bảy của 42 bằng cách lấy 42 chia cho 7."
+  },
+  {
+    "id": 17,
+    "question": "Hà có 40 nghìn đồng. Hà dùng một phần năm số tiền để mua bút. Hỏi Hà đã dùng bao nhiêu nghìn đồng để mua bút?",
+    "correct": "8",
+    "wrong_pool": [
+      "32",
+      "35",
+      "5",
+      "16",
+      "13"
+    ],
+    "hint": "Tìm một phần năm của 40 bằng cách lấy 40 chia cho 5."
+  },
+  {
+    "id": 18,
+    "question": "Quân có 56 tấm thẻ. Quân tặng bạn một phần tám số thẻ. Hỏi Quân đã tặng bạn bao nhiêu tấm thẻ?",
+    "correct": "7",
+    "wrong_pool": [
+      "49",
+      "48",
+      "8",
+      "14",
+      "15"
+    ],
+    "hint": "Tìm một phần tám của 56 bằng cách lấy 56 chia cho 8."
+  },
+  {
+    "id": 19,
+    "question": "Một bể có 27 con cá. Một phần chín số cá là cá vàng. Hỏi bể có bao nhiêu con cá vàng?",
+    "correct": "3",
+    "wrong_pool": [
+      "24",
+      "18",
+      "9",
+      "6",
+      "12"
+    ],
+    "hint": "Tìm một phần chín của 27 bằng cách lấy 27 chia cho 9."
+  },
+  {
+    "id": 20,
+    "question": "Một đội có 60 vận động viên. Một phần sáu số vận động viên là nữ. Hỏi đội có bao nhiêu vận động viên nữ?",
+    "correct": "10",
+    "wrong_pool": [
+      "50",
+      "54",
+      "6",
+      "20",
+      "16"
+    ],
+    "hint": "Tìm một phần sáu của 60 bằng cách lấy 60 chia cho 6."
+  }
+]

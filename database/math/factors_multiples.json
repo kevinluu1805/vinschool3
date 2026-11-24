@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "question": "Tìm tất cả các ước của 12.",
+    "correct": "1, 2, 3, 4, 6, 12",
+    "wrong_pool": [
+      "2, 3, 4, 6",
+      "1, 2, 3, 4, 6",
+      "1, 2, 6, 12",
+      "1, 2, 3, 4, 5, 6, 12",
+      "1, 3, 4, 12"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 12: 1 × 12, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 12."
+  },
+  {
+    "id": 2,
+    "question": "Viết tất cả các ước của 16.",
+    "correct": "1, 2, 4, 8, 16",
+    "wrong_pool": [
+      "2, 4, 8",
+      "1, 2, 4, 8",
+      "1, 2, 8, 16",
+      "1, 2, 3, 4, 8, 16",
+      "1, 4, 16"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 16: 1 × 16, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 16."
+  },
+  {
+    "id": 3,
+    "question": "Số 20 chia hết cho những số nào? (viết tất cả)",
+    "correct": "1, 2, 4, 5, 10, 20",
+    "wrong_pool": [
+      "2, 4, 5, 10",
+      "1, 2, 4, 5, 10",
+      "1, 2, 10, 20",
+      "1, 2, 3, 4, 5, 10, 20",
+      "1, 4, 5, 20"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 20: 1 × 20, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 20."
+  },
+  {
+    "id": 4,
+    "question": "Tìm tất cả các ước của 28.",
+    "correct": "1, 2, 4, 7, 14, 28",
+    "wrong_pool": [
+      "2, 4, 7, 14",
+      "1, 2, 4, 7, 14",
+      "1, 2, 14, 28",
+      "1, 2, 3, 4, 7, 14, 28",
+      "1, 4, 7, 28"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 28: 1 × 28, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 28."
+  },
+  {
+    "id": 5,
+    "question": "Viết tất cả các ước của 30.",
+    "correct": "1, 2, 3, 5, 6, 10, 15, 30",
+    "wrong_pool": [
+      "2, 3, 5, 6, 10, 15",
+      "1, 2, 3, 5, 6, 10, 15",
+      "1, 2, 3, 10, 15, 30",
+      "1, 2, 3, 4, 5, 6, 10, 15, 30",
+      "1, 3, 5, 6, 10, 30"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 30: 1 × 30, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 30."
+  },
+  {
+    "id": 6,
+    "question": "Số 36 chia hết cho những số nào? (viết tất cả)",
+    "correct": "1, 2, 3, 4, 6, 9, 12, 18, 36",
+    "wrong_pool": [
+      "2, 3, 4, 6, 9, 12, 18",
+      "1, 2, 3, 4, 6, 9, 12, 18",
+      "1, 2, 3, 4, 9, 12, 18, 36",
+      "1, 2, 3, 4, 5, 6, 9, 12, 18, 36",
+      "1, 3, 4, 6, 9, 12, 36"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 36: 1 × 36, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 36."
+  },
+  {
+    "id": 7,
+    "question": "Tìm tất cả các ước của 42.",
+    "correct": "1, 2, 3, 6, 7, 14, 21, 42",
+    "wrong_pool": [
+      "2, 3, 6, 7, 14, 21",
+      "1, 2, 3, 6, 7, 14, 21",
+      "1, 2, 3, 14, 21, 42",
+      "1, 2, 3, 4, 6, 7, 14, 21, 42",
+      "1, 3, 6, 7, 14, 42"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 42: 1 × 42, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 42."
+  },
+  {
+    "id": 8,
+    "question": "Viết tất cả các ước của 45.",
+    "correct": "1, 3, 5, 9, 15, 45",
+    "wrong_pool": [
+      "3, 5, 9, 15",
+      "1, 3, 5, 9, 15",
+      "1, 3, 15, 45",
+      "1, 3, 4, 5, 9, 15, 45",
+      "1, 5, 9, 45"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 45: 1 × 45, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 45."
+  },
+  {
+    "id": 9,
+    "question": "Số 50 chia hết cho những số nào? (viết tất cả)",
+    "correct": "1, 2, 5, 10, 25, 50",
+    "wrong_pool": [
+      "2, 5, 10, 25",
+      "1, 2, 5, 10, 25",
+      "1, 2, 25, 50",
+      "1, 2, 3, 5, 10, 25, 50",
+      "1, 5, 10, 50"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 50: 1 × 50, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 50."
+  },
+  {
+    "id": 10,
+    "question": "Tìm tất cả các ước của 60.",
+    "correct": "1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60",
+    "wrong_pool": [
+      "2, 3, 4, 5, 6, 10, 12, 15, 20, 30",
+      "1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30",
+      "1, 2, 3, 4, 5, 12, 15, 20, 30, 60",
+      "1, 2, 3, 4, 5, 6, 7, 10, 12, 15, 20, 30, 60",
+      "1, 3, 4, 5, 6, 10, 12, 15, 20, 60"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 60: 1 × 60, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 60."
+  },
+  {
+    "id": 11,
+    "question": "Viết tất cả các ước của 75.",
+    "correct": "1, 3, 5, 15, 25, 75",
+    "wrong_pool": [
+      "3, 5, 15, 25",
+      "1, 3, 5, 15, 25",
+      "1, 3, 25, 75",
+      "1, 3, 4, 5, 15, 25, 75",
+      "1, 5, 15, 75"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 75: 1 × 75, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 75."
+  },
+  {
+    "id": 12,
+    "question": "Số 100 chia hết cho những số nào? (viết tất cả)",
+    "correct": "1, 2, 4, 5, 10, 20, 25, 50, 100",
+    "wrong_pool": [
+      "2, 4, 5, 10, 20, 25, 50",
+      "1, 2, 4, 5, 10, 20, 25, 50",
+      "1, 2, 4, 5, 20, 25, 50, 100",
+      "1, 2, 3, 4, 5, 10, 20, 25, 50, 100",
+      "1, 4, 5, 10, 20, 25, 100"
+    ],
+    "hint": "Tìm từng cặp số nhân với nhau bằng 100: 1 × 100, 2 × …, cho đến khi hai số gặp nhau. Đừng quên 1 và chính số 100."
+  },
+  {
+    "id": 13,
+    "question": "Viết 5 bội nhỏ nhất (khác 0) của 3.",
+    "correct": "3, 6, 9, 12, 15",
+    "wrong_pool": [
+      "0, 3, 6, 9, 12",
+      "6, 9, 12, 15, 18",
+      "3, 6, 9, 11, 15",
+      "1, 3",
+      "3, 9, 15, 21, 27"
+    ],
+    "hint": "Đếm thêm 3, bắt đầu từ 3: 3, 3 + 3, … Bội khác 0 nhỏ nhất của 3 là chính số 3."
+  },
+  {
+    "id": 14,
+    "question": "Viết 6 bội nhỏ nhất (khác 0) của 4.",
+    "correct": "4, 8, 12, 16, 20, 24",
+    "wrong_pool": [
+      "0, 4, 8, 12, 16, 20",
+      "8, 12, 16, 20, 24, 28",
+      "4, 8, 12, 16, 19, 24",
+      "1, 2, 4",
+      "4, 12, 20, 28, 36, 44"
+    ],
+    "hint": "Đếm thêm 4, bắt đầu từ 4: 4, 4 + 4, … Bội khác 0 nhỏ nhất của 4 là chính số 4."
+  },
+  {
+    "id": 15,
+    "question": "Viết 5 bội nhỏ nhất (khác 0) của 6.",
+    "correct": "6, 12, 18, 24, 30",
+    "wrong_pool": [
+      "0, 6, 12, 18, 24",
+      "12, 18, 24, 30, 36",
+      "6, 12, 18, 23, 30",
+      "1, 2, 3, 6",
+      "6, 18, 30, 42, 54"
+    ],
+    "hint": "Đếm thêm 6, bắt đầu từ 6: 6, 6 + 6, … Bội khác 0 nhỏ nhất của 6 là chính số 6."
+  },
+  {
+    "id": 16,
+    "question": "Viết 4 bội nhỏ nhất (khác 0) của 8.",
+    "correct": "8, 16, 24, 32",
+    "wrong_pool": [
+      "0, 8, 16, 24",
+      "16, 24, 32, 40",
+      "8, 16, 23, 32",
+      "1, 2, 4, 8",
+      "8, 24, 40, 56"
+    ],
+    "hint": "Đếm thêm 8, bắt đầu từ 8: 8, 8 + 8, … Bội khác 0 nhỏ nhất của 8 là chính số 8."
+  },
+  {
+    "id": 17,
+    "question": "Viết 5 bội nhỏ nhất (khác 0) của 9.",
+    "correct": "9, 18, 27, 36, 45",
+    "wrong_pool": [
+      "0, 9, 18, 27, 36",
+      "18, 27, 36, 45, 54",
+      "9, 18, 27, 35, 45",
+      "1, 3, 9",
+      "9, 27, 45, 63, 81"
+    ],
+    "hint": "Đếm thêm 9, bắt đầu từ 9: 9, 9 + 9, … Bội khác 0 nhỏ nhất của 9 là chính số 9."
+  },
+  {
+    "id": 18,
+    "question": "Viết 4 bội nhỏ nhất (khác 0) của 11.",
+    "correct": "11, 22, 33, 44",
+    "wrong_pool": [
+      "0, 11, 22, 33",
+      "22, 33, 44, 55",
+      "11, 22, 32, 44",
+      "1, 11",
+      "11, 33, 55, 77"
+    ],
+    "hint": "Đếm thêm 11, bắt đầu từ 11: 11, 11 + 11, … Bội khác 0 nhỏ nhất của 11 là chính số 11."
+  },
+  {
+    "id": 19,
+    "question": "Viết 5 bội nhỏ nhất (khác 0) của 12.",
+    "correct": "12, 24, 36, 48, 60",
+    "wrong_pool": [
+      "0, 12, 24, 36, 48",
+      "24, 36, 48, 60, 72",
+      "12, 24, 36, 47, 60",
+      "1, 2, 3, 4, 6, 12",
+      "12, 24, 36, 48"
+    ],
+    "hint": "Đếm thêm 12, bắt đầu từ 12: 12, 12 + 12, … Bội khác 0 nhỏ nhất của 12 là chính số 12."
+  },
+  {
+    "id": 20,
+    "question": "Viết 4 bội nhỏ nhất (khác 0) của 15.",
+    "correct": "15, 30, 45, 60",
+    "wrong_pool": [
+      "0, 15, 30, 45",
+      "30, 45, 60, 75",
+      "15, 30, 44, 60",
+      "1, 3, 5, 15",
+      "15, 30, 45"
+    ],
+    "hint": "Đếm thêm 15, bắt đầu từ 15: 15, 15 + 15, … Bội khác 0 nhỏ nhất của 15 là chính số 15."
+  },
+  {
+    "id": 21,
+    "question": "Viết 6 bội nhỏ nhất (khác 0) của 5.",
+    "correct": "5, 10, 15, 20, 25, 30",
+    "wrong_pool": [
+      "0, 5, 10, 15, 20, 25",
+      "10, 15, 20, 25, 30, 35",
+      "5, 10, 15, 20, 24, 30",
+      "1, 5",
+      "5, 15, 25, 35, 45, 55"
+    ],
+    "hint": "Đếm thêm 5, bắt đầu từ 5: 5, 5 + 5, … Bội khác 0 nhỏ nhất của 5 là chính số 5."
+  },
+  {
+    "id": 22,
+    "question": "Viết 4 bội nhỏ nhất (khác 0) của 13.",
+    "correct": "13, 26, 39, 52",
+    "wrong_pool": [
+      "0, 13, 26, 39",
+      "26, 39, 52, 65",
+      "13, 26, 38, 52",
+      "1, 13",
+      "13, 39, 65, 91"
+    ],
+    "hint": "Đếm thêm 13, bắt đầu từ 13: 13, 13 + 13, … Bội khác 0 nhỏ nhất của 13 là chính số 13."
+  },
+  {
+    "id": 23,
+    "question": "Viết tất cả các bội (khác 0) của 9 mà nhỏ hơn 54.",
+    "correct": "9, 18, 27, 36, 45",
+    "wrong_pool": [
+      "9, 18, 27, 36, 45, 54",
+      "9, 18, 27, 36",
+      "0, 9, 18, 27, 36, 45",
+      "1, 3, 9",
+      "9, 18, 28, 36, 45"
+    ],
+    "hint": "Đếm thêm 9 bắt đầu từ 9 và dừng lại trước khi đến 54. Chú ý \"nhỏ hơn 54\" thì không lấy số 54."
+  },
+  {
+    "id": 24,
+    "question": "Viết tất cả các bội (khác 0) của 8 mà nhỏ hơn 48.",
+    "correct": "8, 16, 24, 32, 40",
+    "wrong_pool": [
+      "8, 16, 24, 32, 40, 48",
+      "8, 16, 24, 32",
+      "0, 8, 16, 24, 32, 40",
+      "1, 2, 4, 8",
+      "8, 16, 25, 32, 40"
+    ],
+    "hint": "Đếm thêm 8 bắt đầu từ 8 và dừng lại trước khi đến 48. Chú ý \"nhỏ hơn 48\" thì không lấy số 48."
+  },
+  {
+    "id": 25,
+    "question": "Viết tất cả các bội (khác 0) của 14 mà nhỏ hơn 70.",
+    "correct": "14, 28, 42, 56",
+    "wrong_pool": [
+      "14, 28, 42, 56, 70",
+      "14, 28, 42",
+      "0, 14, 28, 42, 56",
+      "1, 2, 7, 14",
+      "14, 28, 43, 56"
+    ],
+    "hint": "Đếm thêm 14 bắt đầu từ 14 và dừng lại trước khi đến 70. Chú ý \"nhỏ hơn 70\" thì không lấy số 70."
+  },
+  {
+    "id": 26,
+    "question": "Viết tất cả các bội (khác 0) của 16 mà nhỏ hơn 80.",
+    "correct": "16, 32, 48, 64",
+    "wrong_pool": [
+      "16, 32, 48, 64, 80",
+      "16, 32, 48",
+      "0, 16, 32, 48, 64",
+      "1, 2, 4, 8, 16",
+      "16, 32, 49, 64"
+    ],
+    "hint": "Đếm thêm 16 bắt đầu từ 16 và dừng lại trước khi đến 80. Chú ý \"nhỏ hơn 80\" thì không lấy số 80."
+  },
+  {
+    "id": 27,
+    "question": "Viết tất cả các bội (khác 0) của 11 mà nhỏ hơn 66.",
+    "correct": "11, 22, 33, 44, 55",
+    "wrong_pool": [
+      "11, 22, 33, 44, 55, 66",
+      "11, 22, 33, 44",
+      "0, 11, 22, 33, 44, 55",
+      "1, 11",
+      "11, 22, 34, 44, 55"
+    ],
+    "hint": "Đếm thêm 11 bắt đầu từ 11 và dừng lại trước khi đến 66. Chú ý \"nhỏ hơn 66\" thì không lấy số 66."
+  },
+  {
+    "id": 28,
+    "question": "Viết tất cả các bội (khác 0) của 12 mà nhỏ hơn 60.",
+    "correct": "12, 24, 36, 48",
+    "wrong_pool": [
+      "12, 24, 36, 48, 60",
+      "12, 24, 36",
+      "0, 12, 24, 36, 48",
+      "1, 2, 3, 4, 6, 12",
+      "12, 24, 37, 48"
+    ],
+    "hint": "Đếm thêm 12 bắt đầu từ 12 và dừng lại trước khi đến 60. Chú ý \"nhỏ hơn 60\" thì không lấy số 60."
+  },
+  {
+    "id": 29,
+    "question": "Viết tất cả các bội (khác 0) của 25 mà nhỏ hơn 100.",
+    "correct": "25, 50, 75",
+    "wrong_pool": [
+      "25, 50, 75, 100",
+      "25, 50",
+      "0, 25, 50, 75",
+      "1, 5, 25",
+      "25, 51, 75"
+    ],
+    "hint": "Đếm thêm 25 bắt đầu từ 25 và dừng lại trước khi đến 100. Chú ý \"nhỏ hơn 100\" thì không lấy số 100."
+  },
+  {
+    "id": 30,
+    "question": "Viết tất cả các bội (khác 0) của 6 mà nhỏ hơn 42.",
+    "correct": "6, 12, 18, 24, 30, 36",
+    "wrong_pool": [
+      "6, 12, 18, 24, 30, 36, 42",
+      "6, 12, 18, 24, 30",
+      "0, 6, 12, 18, 24, 30, 36",
+      "1, 2, 3, 6",
+      "6, 12, 18, 25, 30, 36"
+    ],
+    "hint": "Đếm thêm 6 bắt đầu từ 6 và dừng lại trước khi đến 42. Chú ý \"nhỏ hơn 42\" thì không lấy số 42."
+  },
+  {
+    "id": 31,
+    "question": "Dãy số nào dưới đây gồm toàn các ước của 24?",
+    "correct": "2, 4, 6, 12",
+    "wrong_pool": [
+      "6, 8, 9, 12",
+      "6, 8, 10, 12",
+      "2, 8, 12, 14",
+      "2, 4, 6, 15",
+      "4, 6, 12, 16"
+    ],
+    "hint": "Thử chia 24 cho từng số trong dãy. Mỗi số phải chia hết, không có dư."
+  },
+  {
+    "id": 32,
+    "question": "Dãy số nào dưới đây gồm toàn các ước của 40?",
+    "correct": "2, 5, 8, 10",
+    "wrong_pool": [
+      "2, 5, 6, 20",
+      "4, 5, 8, 12",
+      "5, 10, 14, 20",
+      "2, 8, 18, 20",
+      "2, 8, 10, 15"
+    ],
+    "hint": "Thử chia 40 cho từng số trong dãy. Mỗi số phải chia hết, không có dư."
+  },
+  {
+    "id": 33,
+    "question": "Dãy số nào dưới đây gồm toàn các ước của 48?",
+    "correct": "6, 8, 16, 24",
+    "wrong_pool": [
+      "8, 16, 22, 24",
+      "3, 6, 9, 16",
+      "3, 8, 10, 12",
+      "3, 6, 24, 26",
+      "3, 12, 14, 16"
+    ],
+    "hint": "Thử chia 48 cho từng số trong dãy. Mỗi số phải chia hết, không có dư."
+  },
+  {
+    "id": 34,
+    "question": "Dãy số nào dưới đây gồm toàn các ước của 72?",
+    "correct": "8, 12, 18, 24",
+    "wrong_pool": [
+      "12, 16, 18, 24",
+      "6, 8, 10, 24",
+      "2, 4, 18, 20",
+      "6, 9, 14, 18",
+      "18, 24, 34, 36"
+    ],
+    "hint": "Thử chia 72 cho từng số trong dãy. Mỗi số phải chia hết, không có dư."
+  },
+  {
+    "id": 35,
+    "question": "Dãy số nào dưới đây gồm toàn các ước của 90?",
+    "correct": "3, 10, 18, 45",
+    "wrong_pool": [
+      "9, 18, 28, 30",
+      "3, 4, 15, 18",
+      "8, 9, 10, 18",
+      "5, 6, 14, 15",
+      "2, 3, 12, 45"
+    ],
+    "hint": "Thử chia 90 cho từng số trong dãy. Mỗi số phải chia hết, không có dư."
+  },
+  {
+    "id": 36,
+    "question": "Dãy số nào dưới đây gồm toàn các bội của 4?",
+    "correct": "20, 32, 36, 84",
+    "wrong_pool": [
+      "12, 38, 40, 76",
+      "24, 52, 86, 88",
+      "48, 78, 80, 92",
+      "66, 68, 96, 100",
+      "36, 68, 70, 76"
+    ],
+    "hint": "Một số là bội của 4 khi số đó chia hết cho 4. Thử chia từng số trong dãy cho 4."
+  },
+  {
+    "id": 37,
+    "question": "Dãy số nào dưới đây gồm toàn các bội của 6?",
+    "correct": "18, 36, 48, 72",
+    "wrong_pool": [
+      "24, 82, 84, 96",
+      "36, 48, 58, 60",
+      "24, 60, 84, 86",
+      "10, 12, 18, 48",
+      "12, 16, 18, 96"
+    ],
+    "hint": "Một số là bội của 6 khi số đó chia hết cho 6. Thử chia từng số trong dãy cho 6."
+  },
+  {
+    "id": 38,
+    "question": "Dãy số nào dưới đây gồm toàn các bội của 8?",
+    "correct": "16, 56, 72, 80",
+    "wrong_pool": [
+      "46, 48, 72, 96",
+      "24, 72, 86, 88",
+      "32, 88, 94, 96",
+      "40, 62, 64, 80",
+      "38, 40, 56, 72"
+    ],
+    "hint": "Một số là bội của 8 khi số đó chia hết cho 8. Thử chia từng số trong dãy cho 8."
+  },
+  {
+    "id": 39,
+    "question": "Dãy số nào dưới đây gồm toàn các bội của 9?",
+    "correct": "18, 36, 45, 63",
+    "wrong_pool": [
+      "18, 78, 81, 90",
+      "18, 42, 45, 81",
+      "36, 45, 87, 90",
+      "36, 54, 69, 72",
+      "27, 72, 75, 90"
+    ],
+    "hint": "Một số là bội của 9 khi số đó chia hết cho 9. Thử chia từng số trong dãy cho 9."
+  },
+  {
+    "id": 40,
+    "question": "Dãy số nào dưới đây gồm toàn các bội của 15?",
+    "correct": "45, 60, 75, 90",
+    "wrong_pool": [
+      "30, 60, 72, 75",
+      "45, 75, 87, 90",
+      "30, 60, 90, 93",
+      "27, 30, 45, 75",
+      "60, 75, 85, 90"
+    ],
+    "hint": "Một số là bội của 15 khi số đó chia hết cho 15. Thử chia từng số trong dãy cho 15."
+  }
+]

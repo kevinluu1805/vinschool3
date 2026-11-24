@@ -1,4 +1,10 @@
 [
   { "id": "linear_nonlinear_sequence", "label": "Dãy Số Tuyến Tính/Phi Tuyến Tính" },
-  { "id": "split_merge_numbers", "label": "Tách/Ghép Số" }
+  { "id": "split_merge_numbers", "label": "Tách/Ghép Số" },
+  { "id": "polygon_shapes", "label": "Hình Đa Giác" },
+  { "id": "fraction_word_problem", "label": "Toán Lời Văn: Phân Số Của Một Số" },
+  { "id": "multiply_divide_word_problem", "label": "Toán Lời Văn: Nhân/Chia Có Dư" },
+  { "id": "symmetry_axes", "label": "Trục Đối Xứng" },
+  { "id": "factors_multiples", "label": "Ước Số Và Bội Số" },
+  { "id": "secret_code", "label": "Mật Mã Con Vật" }
 ]

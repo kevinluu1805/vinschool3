@@ -56,7 +56,7 @@ Array of questions. Each question has:
 | `question`   | string     | Question text shown to user                              |
 | `correct`    | string     | The one correct answer                                   |
 | `wrong_pool` | string[]   | Pool of wrong answers — **must have at least 3** entries |
-| `figure`     | string     | *(optional, future)* Path to an HTML fragment file for visual content — see [Figure Support](#figure-support-future) |
+| `figure`     | string     | *(optional)* Path to an HTML fragment file for visual content — see [Figure Support](#figure-support) |
 
 The quiz picks 3 random entries from `wrong_pool` each time, so having 5+ makes repetition less likely.
 
@@ -99,11 +99,11 @@ Then open `http://localhost:3000` (or the port shown).
 - **Scoring**: correct = `userAnswer === correct` (string equality).
 - **Results**: score card + per-question breakdown showing user's answer and correct answer for wrong ones.
 
-## Figure Support (Future)
+## Figure Support
 
 Questions can optionally reference a separate HTML fragment file for visual content (shapes, diagrams, images) instead of embedding raw HTML in the JSON.
 
-**JSON field:** `"figure": "database/figures/<type_id>_q1.html"`
+**JSON field:** `"figure": "figures/<file>"` — path relative to the subject's DB folder (e.g. `database/math/figures/polygon_vuong_1.svg`). Used by `polygon_shapes`.
 
 **File structure:**
 ```
@@ -123,7 +123,7 @@ database/
 </div>
 ```
 
-**How it works (when implemented):**
+**How it works (implemented in `js/app.js`):**
 - `startQuiz()` fetches the figure file content alongside the question JSON (in parallel)
 - Stores the raw HTML as `figureHtml` in the quiz state item
 - `tmplQuiz()` and `tmplResults()` render it below the question text if present

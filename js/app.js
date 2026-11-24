@@ -26,6 +26,16 @@ async function fetchJSON(url) {
   return res.json();
 }
 
+async function fetchText(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Cannot load ${url}`);
+  return res.text();
+}
+
+async function loadFigure(q) {
+  return q.figure ? fetchText(`${DB}/${q.figure}`) : null;
+}
+
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -80,7 +90,8 @@ async function startRandom() {
       for (const q of pool) allQuestions.push({ type, q });
     }
     const picked = pickN(allQuestions, 20);
-    state.quiz = shuffle(picked.map(({ type, q }) => ({
+    const figures = await Promise.all(picked.map(({ q }) => loadFigure(q)));
+    state.quiz = shuffle(picked.map(({ type, q }, i) => ({
       typeId: type.id,
       typeLabel: type.label,
       question: q.question,
@@ -88,6 +99,7 @@ async function startRandom() {
       answers: shuffle([q.correct, ...pickN(q.wrong_pool, Math.min(3, q.wrong_pool.length))]),
       userAnswer: null,
       hint: q.hint || null,
+      figureHtml: figures[i],
     })));
     state.view = 'quiz';
     render();
@@ -110,7 +122,8 @@ async function startQuiz() {
       const pool = await fetchJSON(`${DB}/${typeId}.json`);
       const count = state.counts[typeId] || 1;
       const questions = pickN(pool, Math.min(count, pool.length));
-      for (const q of questions) {
+      const figures = await Promise.all(questions.map(loadFigure));
+      questions.forEach((q, i) => {
         state.quiz.push({
           typeId,
           typeLabel: type.label,
@@ -119,8 +132,9 @@ async function startQuiz() {
           answers: shuffle([q.correct, ...pickN(q.wrong_pool, Math.min(3, q.wrong_pool.length))]),
           userAnswer: null,
           hint: q.hint || null,
+          figureHtml: figures[i],
         });
-      }
+      });
     }
     state.quiz = shuffle(state.quiz);
     state.view = 'quiz';
@@ -228,6 +242,7 @@ function tmplQuiz() {
               </span>
               <p class="text-blue-500 font-semibold">${q.question}</p>
             </div>
+            ${q.figureHtml || ''}
             <div class="grid grid-cols-2 gap-2" data-question="${i}">
               ${q.answers.map(ans => `
                 <button class="answer-btn" data-q="${i}" data-answer="${ans}">${ans}</button>
@@ -312,6 +327,7 @@ function tmplResults() {
                     <p class="text-xs font-semibold text-blue-500 uppercase tracking-wider">${q.typeLabel}</p>
                     <p class="text-slate-700 font-medium mt-0.5">${q.question}</p>
                   </div>
+                  ${q.figureHtml || ''}
                   <div class="text-sm">
                     <p class="${ok ? 'text-emerald-600' : 'text-red-500'} font-medium">
                       Đáp án của bạn:

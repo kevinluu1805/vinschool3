@@ -1,0 +1,470 @@
+[
+  {
+    "id": 1,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_tam_giac_1.svg",
+    "correct": "Hình tam giác",
+    "wrong_pool": [
+      "Hình chữ nhật",
+      "Hình ngũ giác",
+      "Hình vuông",
+      "Hình thang",
+      "Hình lục giác"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_tam_giac_2.svg",
+    "correct": "Hình tam giác",
+    "wrong_pool": [
+      "Hình chữ nhật",
+      "Hình ngũ giác",
+      "Hình vuông",
+      "Hình thang",
+      "Hình lục giác"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_tam_giac_3.svg",
+    "correct": "Hình tam giác",
+    "wrong_pool": [
+      "Hình chữ nhật",
+      "Hình ngũ giác",
+      "Hình vuông",
+      "Hình thang",
+      "Hình lục giác"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_chu_nhat_1.svg",
+    "correct": "Hình chữ nhật",
+    "wrong_pool": [
+      "Hình vuông",
+      "Hình thoi",
+      "Hình tam giác",
+      "Hình ngũ giác",
+      "Hình lục giác"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_chu_nhat_2.svg",
+    "correct": "Hình chữ nhật",
+    "wrong_pool": [
+      "Hình vuông",
+      "Hình thoi",
+      "Hình tam giác",
+      "Hình ngũ giác",
+      "Hình lục giác"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_chu_nhat_3.svg",
+    "correct": "Hình chữ nhật",
+    "wrong_pool": [
+      "Hình vuông",
+      "Hình thoi",
+      "Hình tam giác",
+      "Hình ngũ giác",
+      "Hình lục giác"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_thoi_1.svg",
+    "correct": "Hình thoi",
+    "wrong_pool": [
+      "Hình vuông",
+      "Hình chữ nhật",
+      "Hình tam giác",
+      "Hình ngũ giác",
+      "Hình lục giác"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_thoi_2.svg",
+    "correct": "Hình thoi",
+    "wrong_pool": [
+      "Hình vuông",
+      "Hình chữ nhật",
+      "Hình tam giác",
+      "Hình ngũ giác",
+      "Hình lục giác"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_thoi_3.svg",
+    "correct": "Hình thoi",
+    "wrong_pool": [
+      "Hình vuông",
+      "Hình chữ nhật",
+      "Hình tam giác",
+      "Hình ngũ giác",
+      "Hình lục giác"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_ngu_giac_1.svg",
+    "correct": "Hình ngũ giác",
+    "wrong_pool": [
+      "Hình lục giác",
+      "Hình cửu giác",
+      "Hình thất giác",
+      "Hình bát giác",
+      "Hình tam giác"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_ngu_giac_2.svg",
+    "correct": "Hình ngũ giác",
+    "wrong_pool": [
+      "Hình lục giác",
+      "Hình cửu giác",
+      "Hình thất giác",
+      "Hình bát giác",
+      "Hình tam giác"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_ngu_giac_3.svg",
+    "correct": "Hình ngũ giác",
+    "wrong_pool": [
+      "Hình lục giác",
+      "Hình cửu giác",
+      "Hình thất giác",
+      "Hình bát giác",
+      "Hình tam giác"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_luc_giac_1.svg",
+    "correct": "Hình lục giác",
+    "wrong_pool": [
+      "Hình ngũ giác",
+      "Hình thất giác",
+      "Hình bát giác",
+      "Hình thập giác",
+      "Hình chữ nhật"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_luc_giac_2.svg",
+    "correct": "Hình lục giác",
+    "wrong_pool": [
+      "Hình ngũ giác",
+      "Hình thất giác",
+      "Hình bát giác",
+      "Hình thập giác",
+      "Hình chữ nhật"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_luc_giac_3.svg",
+    "correct": "Hình lục giác",
+    "wrong_pool": [
+      "Hình ngũ giác",
+      "Hình thất giác",
+      "Hình bát giác",
+      "Hình thập giác",
+      "Hình chữ nhật"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_that_giac_1.svg",
+    "correct": "Hình thất giác",
+    "wrong_pool": [
+      "Hình lục giác",
+      "Hình bát giác",
+      "Hình ngũ giác",
+      "Hình cửu giác",
+      "Hình thập giác"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_that_giac_2.svg",
+    "correct": "Hình thất giác",
+    "wrong_pool": [
+      "Hình lục giác",
+      "Hình bát giác",
+      "Hình ngũ giác",
+      "Hình cửu giác",
+      "Hình thập giác"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_that_giac_3.svg",
+    "correct": "Hình thất giác",
+    "wrong_pool": [
+      "Hình lục giác",
+      "Hình bát giác",
+      "Hình ngũ giác",
+      "Hình cửu giác",
+      "Hình thập giác"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_bat_giac_1.svg",
+    "correct": "Hình bát giác",
+    "wrong_pool": [
+      "Hình thất giác",
+      "Hình cửu giác",
+      "Hình lục giác",
+      "Hình thập giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_bat_giac_2.svg",
+    "correct": "Hình bát giác",
+    "wrong_pool": [
+      "Hình thất giác",
+      "Hình cửu giác",
+      "Hình lục giác",
+      "Hình thập giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_bat_giac_3.svg",
+    "correct": "Hình bát giác",
+    "wrong_pool": [
+      "Hình thất giác",
+      "Hình cửu giác",
+      "Hình lục giác",
+      "Hình thập giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_cuu_giac_1.svg",
+    "correct": "Hình cửu giác",
+    "wrong_pool": [
+      "Hình bát giác",
+      "Hình thập giác",
+      "Hình thất giác",
+      "Hình lục giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_cuu_giac_2.svg",
+    "correct": "Hình cửu giác",
+    "wrong_pool": [
+      "Hình bát giác",
+      "Hình thập giác",
+      "Hình thất giác",
+      "Hình lục giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_cuu_giac_3.svg",
+    "correct": "Hình cửu giác",
+    "wrong_pool": [
+      "Hình bát giác",
+      "Hình thập giác",
+      "Hình thất giác",
+      "Hình lục giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_thap_giac_1.svg",
+    "correct": "Hình thập giác",
+    "wrong_pool": [
+      "Hình cửu giác",
+      "Hình bát giác",
+      "Hình thất giác",
+      "Hình lục giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_thap_giac_2.svg",
+    "correct": "Hình thập giác",
+    "wrong_pool": [
+      "Hình cửu giác",
+      "Hình bát giác",
+      "Hình thất giác",
+      "Hình lục giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_thap_giac_3.svg",
+    "correct": "Hình thập giác",
+    "wrong_pool": [
+      "Hình cửu giác",
+      "Hình bát giác",
+      "Hình thất giác",
+      "Hình lục giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_binh_hanh_1.svg",
+    "correct": "Hình bình hành",
+    "wrong_pool": [
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình vuông",
+      "Hình tam giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_binh_hanh_2.svg",
+    "correct": "Hình bình hành",
+    "wrong_pool": [
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình vuông",
+      "Hình tam giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_binh_hanh_3.svg",
+    "correct": "Hình bình hành",
+    "wrong_pool": [
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình vuông",
+      "Hình tam giác",
+      "Hình ngũ giác"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_hinh_thang_1.svg",
+    "correct": "Hình thang",
+    "wrong_pool": [
+      "Hình bình hành",
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình vuông",
+      "Hình tam giác"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_hinh_thang_2.svg",
+    "correct": "Hình thang",
+    "wrong_pool": [
+      "Hình bình hành",
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình vuông",
+      "Hình tam giác"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_hinh_thang_3.svg",
+    "correct": "Hình thang",
+    "wrong_pool": [
+      "Hình bình hành",
+      "Hình chữ nhật",
+      "Hình thoi",
+      "Hình vuông",
+      "Hình tam giác"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_vuong_1.svg",
+    "correct": "Hình vuông",
+    "wrong_pool": [
+      "Hình tam giác",
+      "Hình ngũ giác",
+      "Hình lục giác",
+      "Hình thất giác",
+      "Hình bát giác"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_vuong_2.svg",
+    "correct": "Hình vuông",
+    "wrong_pool": [
+      "Hình tam giác",
+      "Hình ngũ giác",
+      "Hình lục giác",
+      "Hình thất giác",
+      "Hình bát giác"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "Hình dưới đây là hình gì?",
+    "figure": "figures/polygon_vuong_3.svg",
+    "correct": "Hình vuông",
+    "wrong_pool": [
+      "Hình tam giác",
+      "Hình ngũ giác",
+      "Hình lục giác",
+      "Hình thất giác",
+      "Hình bát giác"
+    ]
+  }
+]
