@@ -16,6 +16,8 @@ const state = {
     help: APP_CONFIG.showSettings !== false,
   },
   theories: [],
+  startedAt: 0,        // ms timestamp when the quiz started
+  elapsedMs: 0,        // set when Kiểm tra is clicked
 };
 
 // ── Utilities ─────────────────────────────────────────────────────────────────
@@ -101,6 +103,7 @@ async function startRandom() {
       hint: q.hint || null,
       figureHtml: figures[i],
     })));
+    state.startedAt = Date.now();
     state.view = 'quiz';
     render();
   } catch (err) {
@@ -137,6 +140,7 @@ async function startQuiz() {
       });
     }
     state.quiz = shuffle(state.quiz);
+    state.startedAt = Date.now();
     state.view = 'quiz';
     render();
   } catch (err) {
@@ -295,6 +299,13 @@ function tmplQuiz() {
     ` : ''}`;
 }
 
+function formatDuration(ms) {
+  const total = Math.round(ms / 1000);
+  const m = Math.floor(total / 60);
+  const sec = total % 60;
+  return m > 0 ? `${m} phút ${sec} giây` : `${sec} giây`;
+}
+
 function tmplResults() {
   const correct = state.quiz.filter(q => q.userAnswer === q.correct).length;
   const total = state.quiz.length;
@@ -309,6 +320,7 @@ function tmplResults() {
           ${correct}<span class="text-3xl text-slate-300">/${total}</span>
         </p>
         <p class="text-slate-400 mt-2 text-sm">${pct}% chính xác${state.settings.help && state.quiz.some(q => q.hint) ? ' (có sử dụng gợi ý)' : ''}</p>
+        <p class="text-slate-500 mt-3 text-sm"><i class="fa-regular fa-clock mr-1"></i>Thời gian làm: <span class="font-semibold">${formatDuration(state.elapsedMs)}</span></p>
       </div>
 
       <div class="space-y-3">
@@ -453,6 +465,7 @@ function render() {
       }
     });
     document.getElementById('btn-verify').addEventListener('click', () => {
+      state.elapsedMs = Date.now() - state.startedAt;
       state.view = 'results';
       render();
     });
